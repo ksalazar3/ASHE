@@ -1,0 +1,749 @@
+---
+title: "Diamonds or Diamonds in the Rough"
+subtitle: "Off-Campus Recruiting by Public Research Universities"
+author: Karina Salazar
+# lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
+mode: selfcontained
+ext_widgets : {rCharts: [libraries/leaflet]}
+framework: revealjs
+revealjs:
+  theme: custom
+  transition: slide
+  center: 'false'
+bibliography: ./assets/other/spencer-bib.bib
+csl: ./assets/other/apa.csl
+
+--- #title
+
+```{r, include=FALSE}
+library(slidify)
+library(slidifyLibraries)
+# slidify('index.Rmd')
+# https://ksalazar3.github.io/aera2019/
+
+library(servr)
+# Start server: servr::httd()
+# Check if server(s) running: daemon_list()
+# Stop server(s): daemon_stop(which = daemon_list())
+
+library(knitcitations)
+cleanbib()
+bib <- read.bibtex('./assets/other/spencer-bib.bib')
+
+# Function for parenthetical citation needing `e.g.,` or have no year (ie. forthcoming)
+# b: citation(s)
+# eg: T/F - whether or not to include `e.g.,` in citation
+cite <- function(b, eg = TRUE) {
+  c <- ifelse(eg, '(e.g., ', '(')
+  for (i in seq_along(b)) {
+    if (i != 1) {
+      c <- paste0(c, '; ')
+    }
+    a <- paste(b[[i]]$author$family, collapse = ', ')
+    y <- ifelse(is.null(b[[i]]$year), 'forthcoming', b[[i]]$year)
+    entry <- paste(a, y, sep = ', ')
+    c <- paste0(c, entry)
+    record_as_cited(b[[i]])
+  }
+  paste0(c, ')')
+}
+
+verticalSlide <- 12
+```
+
+# Diamonds or Diamonds in the Rough
+## Off-Campus Recruiting by Public Research Universities
+
+Karina Salazar
+<p class='affiliation'>University of Arizona</p>
+
+Ozan Jaquette
+<p class='affiliation'>University of California, Los Angeles</p>
+
+Crystal Han
+<p class='affiliation'>University of California, Los Angeles</p>
+
+<img id='logo_ua' src='assets/img/ua.png' alt='University of Arizona' />
+<img id='logo_ucla' src='assets/img/ucla.png' alt='University of California, Los Angeles' />
+
+<a id='link_presentation' href='https://ksalazar3.github.io/aera2019/' target='_blank'>ksalazar3.github.io/aera2019</a>
+
+--- 
+
+# Motivation
+## Policy discourse about access to public research universities
+
+The problem: access to public research universities
+- Historical mission of social mobility for meritorious state residents
+- Concern about growing socioeconomic and racial inequality in access
+
+<br>
+Mainstream policy discourse about access: The 2014 White House "Access Summit" 
+- `r citet(bib['RN4016'])` review of causes of unequal college access
+    - "achievement gap", "under-matching"; place responsibility on students, K-12 schools
+    - affordability; declining state support leads to rising tuition prices
+- `r citet(bib['RN4017'])` asks universities for *Commitments to Action on College Opportunity*
+    - Universities pledge "action plans" (e.g., need-based financial aid, "outreach", holistic admission)
+
+<br>
+Problem with policy discourse: does not interrogate university enrollment priorities
+- Applauds universities for commitment to access despite "deficiencies" of students and K-12 schools, despite declines in state funding
+- Decades of research finds policy adoption a symbolic effort to appease stakeholders `r cite(bib['RN2436'])`
+
+---
+
+# Motivation
+## Analyze recruiting to understand university enrollment priorities
+
+Alternative explanation for access inequality
+- University enrollment priorities biased against poor students and/or communities of color
+
+<br>
+Why study university recruiting behavior
+- Universities expend substantial resources identifying and recruiting prospects `r citep(bib['RN4402'])`
+- Internal resource allocation better indicator of organizational priorities than rhetoric, policies
+- Knowing which student populations targeted by recruiting efforts indicates enrollment priorities
+
+
+<br>
+Research focus
+- Analyze off-campus recruiting visits (e.g., visit to a local high school) by public research universities as a means of gaining insight about university enrollment priorities
+- **Research question**
+    - What are the similarities and differences in off-campus recruiting patterns across universities?
+- **Analytic focus**
+    - Income; race; academic achievement; in-state vs. out-of-state
+
+
+```{r, include=FALSE, eval=FALSE}
+- *Commitments to Action on College Opportunity*  `r citep(bib['RN4017'])`
+    - Universities pledge "action plans" (e.g., holistic admission, need-based aid, "outreach")
+- Applauds public universities for adopting progressive policies to increase access despite the “deficiencies” of student and K-12 schools and despite declines in state funding. 
+```
+
+--- &twocol
+
+# Background
+## The enrollment management industry
+
+*** =left
+
+**The enrollment funnel**
+
+<img src="assets/img/New-Admissions-Funnel.png" alt="Enrollment Funnel" style="width:80%;float:left;">
+
+*** =right
+
+**Interventions along the funnel**
+* Identify prospects
+    - Buy "student lists" from College Board/ACT
+* Recruit prospects remotely
+    * Email, mail, text, etc.
+* Recruit prospects in-person
+    * **Off-campus recruiting visits** (e.g., high
+school visits, college fairs)
+    * Campus visits
+    * Other "outreach"
+* Solicit inquiries, stealth applicants
+    * Social media, advertising
+* Convert admits to enrollees
+    * Financial aid leveraging
+
+
+---
+
+# Literature review
+## Scholarship on recruiting
+
+Evaluations of recruiting/outreach interventions `r cite(bib[c('RN4408')])`
+- But unclear whether universities substantively adopt "best practices" in less controlled settings
+
+Audits of response to "inquiries" by admissions officers `r cite(bib[c('RN4331','RN4360')])`
+- Identifies biases of individual admissions officers
+
+<br>
+Off-campus recruiting visits: identify prospects, connect with proespects already targeted by mail/email
+- Scholarship analyzing college perspective `r citep(bib['RN3519'])`
+    - Important for relationships with prospects, counselors at "feeder" schools
+- Market research `r citep(bib['RN4402'])`
+    - Second highest source of "inquiries" (after student list purchases)
+    - Third highest source of enrollees (after stealth applicantsm on-campus  visits)
+- Scholarship analyzing perspective of high school students `r citep(bib['RN4324'])`
+    - Which universities visit affects student decisions; especially first-gen, students of color
+
+Research gap: we don't know which universities visit which schools, communities
+- If poor students, communities of color not receiving visits, "under-matching" may be due to under-recruiting rather than lack of guidance
+
+---
+
+# Theoretical framework
+## Enrollment priorities and recruiting behavior
+
+Theoretical motivation for studying recruiting
+- Contingency theory `r citep(bib['RN531'])`
+    - Technical level: produce outputs (e.g., teachers at school, admissions officers in EM office)
+    - Managerial level: procure inputs; direct technical level and "buffer" from external environment
+- "New" institutional theory `r citep(bib['RN513'])`
+    - Publicly adopt goals demanded by environment
+    - Technical level cannot pursue all goals
+        - Substantively adopt some goals (technical level)
+        - Symbolically adopt others (policies, rhetoric)
+
+"Iron triangle" of enrollment management (EM)
+- Three broad enrollment goals: **access, academic profile, revenue**
+    - Scarce resources; depending on priorities, some goals receive more resources than others
+- Enrollment priorities cannot be discerned by policies, rhetoric `r cite(bib['RN4017'])`
+- Off-campus recruiting is allocation of resources from technical level
+    - Knowing which populations targeted by recruiting interventions indicate enrollment priorities
+
+---
+
+# Theoretical framework
+## Expectations about similarities and differences in recruiting behavior
+
+Resource dependence theory `r citep(bib['RN959'])`
+- Orgs require stable flow of resources from external environment to survive/thrive
+- Sensitive to demands from providers of important resources that cannot be obtained elsewhere
+- Org strategies when a resouce becomes uncertain/declines or demands become onerous
+    - e.g., compliance, avoidance, cooptation, **resource diversification**
+
+<br>
+Resources public research universities value
+- financial resources (state funding, tuition, research, donations); steady flow of students; prestige, etc.
+
+<br>
+Resource diversification in response to prolonged decline in important resources
+- Universities with weak state funding
+    - Prioritize students that generate tuition revenue
+    - More visits to affluent out-of-state, affluent in-state
+- Universities with small/declining "college age" population
+    - More out-of-state visits
+
+--- &twocol
+
+# Research methods
+## The broader off-campus recruiting research project
+
+*** =left
+
+**Data collection**
+
+* Method
+    - Web-scrape admissions websites
+    - public records requests
+* Criteria to be included in data collection
+    1. Post visits on admissions websites
+    2. Organizational type
+* Data collection sample
+    - 54 public research universities
+    - 49 private research universities
+    - 42 selective private liberal arts
+* Data collection period
+    - 1/1/2017 to 12/31/2017
+    - Ongoing data collection with larger sample
+    
+*** =right
+
+**Sample data**
+
+<img src="assets/img/southcarolina.png" style="width:65%;float:left;">
+
+---
+
+
+
+# Research methods
+## Defining events
+
+**"Off-campus recruiting events" defined as off-campus events hosted by paid staff/consultants focused on soliciting applications**
+
+<br>
+- Event type
+    - Include: college fairs, high school visits, community college visits,
+counselor events
+    - Exclude: admitted or committed student events, interviews
+- Event host
+    - Include: paid admissions staff or consultants (e.g. regional recruiters)
+    - Exclude: alumni, student volunteers
+- Event location
+    - Any off-campus location
+    - e.g., high school, community college, hotel, convention center, cafe, etc.
+
+--- 
+
+# Research methods
+## Data collection, data processing, data quality
+
+Data collection
+- University website checked four times per year by two staff for URLs with recruiting events
+- Web-scraping scripts run once per week
+
+Data processing
+- "Parsing": transform HTML text into tabular data
+- "Geocoding": use Google Maps API to obtain detailed location data based on limited data
+- Merge recruiting data to secondary data (e.g., schools, communities)
+
+Data quality (are these data any good?)
+- Concern 1: are scraped events properly classified and merged to secondary data?
+    - Solution: manually check each scraped event
+- Concern 2: are all events posted on admissions website?
+    - Solution: issue public records requests for all off-campus recruiting events
+        - Received data from 7 of 15 universities
+        - Main analyses use public records data when available
+        - Substantive results insensitive to scraped vs. public records data
+
+<!-- 
+
+# Research methods
+## Secondary data
+
+Secondary data Sources:
+
+- NCES Common Core of Data (public high schools)
+- NCES Private School University Survey (private high schools)
+- U.S. Census American Community Survey (community characteristics)
+- IPEDS (community colleges)
+- EdFacts Initiative (public high school academic achievement)
+- Equality of Opportunity Project (university income
+distributions)
+
+-->
+
+--- .table
+
+# Research methods
+## Analysis sample
+
+Analysis sample consists of 15 public research universities
+- Chosen from larger data collection sample (N=54) based on "completeness" of recruiting event data
+- Subsequent drafts may reduce sample size based on principles of purposeful sampling `r citep(bib['RN4549'])`
+
+<div class='graphs-set' style='height:380px;padding-top:5px'>
+  <img src='assets/img/univ_characteristics_2017.png' alt='University Sample Characteristics' style='height:100%' data-title='Characteristics of Study Institutions compared to National Selective Public Institutions' data-caption="Author calculations based on 2016-2017 IPEDS. Population of universities includes universities categorized as Highest Research Activity by 2015 Carnegie Classification. The University of Alabama is the only institution in the study sample that is not classified as Highest Research Activity." />
+</div>
+
+--- 
+
+# Research methods
+## Research design and analyses
+
+Quantitative mulitple case study research design `r citep(bib['RN4545'])`
+- Quantitative data collection and quantitative analyses
+- Analyze each case separately, rather than pooling across cases as in large-N, random sample design
+
+<br>
+Data analysis `r citep(bib[c('RN4116','RN4391')])`
+- "Within-case" analyses of recruiting patterns
+    - broad focus on income, race, achievement, in-state vs. out-of-state
+    - Situate within local context; "deep dive" of in-state, out-of-state, and overall patterns
+        - Simple descriptive statistics (e.g., counts), static visualizations, interactive maps
+    - identify first-order empirical themes
+- "Cross-case" analyses
+    - Abstract/consolidate first-order findings into broader empirical themes
+    - Acrsoss-case descriptive analyses
+        - Simple descriptive statistics
+        - Controlling for "rational" reasons for visit (e.g., enrollment size, achievement, distance)
+    
+
+--- &vertical
+
+# Within-case results
+## Click on a university see within-case results
+
+<br>
+__N__ refers to total number of off-campus recruiting visits
+
+<!--
+select mu.univ_id, muc.univ_name, muc.univ_abbrev, mu.state_code, sd.state_name, muc.metro1, msa1.cbsa_title as metro1_name, muc.metro2, msa2.cbsa_title as metro2_name, muc.metro3, msa3.cbsa_title as metro3_name, (
+  select count(*)
+  from parsing p
+  left join parsing_visiting_univs pvu on pvu.pid = p.pid
+  left join univ_canon uc on uc.univ_id = pvu.univ_id and uc.pid = pvu.pid
+  left join location_matches lm on lm.pid = p.pid and lm.id_type = 'ncessch'
+  left join location_matches lm2 on lm2.pid = p.pid and lm2.id_type = 'ipeds'
+  left join meta_high_school_public mpub on mpub.ncessch = lm.location_id
+  left join meta_high_school_private mpri on mpri.ncessch = lm.location_id
+  left join meta_university imu on imu.univ_id = lm2.location_id
+  where pvu.univ_id = if(mu.univ_id not in ('196097', '186380', '201885', '139959', '110653', '166629', '126614', '155317'), mu.univ_id, concat(mu.univ_id, '_req'))
+  and event_country = 'US'
+  and event_date between '2017-01-01' and '2017-12-31'
+  and uc.univ_canonical_pid is null
+  and p.include = 1
+  and (mpub.ncessch is null or mpub.include_school = 1)
+  and (mpri.ncessch is null or mpri.include_school = 1)
+  and (lm.location_id is null or lm.location_id != 'indy')
+  and (imu.univ_id is null or imu.univ_id != mu.univ_id)
+  and coalesce(p.`event_state`, mpub.`state_code`, mpri.`state_code`, imu.`state_code`) is not null
+) as count
+from meta_university mu
+left join state_data sd on sd.state_code = mu.state_code
+left join meta_univ_classification muc on muc.univ_id = mu.univ_id
+left join msa_metadata msa1 on msa1.cbsa_code = muc.metro1
+left join msa_metadata msa2 on msa2.cbsa_code = muc.metro2
+left join msa_metadata msa3 on msa3.cbsa_code = muc.metro3
+where mu.univ_id in ('100751', '106397', '110635', '110653', '126614', '139959', '155317', '166629', '181464', '186380', '196097', '199193', '201885', '215293', '218663')
+order by 2;
+-->
+
+<ul id="univ_options">
+```{r, echo=FALSE, results='asis'}
+univs <- read.csv('./assets/tables/univ_sample.csv', na.strings=c('','NA'))
+for (i in 1:nrow(univs)) {
+  cat(paste0('<li><a data-univ-id="', univs[i, 'univ_id'], '" data-univ-name="', univs[i, 'univ_name'], '" data-state-name="', univs[i, 'state_name'], '" data-metro1-name="', univs[i, 'metro1_name'], '" data-metro2-name="', univs[i, 'metro2_name'], '" data-metro3-name="', univs[i, 'metro3_name'], '">', univs[i, 'univ_name'], '</a> (N=', format(univs[i, 'count'], big.mark=','), ')</li>'))
+}
+```
+</ul>
+
+*** #toc
+
+# Table of Contents
+## &nbsp;
+
+<div class="graphs-set">
+  <ul>
+    <li><a href="#/`r verticalSlide`/2">National Overview</a></li>
+    <li>In-State Results
+      <ul>
+        <li><a href="#/`r verticalSlide`/3">State (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/4">State (Figures)</a></li>
+        <li><a href="#/`r verticalSlide`/5">Metro (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/6">Metro (Figures)</a></li>
+      </ul>
+    </li>
+    <li>Out-of-State Results
+      <ul>
+        <li><a href="#/`r verticalSlide`/7">Top Visited Metro Areas</a></li>
+        <li><a href="#/`r verticalSlide`/8">Out-of-State (Figures)</a></li>
+        <li><a href="#/`r verticalSlide`/9">Metro 1 (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/10">Metro 1 (Figures)</a></li>
+        <li><a href="#/`r verticalSlide`/11">Metro 2 (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/12">Metro 2 (Figures)</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+***
+
+# National Overview
+## &nbsp;
+
+<div class="graphs-set">
+  <div class="graphs-row">
+    <img id="graph-overview-1" data-title="Map of visits" />
+    <img id="graph-overview-2" data-title="Number of events by event type" />
+  </div>
+  <div class="graphs-row">
+    <img id="graph-overview-3" data-title="Timeline of visits" />
+    <img id="graph-overview-4" data-title="Number of events by urban or rural area" />
+  </div>
+</div>
+
+***
+
+# In-State Results
+## State Map
+
+<iframe id="map-state-in" width=100% height=100% allowtransparency="true"></iframe>
+
+***
+
+# In-State Results
+## State Figures
+
+<div id="graph-instate" class="graphs-set graphs-set-wide">
+  <div class="graphs-row">
+    <img id="graph-instate-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+    <img id="graph-instate-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
+    <img id="graph-instate-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+  </div>
+  <div class="graphs-row">
+    <img id="graph-instate-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+    <img id="graph-instate-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
+    <img id="graph-instate-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+  </div>
+</div>
+
+***
+
+# In-State Results
+## Metro Area Map
+
+<iframe id="map-metro-in" width=100% height=100% allowtransparency="true"></iframe>
+
+***
+
+# In-State Results
+## Metro Area Figures
+
+<div id="graph-metro1" class="graphs-set graphs-set-wide">
+  <div class="graphs-row">
+    <img id="graph-metro1-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+    <img id="graph-metro1-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
+    <img id="graph-metro1-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+  </div>
+  <div class="graphs-row">
+    <img id="graph-metro1-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+    <img id="graph-metro1-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
+    <img id="graph-metro1-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+  </div>
+</div>
+
+***
+
+# Out-of-State Results
+## Top Visited Metro Areas
+
+<div class="table-wrapper">
+  <table id="table-metro-count"></table>
+</div>
+
+***
+
+# Out-of-State Results
+## &nbsp;
+
+<div class="graphs-set">
+  <div class="graphs-row">
+    <img id="graph-outofstate-1" data-title="Average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used; Out-of-state only includes states where the university visited at least one high school" />
+    <img id="graph-outofstate-2" data-title="Average racial composition of university vs state vs visited public HS's vs non-visited public HS's" data-caption="Out-of-state only includes states where the university visited at least one high school" />
+  </div>
+  <div class="graphs-row">
+    <img id="graph-outofstate-3" data-title="Distribution of 12th grade enrollment size in visited public HS's vs visited private HS's" data-caption="Out-of-state only includes states where the university visited at least one high school" />
+    <img id="graph-outofstate-4" data-title="Average racial composition of university vs state vs visited private HS's vs non-visited private HS's" data-caption="Out-of-state only includes states where the university visited at least one high school" />
+  </div>
+</div>
+
+***
+
+# Out-of-State Results
+## Metro Area Map
+
+<iframe id="map-metro-out-1" width=100% height=100% allowtransparency="true"></iframe>
+
+***
+
+# Out-of-State Results
+## Metro Area Figures
+
+<div id="graph-metro2" class="graphs-set graphs-set-wide">
+  <div class="graphs-row">
+    <img id="graph-metro2-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+    <img id="graph-metro2-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
+    <img id="graph-metro2-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+  </div>
+  <div class="graphs-row">
+    <img id="graph-metro2-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+    <img id="graph-metro2-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
+    <img id="graph-metro2-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+  </div>
+</div>
+
+***
+
+# Out-of-State Results
+## Metro Area Map
+
+<iframe id="map-metro-out-2" width=100% height=100% allowtransparency="true"></iframe>
+
+***
+
+# Out-of-State Results
+## Metro Area Figures
+
+<div id="graph-metro3" class="graphs-set graphs-set-wide">
+  <div class="graphs-row">
+    <img id="graph-metro3-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+    <img id="graph-metro3-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
+    <img id="graph-metro3-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
+  </div>
+  <div class="graphs-row">
+    <img id="graph-metro3-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+    <img id="graph-metro3-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
+    <img id="graph-metro3-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
+  </div>
+</div>
+
+---
+
+# Cross-university results
+## Number of events by type and in-state, out-of-state
+
+<div class="table-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/event_count.html"),collapse=" "))
+```
+</div>
+<a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+
+---
+
+# Cross-university results, out-of-state visits
+## Descriptive statistics for public high school visits
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/desc_out_pub.html"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+</div>
+
+---
+
+# Cross-university results, out-of-state visits
+## Probability of out-of-state public high school receiving a visit
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/regression_out.html"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+  <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
+</div>
+
+---
+
+# Cross-university results, out-of-state visits
+## Descriptive statistics for private high school visits
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/desc_out_priv.html"),collapse=" "))
+```
+  </div>
+</div>
+<a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+
+---
+
+# Cross-university results, out-of-state visits
+## Small multiple map of recruiting visits
+
+<div class="graphs-set graphs-set-all">
+  <div class="graphs-row">
+```{r, echo=FALSE, results='asis'}
+for (i in 1:nrow(univs)) {
+  cat(paste0('<img src="assets/data/', univs[i, 'univ_id'], '/titled_map.png" />'))
+  if (i %% 5 == 0 && i < nrow(univs)) {
+    cat('</div><div class="graphs-row">')
+  }
+}
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+</div>
+
+---
+
+# Cross-university results, in-state visits
+## Descriptive statistics for public high school visits
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/desc_in_pub.html"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+</div>
+
+---
+
+# Cross-university results, in-state visits
+## Regression: probability of in-state public high school receiving a visit
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/regression_in.html"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+  <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
+</div>
+
+---
+
+# Cross-university results, in-state visits
+## Descriptive statistics for community college visits
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/desc_in_cc.html"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+  <p class="footnote">We define community college as any public, 2-year or public, less-than 2-year institution, which could be a campus of a Title IV institution.</p>
+</div>
+
+---
+
+# Summary
+## Summary of results
+
+Out of State Recruiting
+- Majority of visits are out-of-state (exceptions: NC State, UC Irvine, UC Berkeley)
+- Big income bias; visits concentrated in highly affluent communities, in metropolitan areas
+- Big racial bias; less likely to visit schools with predominantly Black/Hispanic/Native students
+- Disproportionate number of visits to private high schools
+
+In-State Recruiting
+- Variation in coverage of public high schools (e.g., Nebraska=88%; Alabama=33%), community colleges
+- Visits largely driven by either achievement or enrollment size
+- Income bias in most cases (but less than out-of-state) even after controlling for "rational" reasons
+    - Exceptions: NC State, UC Irvine
+- Bias against schools with predominantly Black/Hispanic/Native in some cases (e.g., U. Alabama)
+
+Overall similarities and differences
+- For most cases, limited in-state recruiting and expansive out-of-state recruiting in big metro areas
+    - But differences in which metro areas, regions of country visited
+- Universities with higher state funding: fewer out-of-state visits; better, equitable coverage of in-state
+
+---
+
+# Discussion
+## Next steps, implications, future research
+
+Next steps for this paper
+- Complete cross-case holistic analysis of recruiting; develop recruiting "types"
+
+<br>
+Implications
+- Results suggest dramatic income bias in enrollment priorities of public research universities
+    - Evidence of racial bias (especially in out-of-state recruiting), but patterns more nuanced
+- Policy discourse should focus on enrollment priorities, rather than student, K-12 deficiencies
+    - "Under-matching" may be a function of under-recruiting
+
+Future research
+- Manuscript that focuses on racial biases in off-campus recruiting visits
+    - Universities prioritizing middle-class students of color and "privileged poor" `r citep(bib['RN4396'])` enrolled in high-resource schools, but ignoring traditional public schools that are majority-minority?
+- Collect/analyze data on other means used to identify and target prospects
+    - Characteristics universities prioritize when purchasing "prospect lists" from College Board/ACT?
+    - Experimental audits of university responses to "inquiries" with different characteristics
+    
+
+--- 
+# Acknowledgments
+
+<br>
+This research was made possible by funding from the following sources:
+
+<br>
+- __National Academy of Education/Spencer Foundation__ (Postdoctoral Fellowship)
+- __American Educational Research Association__ (Dissertation Grant)
+- __UCLA Office of Equity, Diversity, and Inclusion__ (Faculty Career Development Award)
+- __Joyce Foundation__ (Research Grant)
+
+--- #references
+
+# References
+## &nbsp;
+
+```{r results='asis', echo=FALSE}
+bibliography('html')
+````
