@@ -266,6 +266,10 @@
   overflow-y: hidden;
 }
 
+.scroll-wrapper-y {
+  overflow-x: hidden;
+}
+
 .scroll-wrapper .desc-table td.col-width {
   padding: 0 25px;
 }
@@ -333,6 +337,10 @@
   vertical-align: top;
   padding: 5px;
   font-weight: 300;
+}
+
+.reveal .footnote strong {
+  font-weight: 600;
 }
 
 /* References */
