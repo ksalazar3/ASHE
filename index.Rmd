@@ -631,7 +631,7 @@ cat(paste0(readLines("assets/tables/desc_out_priv.html"),collapse=" "))
 ```{r, echo=FALSE, results='asis'}
 for (i in 1:nrow(univs)) {
   cat(paste0('<img src="assets/data/', univs[i, 'univ_id'], '/titled_map.png" />'))
-  if (i %% 5 == 0 && i < nrow(univs)) {
+  if (i %% 3 == 0 && i < nrow(univs)) {
     cat('</div><div class="graphs-row">')
   }
 }
@@ -668,21 +668,6 @@ cat(paste0(readLines("assets/tables/regression_in.html"),collapse=" "))
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
   <p class="footnote"><strong>Note</strong>: &ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not a special education school, alternative school, virtual school, or independent school.</p>
-</div>
-
----
-
-# Cross-university results, in-state visits
-## Descriptive statistics for community college visits
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/desc_in_cc.html"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote"><strong>Note</strong>: We define community college as any public, 2-year or public, less-than 2-year institution, which could be a campus of a Title IV institution.</p>
 </div>
 
 ---

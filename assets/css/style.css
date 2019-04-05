@@ -95,7 +95,7 @@
 }
 
 .reveal .graphs-set-all .graphs-row {
-  height: 33%;
+  height: 50%;
 }
 
 .reveal .graphs-set img {
@@ -110,7 +110,7 @@
 }
 
 .reveal .graphs-set-all img {
-  height: 85%;
+  height: 90%;
 }
 
 .reveal .graphs-set img:hover {
