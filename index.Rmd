@@ -1,5 +1,5 @@
 ---
-title: "Diamonds or Diamonds in the Rough"
+title: "Coming Soon to a Neighborhood Near You?"
 subtitle: "Off-Campus Recruiting by Public Research Universities"
 author: Karina Salazar
 # lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
@@ -51,7 +51,7 @@ cite <- function(b, eg = TRUE) {
 verticalSlide <- 12
 ```
 
-# Diamonds or Diamonds in the Rough
+# Coming Soon to a Neighborhood Near You?
 ## Off-Campus Recruiting by Public Research Universities
 
 Karina Salazar
@@ -73,22 +73,25 @@ Crystal Han
 # Motivation
 ## Policy discourse about access to public research universities
 
+# Motivation
+## Policy discourse about access to public research universities
+
 The problem: access to public research universities
 - Historical mission of social mobility for meritorious state residents
 - Concern about growing socioeconomic and racial inequality in access
 
 <br>
-Mainstream policy discourse about access: The 2014 White House "Access Summit" 
-- `r citet(bib['RN4016'])` review of causes of unequal college access
-    - "achievement gap", "under-matching"; place responsibility on students, K-12 schools
-    - affordability; declining state support leads to rising tuition prices
-- `r citet(bib['RN4017'])` asks universities for *Commitments to Action on College Opportunity*
-    - Universities pledge "action plans" (e.g., need-based financial aid, "outreach", holistic admission)
+Mainstream policy discourse about access  
+- "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
+- Universities pledge commitment via policies (e.g., need-based financial aid, "outreach", holistic admission)
+-Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders `r cite(bib['RN2436'])`
 
 <br>
-Problem with policy discourse: does not interrogate university enrollment priorities
-- Applauds universities for commitment to access despite "deficiencies" of students and K-12 schools, despite declines in state funding
-- Decades of research finds policy adoption a symbolic effort to appease stakeholders `r cite(bib['RN2436'])`
+Geography of Opportunity `r cite(bib['RN6067'])`
+-Educational opportunities are a function of where students live 
+-Number of local colleges and universities spatially varies along the racial and socioeconomic characteristics of neighborhoods `r cite(bib['RN6064'])`
+-Shifts onus of access inequality away from students and K-12 schools; but students' college choices are also shaped by choices of colleges and universities `r cite(bib['RN6068'])`
+
 
 ---
 
