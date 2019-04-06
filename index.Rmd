@@ -1,5 +1,5 @@
 ---
-title: "Diamonds or Diamonds in the Rough"
+title: "Coming to a Neighborhood Near You?"
 subtitle: "Off-Campus Recruiting by Public Research Universities"
 author: Karina Salazar
 # lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
@@ -51,7 +51,7 @@ cite <- function(b, eg = TRUE) {
 verticalSlide <- 12
 ```
 
-# Diamonds or Diamonds in the Rough
+# Coming Soon to a Neighborhood Near You?
 ## Off-Campus Recruiting by Public Research Universities
 
 Karina Salazar
