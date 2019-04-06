@@ -639,9 +639,9 @@ cat(paste0(readLines("assets/tables/desc_out_priv.html"),collapse=" "))
   <div class="graphs-row">
 ```{r, echo=FALSE, results='asis'}
 aera_univs <- c(100751, 110635, 110653, 139959, 166629, 181464)
-for (i in 1:nrow(univs)) {
-  cat(paste0('<img src="assets/data/', univs[i, 'univ_id'], '/titled_map.png" />'))
-  if (i %% 3 == 0 && i < nrow(univs)) {
+for (i in aera_univs) {
+  cat(paste0('<img src="assets/data/', i, '/titled_map.png" />'))
+  if (i == 110653) {
     cat('</div><div class="graphs-row">')
   }
 }

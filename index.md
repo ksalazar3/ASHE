@@ -584,7 +584,7 @@ order by 2;
 
 <div class="graphs-set graphs-set-all">
   <div class="graphs-row">
-<img src="assets/data/199193/titled_map.png" /><img src="assets/data/186380/titled_map.png" /><img src="assets/data/196097/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/100751/titled_map.png" /><img src="assets/data/106397/titled_map.png" /><img src="assets/data/110635/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/110653/titled_map.png" /><img src="assets/data/201885/titled_map.png" /><img src="assets/data/126614/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/139959/titled_map.png" /><img src="assets/data/155317/titled_map.png" /><img src="assets/data/166629/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/181464/titled_map.png" /><img src="assets/data/215293/titled_map.png" /><img src="assets/data/218663/titled_map.png" />
+<img src="assets/data/100751/titled_map.png" /><img src="assets/data/110635/titled_map.png" /><img src="assets/data/110653/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/139959/titled_map.png" /><img src="assets/data/166629/titled_map.png" /><img src="assets/data/181464/titled_map.png" />
   </div>
   <a class="btn btn-compare" href="#/12">Deep-dive results</a>
 </div>
