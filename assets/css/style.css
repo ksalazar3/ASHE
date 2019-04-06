@@ -343,6 +343,15 @@
   font-weight: 600;
 }
 
+.reveal #univ-characteristics th {
+  line-height: 1em;
+  padding: 5px 0;
+}
+
+.reveal #univ-characteristics tr td:nth-of-type(1) {
+  padding-right: 0;
+}
+
 /* References */
 
 #references {

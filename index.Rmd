@@ -306,9 +306,6 @@ Secondary data Sources:
 - Equality of Opportunity Project (university income
 distributions)
 
--->
-
---- .table
 
 # Research methods
 ## Analysis sample
@@ -317,8 +314,20 @@ Analysis sample consists of 15 public research universities
 - Chosen from larger data collection sample (N=54) based on "completeness" of recruiting event data
 - Subsequent drafts may reduce sample size based on principles of purposeful sampling `r citep(bib['RN4549'])`
 
-<div class='graphs-set' style='height:380px;padding-top:5px'>
-  <img src='assets/img/univ_characteristics_2017.png' alt='University Sample Characteristics' style='height:100%' data-title='Characteristics of Study Institutions compared to National Selective Public Institutions' data-caption="Author calculations based on 2016-2017 IPEDS. Population of universities includes universities categorized as Highest Research Activity by 2015 Carnegie Classification. The University of Alabama is the only institution in the study sample that is not classified as Highest Research Activity." />
+-->
+
+---
+
+# Research methods
+## Analysis sample
+
+<div id="univ-characteristics" class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-y">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/univ_characteristics_aera.html"),collapse=" "))
+```
+  </div>
+  <p class="footnote" style="width:1000px;"><strong>Note</strong>: Author calculations based on 2016-2017 IPEDS. Population of universities includes universities categorized as Highest Research Activity by 2015 Carnegie Classification. The University of Alabama is the only institution in the study sample that is not classified as Highest Research Activity.</p>
 </div>
 
 --- 
