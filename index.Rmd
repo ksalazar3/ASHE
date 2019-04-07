@@ -539,10 +539,12 @@ for (i in 1:nrow(univs)) {
 ## Number of events by type and in-state, out-of-state
 
 <div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-x scroll-wrapper-y">
 ```{r, echo=FALSE, results='asis', warning=FALSE}
 cat(paste0(readLines("assets/tables/event_count.html"),collapse=" "))
 ```
-<p class="footnote"><strong>Note</strong>: Totals for schools include multiple visits to unique schools.</p>
+  <p class="footnote"><strong>Note</strong>: Totals for schools include multiple visits to unique schools.</p>
+  </div>
 </div>
 <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
 
@@ -594,6 +596,21 @@ cat(paste0(readLines("assets/tables/regression_out.html"),collapse=" "))
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
   <p class="footnote"><strong>Note</strong>: &ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not a special education school, alternative school, virtual school, or independent school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
+</div>
+
+---
+
+# Cross-university results, out-of-state visits
+## Actual versus Proportional Visits to Out-of-State High Schools
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-x scroll-wrapper-y">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/visit_proportion_aera.html"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+  <p class="footnote"><strong>Note</strong>: Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
 </div>
 
 ---
