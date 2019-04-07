@@ -265,28 +265,17 @@ counselor events
     - Any off-campus location
     - e.g., high school, community college, hotel, convention center, cafe, etc.
 
---- 
+---
 
-# Research methods
-## Data collection, data processing, data quality
-
-Data collection
-- University website checked four times per year by two staff for URLs with recruiting events
-- Web-scraping scripts run once per week
-
-Data processing
-- "Parsing": transform HTML text into tabular data
-- "Geocoding": use Google Maps API to obtain detailed location data based on limited data
-- Merge recruiting data to secondary data (e.g., schools, communities)
-
-Data quality (are these data any good?)
-- Concern 1: are scraped events properly classified and merged to secondary data?
-    - Solution: manually check each scraped event
-- Concern 2: are all events posted on admissions website?
-    - Solution: issue public records requests for all off-campus recruiting events
-        - Received data from half of the universities
-        - Main analyses use public records data when available
-        - Substantive results insensitive to scraped vs. public records data
+# Data and Methods
+## Summary of Data Collection Sources and Quality Checks Performed
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/data_appendix.html"),collapse=" "))
+```
+  </div>
+</div>
 
 --- 
 
