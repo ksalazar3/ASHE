@@ -44,17 +44,17 @@ The problem: access to public research universities
 - Concern about growing socioeconomic and racial inequality in access
 
 <br>
-Mainstream policy discourse about access: The 2014 White House "Access Summit" 
-- The White House (2014a) review of causes of unequal college access
-    - "achievement gap", "under-matching"; place responsibility on students, K-12 schools
-    - affordability; declining state support leads to rising tuition prices
-- The White House (2014b) asks universities for *Commitments to Action on College Opportunity*
-    - Universities pledge "action plans" (e.g., need-based financial aid, "outreach", holistic admission)
+Mainstream policy discourse about access inequality
+- "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
+- Universities pledge commitment to access via policies (e.g., holistic admission)
+- Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders (e.g., Davis, 2005)
 
 <br>
-Problem with policy discourse: does not interrogate university enrollment priorities
-- Applauds universities for commitment to access despite "deficiencies" of students and K-12 schools, despite declines in state funding
-- Decades of research finds policy adoption a symbolic effort to appease stakeholders (e.g., Davis, 2005)
+Geography of Opportunity (Galster and Killen, 1995)
+- Educational opportunities are a function of where students live 
+- Number of local colleges and universities spatially varies along the racial and socioeconomic characteristics of neighborhoods (Hillman, 2016)
+- Shifts onus away from students and K-12 schools; but students' college choices are also shaped by choices of colleges and universities (Rhoades, 2014)
+
 
 ---
 
@@ -123,17 +123,17 @@ Audits of response to "inquiries" by admissions officers (e.g., Hanson, 2017; Th
 - Identifies biases of individual admissions officers
 
 <br>
-Off-campus recruiting visits: identify prospects, connect with proespects already targeted by mail/email
+Off-campus recruiting visits
 - Scholarship analyzing college perspective (Stevens, 2007)
     - Important for relationships with prospects, counselors at "feeder" schools
 - Market research (Noel-Levitz, 2018)
-    - Second highest source of "inquiries" (after student list purchases)
-    - Third highest source of enrollees (after stealth applicantsm on-campus  visits)
+    - Second highest source of "inquiries"; third highest source of enrollees 
 - Scholarship analyzing perspective of high school students (Holland, 2019)
     - Which universities visit affects student decisions; especially first-gen, students of color
 
+<br>
 Research gap: we don't know which universities visit which schools, communities
-- If poor students, communities of color not receiving visits, "under-matching" may be due to under-recruiting rather than lack of guidance
+- If schools in low-income communities or communities of color are not receiving visits, "under-matching" may be due to under-recruiting rather than lack of guidance
 
 ---
 
@@ -141,44 +141,41 @@ Research gap: we don't know which universities visit which schools, communities
 ## Enrollment priorities and recruiting behavior
 
 Theoretical motivation for studying recruiting
-- Contingency theory (Thompson, 1967)
-    - Technical level: produce outputs (e.g., teachers at school, admissions officers in EM office)
-    - Managerial level: procure inputs; direct technical level and "buffer" from external environment
+<br>
 - "New" institutional theory (Meyer and Rowan, 1977)
-    - Publicly adopt goals demanded by environment
-    - Technical level cannot pursue all goals
-        - Substantively adopt some goals (technical level)
-        - Symbolically adopt others (policies, rhetoric)
+    - Organizations have finite resources and cannot pursue multiple goals (Thompson, 1967)
+    -When facing pressure to pursue many goals, organizations: 
+      - Substantively adopt some goals (directing resources)
+      - Symbolically adopt others (policies, rhetoric)
 
-"Iron triangle" of enrollment management (EM)
-- Three broad enrollment goals: **access, academic profile, revenue**
-    - Scarce resources; depending on priorities, some goals receive more resources than others
-- Enrollment priorities cannot be discerned by policies, rhetoric (e.g., The White House, 2014)
-- Off-campus recruiting is allocation of resources from technical level
-    - Knowing which populations targeted by recruiting interventions indicate enrollment priorities
+<br>
+- "Iron triangle" of enrollment management (EM)
+  - Three broad enrollment goals: **access, academic profile, revenue**
+  - Scarce resources; depending on priorities, some goals receive more resources than others
+  - Off-campus recruiting is allocation of resources
+  - Knowing which populations targeted by recruiting interventions indicate enrollment priorities
+
+
 
 ---
 
 # Theoretical framework
 ## Expectations about similarities and differences in recruiting behavior
 
-Resource dependence theory (Pfeffer and Salancik, 1978)
-- Orgs require stable flow of resources from external environment to survive/thrive
+Resource dependence theory (RDT) (Pfeffer and Salancik, 1978)
 - Sensitive to demands from providers of important resources that cannot be obtained elsewhere
 - Org strategies when a resouce becomes uncertain/declines or demands become onerous
     - e.g., compliance, avoidance, cooptation, **resource diversification**
-
-<br>
-Resources public research universities value
-- financial resources (state funding, tuition, research, donations); steady flow of students; prestige, etc.
-
-<br>
-Resource diversification in response to prolonged decline in important resources
-- Universities with weak state funding
-    - Prioritize students that generate tuition revenue
+- *Universities with weak state funding*
     - More visits to affluent out-of-state, affluent in-state
-- Universities with small/declining "college age" population
+- *Universities with small/declining "college age" population*
     - More out-of-state visits
+
+<br>
+Academic Capitalism (AC) (Slaughter and Rhoades, 2004) 
+- RDT assumes restoring state funding would compel universities to de-emphasize nonresident enrollment/recruiting
+- AC suggests pursuit of revenue displaces public-good mission for market logic
+- *Recruiting by universities with similar external conditions can differ depending how whether or to what extent "market logic" ideology is adopted*
 
 --- &twocol
 
@@ -191,11 +188,11 @@ Resource diversification in response to prolonged decline in important resources
 
 * Method
     - Web-scrape admissions websites
-    - public records requests
+    - Public records requests
 * Criteria to be included in data collection
     1. Post visits on admissions websites
     2. Organizational type
-* Data collection sample
+* Data collection sample (larger project)
     - 54 public research universities
     - 49 private research universities
     - 42 selective private liberal arts
@@ -249,34 +246,30 @@ Data quality (are these data any good?)
     - Solution: manually check each scraped event
 - Concern 2: are all events posted on admissions website?
     - Solution: issue public records requests for all off-campus recruiting events
-        - Received data from 7 of 15 universities
+        - Received data from half of the universities
         - Main analyses use public records data when available
         - Substantive results insensitive to scraped vs. public records data
 
-<!-- 
+--- 
 
 # Research methods
-## Secondary data
+## Research design and analyses
 
-Secondary data Sources:
+Quantitative multiple case study research design (Korzilius, 2010)
+- Quantitative data collection and quantitative analyses
+- Analyze each case separately, rather than pooling across cases as in large-N, random sample design
 
-- NCES Common Core of Data (public high schools)
-- NCES Private School University Survey (private high schools)
-- U.S. Census American Community Survey (community characteristics)
-- IPEDS (community colleges)
-- EdFacts Initiative (public high school academic achievement)
-- Equality of Opportunity Project (university income
-distributions)
+<br>
+Data analysis (Eisenhardt, 1989; Pratt, Rockmann, and Kaufmann, 2006)
+- "Within-case" analyses of recruiting patterns
+    - Broad focus on income, race, achievement (main independent variables of interest)
+    - Situate within local context; "deep dive" of in-state, out-of-state, and overall patterns
+        - Simple descriptive statistics (e.g., counts), static visualizations, interactive maps
+        - Linear probability models controlling for "rational" reasons for visit (e.g., enrollment size, achievement, distance)
+    - Identify first-order empirical themes
+- "Cross-case" analyses
+    - Consolidate first-order findings into broader empirical themes
 
-
-# Research methods
-## Analysis sample
-
-Analysis sample consists of 15 public research universities
-- Chosen from larger data collection sample (N=54) based on "completeness" of recruiting event data
-- Subsequent drafts may reduce sample size based on principles of purposeful sampling (Patton, 2002)
-
--->
 
 ---
 
@@ -290,27 +283,6 @@ Analysis sample consists of 15 public research universities
   <p class="footnote" style="width:1000px;"><strong>Note</strong>: Author calculations based on 2016-2017 IPEDS. Population of universities includes universities categorized as Highest Research Activity by 2015 Carnegie Classification. The University of Alabama is the only institution in the study sample that is not classified as Highest Research Activity.</p>
 </div>
 
---- 
-
-# Research methods
-## Research design and analyses
-
-Quantitative mulitple case study research design (Korzilius, 2010)
-- Quantitative data collection and quantitative analyses
-- Analyze each case separately, rather than pooling across cases as in large-N, random sample design
-
-<br>
-Data analysis (Eisenhardt, 1989; Pratt, Rockmann, and Kaufmann, 2006)
-- "Within-case" analyses of recruiting patterns
-    - broad focus on income, race, achievement, in-state vs. out-of-state
-    - Situate within local context; "deep dive" of in-state, out-of-state, and overall patterns
-        - Simple descriptive statistics (e.g., counts), static visualizations, interactive maps
-    - identify first-order empirical themes
-- "Cross-case" analyses
-    - Abstract/consolidate first-order findings into broader empirical themes
-    - Acrsoss-case descriptive analyses
-        - Simple descriptive statistics
-        - Controlling for "rational" reasons for visit (e.g., enrollment size, achievement, distance)
     
 
 --- &vertical
@@ -621,41 +593,43 @@ order by 2;
 ## Summary of results
 
 Out of State Recruiting
-- Majority of visits are out-of-state (exceptions: NC State, UC Irvine, UC Berkeley)
-- Big income bias; visits concentrated in highly affluent communities, in metropolitan areas
-- Big racial bias; less likely to visit schools with predominantly Black/Hispanic/Native students
+- Majority of visits are out-of-state (exceptions: UC Irvine, UC Berkeley); in populous metros
+- Income bias; visits concentrated in highly affluent communities, in metropolitan areas
+- Racial bias; less likely to visit schools with predominantly Black/Hispanic/Native students
 - Disproportionate number of visits to private high schools
 
 In-State Recruiting
-- Variation in coverage of public high schools (e.g., Nebraska=88%; Alabama=33%), community colleges
-- Visits largely driven by either achievement or enrollment size
-- Income bias in most cases (but less than out-of-state) even after controlling for "rational" reasons
-    - Exceptions: NC State, UC Irvine
-- Bias against schools with predominantly Black/Hispanic/Native in some cases (e.g., U. Alabama)
+- Variation in coverage of public high schools (e.g., Nebraska=88%; Alabama=33%)
+- Income bias (most cases, but less than out-of-state) even after controlling for "rational" reasons
+- Bias against schools with predominantly Black/Hispanic/Native in some cases (e.g., Alabama)
+- Rural bias; in some cases even after controlling for other factors (e.g. UC Irvine)
 
-Overall similarities and differences
-- For most cases, limited in-state recruiting and expansive out-of-state recruiting in big metro areas
-    - But differences in which metro areas, regions of country visited
-- Universities with higher state funding: fewer out-of-state visits; better, equitable coverage of in-state
+Recruiting for Resources (RDT) or Recruiting Market Values (AC)
+- RDT: focus on out-of-state recruiting is linked to declines in state funding
+  - Universities with the worst state funding have the most out-of-state visits (Berkeley vs. Irvine)
+- AC: out-of-state recruiting focus and biases are only partly a function of unfavorable environment
+  - Cases with relatively more better environmental conditions do not have a lesser focus on out-of-state (e.g., UMass Amherst, Nebraska)
 
 ---
 
 # Discussion
-## Next steps, implications, future research
+## Implications, future research
 
-Next steps for this paper
-- Complete cross-case holistic analysis of recruiting; develop recruiting "types"
-
-<br>
 Implications
 - Results suggest dramatic income bias in enrollment priorities of public research universities
     - Evidence of racial bias (especially in out-of-state recruiting), but patterns more nuanced
 - Policy discourse should focus on enrollment priorities, rather than student, K-12 deficiencies
-    - "Under-matching" may be a function of under-recruiting
+    - "Under-recruiting" as an alternative explanation for "under-matching"
+    
+<br>
+Policy + Advocacy Reccomendations: how do we change university enrollment priorities?
+- Increasing state appropriations and state need-based grant aid
+- Nonresident enrollment caps
+- Empower local access advocates 
 
+<br>
 Future research
-- Manuscript that focuses on racial biases in off-campus recruiting visits
-    - Universities prioritizing middle-class students of color and "privileged poor" (Jack, 2016) enrolled in high-resource schools, but ignoring traditional public schools that are majority-minority?
+- Manuscript that focuses on spatial discrimination of communities of color
 - Collect/analyze data on other means used to identify and target prospects
     - Characteristics universities prioritize when purchasing "prospect lists" from College Board/ACT?
     - Experimental audits of university responses to "inquiries" with different characteristics
@@ -700,7 +674,12 @@ K. M. Eisenhardt.
 In: <em>Academy of Management Review</em> 14.4 (1989), pp. 532-550.
 ISSN: 0363-7425.</cite></p>
 
-<p><a id='bib-RN4331'></a><a href="#cite-RN4331">[4]</a><cite>
+<p><a id='bib-RN6067'></a><a href="#cite-RN6067">[4]</a><cite>
+G. C. Galster and S. P. Killen.
+&ldquo;The geography of metropolitan opportunity: A reconnaissance and conceptual framework&rdquo;.
+In: <em>Housing Policy Debate Housing Policy Debate</em> 6.1 (1995), pp. 7&ndash;43.</cite></p>
+
+<p><a id='bib-RN4331'></a><a href="#cite-RN4331">[5]</a><cite>
 A. Hanson.
 &ldquo;Do college admissions counselors discriminate? Evidence from a correspondence-based field experiment&rdquo;.
 In: <em>Economics of Education Review</em> 60 (2017), pp. 86-96.
@@ -708,19 +687,24 @@ ISSN: 0272-7757.
 DOI: <a href="https://doi.org/https://doi.org/10.1016/j.econedurev.2017.08.004">https://doi.org/10.1016/j.econedurev.2017.08.004</a>.
 URL: <a href="http://www.sciencedirect.com/science/article/pii/S0272775716304526">http://www.sciencedirect.com/science/article/pii/S0272775716304526</a>.</cite></p>
 
-<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[5]</a><cite>
+<p><a id='bib-RN6064'></a><a href="#cite-RN6064">[6]</a><cite>
+N. W. Hillman.
+&ldquo;Geography of College Opportunity: The Case of Education Deserts&rdquo;.
+In: <em>American Educational Research Journal</em> 53.4 (2016), pp. 987&ndash;1021.</cite></p>
+
+<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[7]</a><cite>
 M. M. Holland.
 <em>Divergent pathways to college: Race, class, and inequality in high schools</em>.
 New Brunswick, NJ: Rutgers University Press, 2019.</cite></p>
 
-<p><a id='bib-RN4396'></a><a href="#cite-RN4396">[6]</a><cite>
+<p><a id='bib-RN4396'></a><a href="#cite-RN4396">[8]</a><cite>
 A. A. Jack.
 &ldquo;(No) harm in asking: Class, acquired cultural capital, and academic engagement at an elite university&rdquo;.
 In: <em>Sociology of Education</em> 89.1 (2016), pp. 1-19.
 DOI: <a href="https://doi.org/10.1177/0038040715614913">10.1177/0038040715614913</a>.
 URL: <a href="https://journals.sagepub.com/doi/abs/10.1177/0038040715614913">https://journals.sagepub.com/doi/abs/10.1177/0038040715614913</a>.</cite></p>
 
-<p><a id='bib-RN4545'></a><a href="#cite-RN4545">[7]</a><cite>
+<p><a id='bib-RN4545'></a><a href="#cite-RN4545">[9]</a><cite>
 H. Korzilius.
 &ldquo;Quantitative Analysis in Case Study&rdquo;.
 In: 
@@ -728,31 +712,31 @@ In:
 Ed. by A. J. Mills, G. Durepos and E. Wiebe.
 Thousand Oaks: SAGE Publications, Inc., 2010, pp. 760-764.</cite></p>
 
-<p><a id='bib-RN513'></a><a href="#cite-RN513">[8]</a><cite>
+<p><a id='bib-RN513'></a><a href="#cite-RN513">[10]</a><cite>
 J. W. Meyer and B. Rowan.
 &ldquo;Institutionalized organizations: formal structure as myth and ceremony&rdquo;.
 In: <em>The American Journal of Sociology</em> 83.2 (1977), pp. 340-363.</cite></p>
 
-<p><a id='bib-RN4402'></a><a href="#cite-RN4402">[9]</a><cite>
+<p><a id='bib-RN4402'></a><a href="#cite-RN4402">[11]</a><cite>
 R. Noel-Levitz.
 <em>2018 marketing and student recruitment report of effective practices</em>.
 Tech. rep.
 Ruffalo Noel-Levitz, 2018.
 URL: <a href="http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf">http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf</a>.</cite></p>
 
-<p><a id='bib-RN4549'></a><a href="#cite-RN4549">[10]</a><cite>
+<p><a id='bib-RN4549'></a><a href="#cite-RN4549">[12]</a><cite>
 M. Q. Patton.
 <em>Qualitative research and evaluation methods</em>.
 Thousand Oaks, Calif.: Sage, 2002.
 ISBN: 0761919716 9780761919711.</cite></p>
 
-<p><a id='bib-RN959'></a><a href="#cite-RN959">[11]</a><cite>
+<p><a id='bib-RN959'></a><a href="#cite-RN959">[13]</a><cite>
 J. Pfeffer and G. R. Salancik.
 <em>The external control of organizations: A resource dependence perspective</em>.
 New York: Harper and Row, 1978, p. xiii, 300 p.
 ISBN: 0060451939.</cite></p>
 
-<p><a id='bib-RN4391'></a><a href="#cite-RN4391">[12]</a><cite>
+<p><a id='bib-RN4391'></a><a href="#cite-RN4391">[14]</a><cite>
 M. G. Pratt, K. W. Rockmann and J. B. Kaufmann.
 &ldquo;Constructing professional identity: The role of work and identity learning cycles in the customization of identity among medical residents&rdquo;.
 In: <em>Academy of Management Journal</em> 49.2 (2006), pp. 235-262.
@@ -760,30 +744,30 @@ ISSN: 0001-4273.
 DOI: <a href="https://doi.org/10.5465/amj.2006.20786060">10.5465/amj.2006.20786060</a>.
 URL: <a href="%3CGo to ISI%3E://WOS:000237198600007">&lt;Go to ISI&gt;://WOS:000237198600007</a>.</cite></p>
 
-<p><a id='bib-RN3519'></a><a href="#cite-RN3519">[13]</a><cite>
+<p><a id='bib-RN6068'></a><a href="#cite-RN6068">[15]</a><cite>
+G. Rhoades.
+&ldquo;The Higher Education We Choose, Collectively: Reembodying and Repoliticizing Choice&rdquo;.
+In: <em>The Journal of Higher Education</em> 85.6 (2014), pp. 917&ndash;930.
+DOI: <a href="https://doi.org/10.1080/00221546.2014.11777353">10.1080/00221546.2014.11777353</a>.</cite></p>
+
+<p><a id='bib-RN3519'></a><a href="#cite-RN3519">[16]</a><cite>
 M. L. Stevens.
 <em>Creating a class: College admissions and the education of elites</em>.
 Cambridge, MA: Harvard University Press, 2007, p. 308 p.
 ISBN: 9780674026735 (alk. paper) 067402673X (alk. paper).</cite></p>
 
-<p><a id='bib-RN4017'></a><a href="#cite-RN4017">[14]</a><cite>
+<p><a id='bib-RN4017'></a><a href="#cite-RN4017">[17]</a><cite>
 The White House.
 <em>Commitments to action on college opportunity</em>.
 Tech. rep.
 The Executive Office of the President, 2014.</cite></p>
 
-<p><a id='bib-RN4016'></a><a href="#cite-RN4016">[15]</a><cite>
-The White House.
-<em>Increasing college opportunity for low-income students</em>.
-Tech. rep.
-The Executive Office of the President, 2014.</cite></p>
-
-<p><a id='bib-RN531'></a><a href="#cite-RN531">[16]</a><cite>
+<p><a id='bib-RN531'></a><a href="#cite-RN531">[18]</a><cite>
 J. Thompson.
 <em>Organizations in action</em>.
 New York: McGraw Hill, 1967.</cite></p>
 
-<p><a id='bib-RN4360'></a><a href="#cite-RN4360">[17]</a><cite>
+<p><a id='bib-RN4360'></a><a href="#cite-RN4360">[19]</a><cite>
 T. Thornhill.
 &ldquo;We Want Black Students, Just Not You: How White Admissions Counselors Screen Black Prospective Students&rdquo;.
 In: <em>Sociology of Race and Ethnicity</em> 0.0 ().
