@@ -28,7 +28,7 @@ library(servr)
 
 library(knitcitations)
 cleanbib()
-bib <- read.bibtex('./assets/other/spencer-bib.bib')
+bib <- knitcitations::read.bibtex('./assets/other/spencer-bib.bib')
 
 # Function for parenthetical citation needing `e.g.,` or have no year (ie. forthcoming)
 # b: citation(s)
@@ -718,5 +718,5 @@ This research was made possible by funding from the following sources:
 ## &nbsp;
 
 ```{r results='asis', echo=FALSE}
-bibliography('html')
+knitcitations::bibliography('html')
 ````

@@ -350,6 +350,7 @@
 
 .reveal #univ-characteristics tr td:nth-of-type(1) {
   padding-right: 0;
+  width: 270px;
 }
 
 /* References */
@@ -362,7 +363,7 @@
   padding-left: 25px;
   text-indent: -22px;
   line-height: 1.5em;
-  padding-bottom: 6px;
+  padding-bottom: 2px;
   font-weight: 300;
 }
 
