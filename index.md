@@ -175,7 +175,7 @@ Resource dependence theory (RDT) (Pfeffer and Salancik, 1978)
 Academic Capitalism (AC) (Slaughter and Rhoades, 2004) 
 - RDT assumes restoring state funding would compel universities to de-emphasize nonresident enrollment/recruiting
 - AC suggests pursuit of revenue displaces public-good mission for market logic
-- *Recruiting by universities with similar external conditions can differ depending how whether or to what extent "market logic" ideology is adopted*
+- *Recruiting by universities with similar external conditions can differ depending to what extent "market logic" ideology is adopted*
 
 --- &twocol
 
@@ -500,6 +500,18 @@ order by 2;
 ---
 
 # Cross-university results, out-of-state visits
+## Small multiple map of recruiting visits
+
+<div class="graphs-set graphs-set-all">
+  <div class="graphs-row">
+<img src="assets/data/100751/titled_map.png" /><img src="assets/data/110635/titled_map.png" /><img src="assets/data/110653/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/139959/titled_map.png" /><img src="assets/data/166629/titled_map.png" /><img src="assets/data/181464/titled_map.png" />
+  </div>
+  <a class="btn btn-compare" href="#/12">Deep-dive results</a>
+</div>
+
+---
+
+# Cross-university results, out-of-state visits
 ## Descriptive statistics for public high school visits
 
 <div class="table-wrapper">
@@ -534,18 +546,6 @@ order by 2;
   </div>
   <a class="btn btn-compare" href="#/12">Deep-dive results</a>
   <p class="footnote"><strong>Note</strong>: Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
-</div>
-
----
-
-# Cross-university results, out-of-state visits
-## Small multiple map of recruiting visits
-
-<div class="graphs-set graphs-set-all">
-  <div class="graphs-row">
-<img src="assets/data/100751/titled_map.png" /><img src="assets/data/110635/titled_map.png" /><img src="assets/data/110653/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/139959/titled_map.png" /><img src="assets/data/166629/titled_map.png" /><img src="assets/data/181464/titled_map.png" />
-  </div>
-  <a class="btn btn-compare" href="#/12">Deep-dive results</a>
 </div>
 
 ---

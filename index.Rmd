@@ -213,7 +213,7 @@ Resource dependence theory (RDT) `r citep(bib['RN959'])`
 Academic Capitalism (AC) `r citep(bib['RN6061'])` 
 - RDT assumes restoring state funding would compel universities to de-emphasize nonresident enrollment/recruiting
 - AC suggests pursuit of revenue displaces public-good mission for market logic
-- *Recruiting by universities with similar external conditions can differ depending how whether or to what extent "market logic" ideology is adopted*
+- *Recruiting by universities with similar external conditions can differ depending to what extent "market logic" ideology is adopted*
 
 --- &twocol
 
@@ -549,6 +549,26 @@ cat(paste0(readLines("assets/tables/event_count.html"),collapse=" "))
 ---
 
 # Cross-university results, out-of-state visits
+## Small multiple map of recruiting visits
+
+<div class="graphs-set graphs-set-all">
+  <div class="graphs-row">
+```{r, echo=FALSE, results='asis'}
+aera_univs <- c(100751, 110635, 110653, 139959, 166629, 181464)
+for (i in aera_univs) {
+  cat(paste0('<img src="assets/data/', i, '/titled_map.png" />'))
+  if (i == 110653) {
+    cat('</div><div class="graphs-row">')
+  }
+}
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+</div>
+
+---
+
+# Cross-university results, out-of-state visits
 ## Descriptive statistics for public high school visits
 
 <div class="table-wrapper">
@@ -589,26 +609,6 @@ cat(paste0(readLines("assets/tables/desc_out_priv.html"),collapse=" "))
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
   <p class="footnote"><strong>Note</strong>: Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
-</div>
-
----
-
-# Cross-university results, out-of-state visits
-## Small multiple map of recruiting visits
-
-<div class="graphs-set graphs-set-all">
-  <div class="graphs-row">
-```{r, echo=FALSE, results='asis'}
-aera_univs <- c(100751, 110635, 110653, 139959, 166629, 181464)
-for (i in aera_univs) {
-  cat(paste0('<img src="assets/data/', i, '/titled_map.png" />'))
-  if (i == 110653) {
-    cat('</div><div class="graphs-row">')
-  }
-}
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
 </div>
 
 ---
