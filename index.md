@@ -32,7 +32,7 @@ Crystal Han
 <img id='logo_ua' src='assets/img/ua.png' alt='University of Arizona' />
 <img id='logo_ucla' src='assets/img/ucla.png' alt='University of California, Los Angeles' />
 
-<a id='link_presentation' href='https://ksalazar3.github.io/aera2019/' target='_blank'>ksalazar3.github.io/aera2019</a>
+<a id='link_presentation' href='https://ksalazar3.github.io/defense/' target='_blank'>ksalazar3.github.io/defense</a>
 
 --- 
 
