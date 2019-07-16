@@ -80,13 +80,12 @@ $(function() {
     }
   }
 
-  Reveal.addEventListener('ready', function(e) {
-    if ($(e.currentSlide).hasClass('vertical')) {
-      handleVertical();
-    } else { // horizontal slide
-      handleHorizontal();
-    }
-  });
+  var v = Reveal.getState().indexv;
+  if (v > 0) {  // vertical slide
+    handleVertical();
+  } else { // horizontal slide
+    handleHorizontal();
+  }
 
   Reveal.addEventListener('slide-vertical', function() {
     handleVertical();
@@ -96,7 +95,7 @@ $(function() {
     handleHorizontal();
   }, false );
   
-  Reveal.addEventListener( 'slidechanged', function() {
+  Reveal.addEventListener('slidechanged', function() {
     $('.modal').fadeOut();
     $('.graphs-set img').removeClass('disabled');
     $('table tr').removeClass('active-row');
