@@ -684,6 +684,7 @@ Future research
 ## &nbsp;
 
 ***
+
 # University of Colorado-Boulder
 ## Figures
 
@@ -692,7 +693,10 @@ Future research
 # University of Colorado-Boulder
 ## Map
 
+<iframe src="assets/maps/la_cuboulder.html" width=100% height=100% allowtransparency="true"></iframe>
+
 ***
+
 # University of Massachusetts-Amherst
 ## Figures
 
@@ -700,6 +704,8 @@ Future research
 
 # University of Massachusetts-Amherst
 ## Map
+
+<iframe src="assets/maps/la_umassamherst.html" width=100% height=100% allowtransparency="true"></iframe>
 
 ***
 
@@ -707,6 +713,7 @@ Future research
 ## &nbsp;
 
 ***
+
 # University of Kansas
 ## Figures
 
@@ -715,7 +722,10 @@ Future research
 # University of Kansas
 ## Map
 
+<iframe src="assets/maps/dallas_kansas.html" width=100% height=100% allowtransparency="true"></iframe>
+
 ***
+
 # University of Georgia
 ## Figures
 
@@ -723,6 +733,8 @@ Future research
 
 # University of Georgia
 ## Map
+
+<iframe src="assets/maps/dallas_uga.html" width=100% height=100% allowtransparency="true"></iframe>
 
 --- 
 
