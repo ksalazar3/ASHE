@@ -373,7 +373,6 @@
 
 /* Arrow Controls */
 
-.slide-horizontal .reveal .controls .navigate-down,
 .slide-vertical .reveal .controls .navigate-left,
 .slide-vertical .reveal .controls .navigate-right {
   display: none;

@@ -275,7 +275,7 @@ Data analysis (Eisenhardt, 1989; Pratt, Rockmann, and Kaufmann, 2006)
 --- &vertical
 
 # Within-case results
-## Click on a university see within-case results
+## Click on a university to see within-case results
 
 <br>
 __N__ refers to total number of off-campus recruiting visits
@@ -635,9 +635,97 @@ Future research
 - Collect/analyze data on other means used to identify and target prospects
     - Characteristics universities prioritize when purchasing "prospect lists" from College Board/ACT?
     - Experimental audits of university responses to "inquiries" with different characteristics
-    
+
+--- &vertical2
+
+# Metro area results
+## Click on a university to see results
+
+<ul>
+  <li>Los Angeles MSA
+    <ul>
+      <li><a href="#/23/1">MSA Overview</a></li>
+      <li>University of Colorado-Boulder
+        <ul>
+          <li><a href="#/23/2">Figures</a></li>
+          <li><a href="#/23/3">Map</a></li>
+        </ul>
+      </li>
+      <li>University of Massachusetts-Amherst
+        <ul>
+          <li><a href="#/23/4">Figures</a></li>
+          <li><a href="#/23/5">Map</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Dallas MSA
+    <ul>
+      <li><a href="#/23/6">MSA Overview</a></li>
+      <li>University of Kansas
+        <ul>
+          <li><a href="#/23/7">Figures</a></li>
+          <li><a href="#/23/8">Map</a></li>
+        </ul>
+      </li>
+      <li>University of Georgia
+        <ul>
+          <li><a href="#/23/9">Figures</a></li>
+          <li><a href="#/23/10">Map</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+***
+
+# MSA Overview
+## &nbsp;
+
+***
+# University of Colorado-Boulder
+## Figures
+
+***
+
+# University of Colorado-Boulder
+## Map
+
+***
+# University of Massachusetts-Amherst
+## Figures
+
+***
+
+# University of Massachusetts-Amherst
+## Map
+
+***
+
+# MSA Overview
+## &nbsp;
+
+***
+# University of Kansas
+## Figures
+
+***
+
+# University of Kansas
+## Map
+
+***
+# University of Georgia
+## Figures
+
+***
+
+# University of Georgia
+## Map
 
 --- 
+
 # Acknowledgments
 
 <br>

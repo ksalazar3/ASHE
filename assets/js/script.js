@@ -11,28 +11,23 @@ $(function() {
 
   }
 
+  var verticalSlide = 12;
   var compareSlide = verticalSlide + 1;
+  
+  var univSelected = false;
 
   // Keyboard Controls
-  
-  function handleRight() {
-    Reveal.getState().indexh === verticalSlide - 1 ? Reveal.slide(verticalSlide, 0) : Reveal.right();
-  }
-  
-  function handleLeft() {
-    Reveal.getState().indexh === verticalSlide + 1 ? Reveal.slide(verticalSlide, 0) : Reveal.left();
-  }
 
   var horizontalKeyboard = {
-    78: handleRight,  // n
-    34: handleRight,  // page down
-    72: handleLeft,  // h
-    37: handleLeft,  // left
-    76: handleRight,  // l
-    39: handleRight,  // right
-    32: handleRight,  // space
-    80: handleLeft,  // p
-    33: handleLeft,  // page up
+    78: 'right',  // n
+    34: 'right',  // page down
+    72: 'left',  // h
+    37: 'left',  // left
+    76: 'right',  // l
+    39: 'right',  // right
+    32: 'right',  // space
+    80: 'left',  // p
+    33: 'left',  // page up
   };
 
   var horizontalKeyboardDownDisabled = $.extend(true, {}, horizontalKeyboard, {40: null});
@@ -52,48 +47,59 @@ $(function() {
   };
 
   function handleVertical() {
-    if ($('iframe[src]').length) {  // univ selected
-      Reveal.configure({
-        keyboard: verticalKeyboard
-      });
-      $('.reveal .controls .navigate-down').css('display', 'inline-block');
-    } else {
-      Reveal.configure({
-        keyboard: horizontalKeyboardDownDisabled
-      });
-      $('.slide-horizontal .reveal .controls .navigate-down').css('display', 'none');
-      Reveal.slide(verticalSlide, 0);
-    }
+    console.log('verticalKeyboard');
+    Reveal.configure({
+      keyboard: verticalKeyboard
+    });
+    $('.reveal .controls .navigate-down').css('display', 'inline-block');
   }
-
+  
   function handleHorizontal() {
-    if ($('iframe[src]').length) {  // univ selected
-      Reveal.configure({
-        keyboard: horizontalKeyboardDownEnabled
-      });
-      $('.reveal .controls .navigate-down').css('display', 'inline-block');
-    } else {
-      Reveal.configure({
-        keyboard: horizontalKeyboardDownDisabled
-      });
-      $('.slide-horizontal .reveal .controls .navigate-down').css('display', 'none');
-    }
+    console.log('horizontalKeyboardDownEnabled');
+    Reveal.configure({
+      keyboard: horizontalKeyboardDownEnabled
+    });
+    $('.reveal .controls .navigate-down').css('display', 'inline-block');
   }
-
-  var v = Reveal.getState().indexv;
-  if (v > 0) {  // vertical slide
+  
+  function handleHorizontalConditional() {
+    console.log('horizontalKeyboardDownDisabled');
+    Reveal.configure({
+      keyboard: horizontalKeyboardDownDisabled
+    });
+    $('.reveal .controls .navigate-down').css('display', 'none');
+  }
+  
+  // Updating Navigation
+  
+  if (!univSelected && Reveal.getState().indexh === verticalSlide) {  // no univ selected
+    if (Reveal.getState().indexv > 0) {  // vertical slide
+      handleHorizontalConditional();
+      Reveal.slide(verticalSlide, 0);
+    } else {  // horizontal slide
+      handleHorizontalConditional();
+    }
+  } else if (Reveal.getState().indexv > 0) {  // regular vertical slide
     handleVertical();
-  } else { // horizontal slide
+  } else {  // regular horizontal slide
     handleHorizontal();
   }
 
   Reveal.addEventListener('slide-vertical', function() {
     handleVertical();
-  }, false );
+  }, false);
 
   Reveal.addEventListener('slide-horizontal', function() {
     handleHorizontal();
-  }, false );
+  }, false);
+  
+  Reveal.addEventListener('slide-horizontal-conditional', function() {
+    if (!univSelected) {
+      handleHorizontalConditional();
+    } else {
+      handleHorizontal();
+    }
+  }, false);
   
   Reveal.addEventListener('slidechanged', function() {
     $('.modal').fadeOut();
@@ -106,6 +112,8 @@ $(function() {
   // Univ Selection
 
   $('#univ_options a').on('click', function() {
+    univSelected = true;
+
     var univ_id = $(this).data('univ-id');
 
     loadFigures(univ_id, $(this));
