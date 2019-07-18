@@ -364,6 +364,10 @@
   vertical-align: middle;
 }
 
+.reveal table.metro-desc tr td:nth-of-type(1) {
+  padding-right: 4px;
+}
+
 /* References */
 
 #references {

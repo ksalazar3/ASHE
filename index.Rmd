@@ -779,7 +779,16 @@ cat(paste0(readLines("assets/tables/la_msa_univ_overview.html"),collapse=" "))
 *** .la-metro
 
 # University of Colorado-Boulder
-## Figures
+## Descriptive Statistics for Public High Schools Visited and Not Visited
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/la_cuboulder_desc.html"),collapse=" "))
+```
+  </div>
+  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
+</div>
 
 *** .la-metro
 
@@ -791,7 +800,16 @@ cat(paste0(readLines("assets/tables/la_msa_univ_overview.html"),collapse=" "))
 *** .la-metro
 
 # University of Massachusetts-Amherst
-## Figures
+## Descriptive Statistics for Public High Schools Visited and Not Visited
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/la_umassamherst_desc.html"),collapse=" "))
+```
+  </div>
+  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
+</div>
 
 *** .la-metro
 
@@ -831,7 +849,16 @@ cat(paste0(readLines("assets/tables/dallas_msa_univ_overview.html"),collapse=" "
 *** .dallas-metro
 
 # University of Kansas
-## Figures
+## Descriptive Statistics for Public High Schools Visited and Not Visited
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/dallas_kansas_desc.html"),collapse=" "))
+```
+  </div>
+  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
+</div>
 
 *** .dallas-metro
 
@@ -843,7 +870,16 @@ cat(paste0(readLines("assets/tables/dallas_msa_univ_overview.html"),collapse=" "
 *** .dallas-metro
 
 # University of Georgia
-## Figures
+## Descriptive Statistics for Public High Schools Visited and Not Visited
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/dallas_uga_desc.html"),collapse=" "))
+```
+  </div>
+  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
+</div>
 
 *** .dallas-metro
 
