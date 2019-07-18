@@ -357,6 +357,13 @@
   width: 270px;
 }
 
+.reveal .la-metro table th,
+.reveal .la-metro table td,
+.reveal .dallas-metro table th,
+.reveal .dallas-metro table td {
+  vertical-align: middle;
+}
+
 /* References */
 
 #references {
