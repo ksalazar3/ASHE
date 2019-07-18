@@ -338,6 +338,11 @@
   font-weight: 300;
 }
 
+.reveal p.footnote-alt {
+  width: 780px;
+  margin-left: 170px;
+}
+
 .reveal .footnote strong {
   font-weight: 600;
 }
