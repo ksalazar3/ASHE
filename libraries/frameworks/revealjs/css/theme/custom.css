@@ -186,12 +186,13 @@ body {
 
 /* Text */
 
-.reveal span.univ-name {
+.reveal span.univ-name,
+.reveal span.metro-name {
   float: right;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: -1px;
-  margin: 10px 0;
+  margin: 10px 0 0;
   color: #444;
 }
 

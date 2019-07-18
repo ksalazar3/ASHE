@@ -641,44 +641,44 @@ Future research
 # Metro area results
 ## Click on a university to see results
 
+
+Los Angeles MSA
+
 <ul>
-  <li>Los Angeles MSA
+  <li><a href="#/23/1">MSA Overview</a></li>
+  <li>University of Colorado-Boulder
     <ul>
-      <li><a href="#/23/1">MSA Overview</a></li>
-      <li>University of Colorado-Boulder
-        <ul>
-          <li><a href="#/23/2">Figures</a></li>
-          <li><a href="#/23/3">Map</a></li>
-        </ul>
-      </li>
-      <li>University of Massachusetts-Amherst
-        <ul>
-          <li><a href="#/23/4">Figures</a></li>
-          <li><a href="#/23/5">Map</a></li>
-        </ul>
-      </li>
+      <li><a href="#/23/2">Figures</a></li>
+      <li><a href="#/23/3">Map</a></li>
     </ul>
   </li>
-  <li>Dallas MSA
+  <li>University of Massachusetts-Amherst
     <ul>
-      <li><a href="#/23/6">MSA Overview</a></li>
-      <li>University of Kansas
-        <ul>
-          <li><a href="#/23/7">Figures</a></li>
-          <li><a href="#/23/8">Map</a></li>
-        </ul>
-      </li>
-      <li>University of Georgia
-        <ul>
-          <li><a href="#/23/9">Figures</a></li>
-          <li><a href="#/23/10">Map</a></li>
-        </ul>
-      </li>
+      <li><a href="#/23/4">Figures</a></li>
+      <li><a href="#/23/5">Map</a></li>
     </ul>
   </li>
 </ul>
 
-***
+Dallas MSA
+
+<ul>
+  <li><a href="#/23/6">MSA Overview</a></li>
+  <li>University of Kansas
+    <ul>
+      <li><a href="#/23/7">Figures</a></li>
+      <li><a href="#/23/8">Map</a></li>
+    </ul>
+  </li>
+  <li>University of Georgia
+    <ul>
+      <li><a href="#/23/9">Figures</a></li>
+      <li><a href="#/23/10">Map</a></li>
+    </ul>
+  </li>
+</ul>
+
+*** .la-metro
 
 # MSA Overview
 ## Distribution of People and Public High Schools by Sub-Metropolitan Areas
@@ -690,31 +690,31 @@ Future research
   <p class="footnote footnote-alt"><strong>Note</strong>: * indicated means across people or schools within each sub-metropolitan area. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
 </div>
 
-***
+*** .la-metro
 
 # University of Colorado-Boulder
 ## Figures
 
-***
+*** .la-metro
 
 # University of Colorado-Boulder
 ## Map
 
 <iframe src="assets/maps/la_cuboulder.html" width=100% height=100% allowtransparency="true"></iframe>
 
-***
+*** .la-metro
 
 # University of Massachusetts-Amherst
 ## Figures
 
-***
+*** .la-metro
 
 # University of Massachusetts-Amherst
 ## Map
 
 <iframe src="assets/maps/la_umassamherst.html" width=100% height=100% allowtransparency="true"></iframe>
 
-***
+*** .dallas-metro
 
 # MSA Overview
 ## Distribution of People and Public High Schools by Sub-Metropolitan Areas
@@ -726,24 +726,24 @@ Future research
   <p class="footnote footnote-alt"><strong>Note</strong>: * indicated means across people or schools within each sub-metropolitan area. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
 </div>
 
-***
+*** .dallas-metro
 
 # University of Kansas
 ## Figures
 
-***
+*** .dallas-metro
 
 # University of Kansas
 ## Map
 
 <iframe src="assets/maps/dallas_kansas.html" width=100% height=100% allowtransparency="true"></iframe>
 
-***
+*** .dallas-metro
 
 # University of Georgia
 ## Figures
 
-***
+*** .dallas-metro
 
 # University of Georgia
 ## Map

@@ -260,22 +260,18 @@ $(function() {
         addCell(row, item.other_count);
     });
   }
-
-  var headingShown = true;
-
-  $('.desc-table').scroll(function() {
-    var $cc = $(this).find('#h2');
-    if ($cc.length) {
-      var window_offset = $cc.offset().top - $(this).scrollTop();
-      if (window_offset < -360 && headingShown) {
-        $(this).find('#h1').fadeOut(200);
-        headingShown = false;
-      } else if (window_offset > -330 && !headingShown) {
-        $(this).find('#h1').fadeIn(200);
-        headingShown = true;
-      }
-    }
+  
+  // Metro Selection
+  
+  $('.slides .la-metro').each(function() {
+    $(this).find('.metro-name').html('Los Angeles MSA');
   });
+  
+  $('.slides .dallas-metro').each(function() {
+    $(this).find('.metro-name').html('Dallas MSA');
+  });
+  
+  // Table Highlighting
 
   $('.scroll-wrapper td:nth-of-type(1):not(.blank)').click(function() {
     $('.scroll-wrapper tr').removeClass('active-row');
