@@ -130,8 +130,8 @@ $(function() {
         metro2 = sel.data('metro2-name'),
         metro3 = sel.data('metro3-name');
 
-    $('.vertical iframe').attr('src', '');
-    $('.vertical img').attr('src', '');
+    $('.univ-result iframe').attr('src', '');
+    $('.univ-result img').attr('src', '');
     setUnivID(univ_id, univ_name, state, metro1, metro2, metro3);
 
     $('#table-metro-count').empty();
