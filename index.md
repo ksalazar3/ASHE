@@ -1,6 +1,6 @@
 ---
-title: "Coming to a Neighborhood Near You?"
-subtitle: "Off-Campus Recruiting by Public Research Universities"
+title: "The Wealth and Color of Off-Campus Recruiting by Public Research Universities"
+subtitle: ""
 author: Karina Salazar
 # lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
 mode: selfcontained
@@ -10,48 +10,65 @@ revealjs:
   theme: custom
   transition: slide
   center: 'false'
-bibliography: ./assets/other/spencer-bib.bib
+bibliography: ./assets/other/m1-bib.bib
 csl: ./assets/other/apa.csl
 
 --- #title
 
 
 
-# Coming Soon to a Neighborhood Near You?
-## Off-Campus Recruiting by Public Research Universities
+# The Wealth and Color of Off-Campus Recruiting by Public Research Universities 
+<br>
+## Karina G. Salazar
 
-Karina Salazar
-<p class='affiliation'>University of Arizona</p>
 
-Ozan Jaquette
-<p class='affiliation'>University of California, Los Angeles</p>
-
-Crystal Han
-<p class='affiliation'>University of California, Los Angeles</p>
-
-<img id='logo_ua' src='assets/img/ua.png' alt='University of Arizona' />
-<img id='logo_ucla' src='assets/img/ucla.png' alt='University of California, Los Angeles' />
+Doctoral Candidate <br> Center for the Study of Higher Education 
+<br>
+Department of Educational Policy Studies and Practice <br> College of Education
 
 <a id='link_presentation' href='https://ksalazar3.github.io/defense/' target='_blank'>ksalazar3.github.io/defense</a>
+<br>
 
---- 
+<img id='logo_ua' src='assets/img/ua.png' alt='University of Arizona' class='center'/>
 
+
+<!-- ---  -->
+<!-- # Presentation outline -->
+<!-- ##  -->
+<!-- <br> <br> -->
+<!-- - Motivation for dissertation -->
+<!-- - Data Ccollection -->
+<!-- - Empirical study #1 -->
+<!--   - Research question -->
+<!--   - Literature review -->
+<!--   - Theoretical framework -->
+<!--   - Findings -->
+<!-- - Empirical study #2 -->
+<!--   - Research question -->
+<!--   - Literature review -->
+<!--   - Theoretical framework -->
+<!--   - Findings -->
+<!-- - Implications for policy and practice -->
+
+
+
+
+---
 # Motivation
 ## Policy discourse about access to public research universities
 
 The problem: access to public research universities
-- Historical mission of social mobility for meritorious state residents
+- Historical mission of social mobility for state residents
 - Concern about growing socioeconomic and racial inequality in access
 
 <br>
-Mainstream policy discourse about access inequality
-- "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
-- Universities pledge commitment to access via policies (e.g., holistic admission)
+Mainstream policy discourse about access inequality 
+- Supply side: "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
+- Demand side: Universities pledge commitment to access via policies and statements (e.g., no-loan financial aid policies)
 - Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders (e.g., Davis, 2005)
 
 <br>
 Geography of Opportunity (Galster and Killen, 1995)
-- Educational opportunities are a function of where students live 
 - Number of local colleges and universities spatially varies along the racial and socioeconomic characteristics of neighborhoods (Hillman, 2016)
 - Shifts onus away from students and K-12 schools; but students' college choices are also shaped by choices of colleges and universities (Rhoades, 2014)
 
@@ -62,30 +79,91 @@ Geography of Opportunity (Galster and Killen, 1995)
 ## Analyze recruiting to understand university enrollment priorities
 
 Alternative explanation for access inequality
-- University enrollment priorities biased against poor students and/or communities of color
+- University enrollment priorities biased against poor students and/or Communities of Color
 
 <br>
 Why study university recruiting behavior
-- Universities expend substantial resources identifying and recruiting prospects (Noel-Levitz, 2018)
+- Universities spend substantial resources identifying and recruiting prospects (Noel-Levitz, 2018)
 - Internal resource allocation better indicator of organizational priorities than rhetoric, policies
 - Knowing which student populations targeted by recruiting efforts indicates enrollment priorities
 
 
 <br>
-Research focus
-- Analyze off-campus recruiting visits (e.g., visit to a local high school) by public research universities as a means of gaining insight about university enrollment priorities
-- **Research question**
-    - What are the similarities and differences in off-campus recruiting patterns across universities?
-- **Analytic focus**
-    - Income; race; academic achievement; in-state vs. out-of-state
+Analyze off-campus recruiting visits (e.g., visit to a high school) as a means of gaining insight about university enrollment priorities
+- Two empirical studies:
+    - **(1) ¿Suburbios o Barrios? Off-Campus Recruiting by Public Research Universities**
+        - Similarities and differences in off-campus recruiting patterns across universities
+    - **(2) Sub-Metropolitan Spatial Redlining in Public University Recruitment**
+       -  Spatial, in-depth exploration of racial bias in out-of-state recruiting visits
 
 
 
 
 --- &twocol
 
-# Background
-## The enrollment management industry
+# Data Collection
+## The broader off-campus recruiting research project
+
+*** =left
+
+**Data collection**
+
+* Method
+    - Web-scrape admissions websites
+    - Public records requests
+* Criteria to be included in data collection
+    1. Post visits on admissions websites
+    2. Organizational type
+* Data collection sample (larger project)
+    - 54 public research; 49 private; 42 liberal arts
+* Data collection period
+    - 1/1/2017 to 12/31/2017
+    - Ongoing data collection with larger sample
+* Secondary Data
+    - ACS; NCES; EdFacts; State DOE
+
+    
+*** =right
+
+**Sample data**
+
+<img src="assets/img/southcarolina.png" style="width:65%;float:left;">
+
+---
+# Empirical study #1 
+## ¿Suburbios o Barrios? Off-Campus Recruiting by Public Research Universities
+
+Research problem
+- Research on recruiting practices can transform access inequality policy discourse
+- But few empirical studies analyze recruiting behavior
+
+<br>
+
+Research aim
+- Systematically analyze off-campus recruiting visits by public research universities
+
+<br>
+
+Research question
+- What are the similarities and differences in off-campus recruiting patterns across universities?
+
+<br>
+
+
+Analytic focus
+- Income, race; academic achievement; in-state vs. out-of-state
+
+
+
+
+
+
+
+
+--- &twocol
+
+#  Background
+## The enrollment management industry       
 
 *** =left
 
@@ -113,13 +191,13 @@ school visits, college fairs)
 
 ---
 
-# Literature review
+# Empirical Study #1: Literature review
 ## Scholarship on recruiting
 
 Evaluations of recruiting/outreach interventions (e.g., Dynarski, Libassi, Michelmore, Owen, 2018)
 - But unclear whether universities substantively adopt "best practices" in less controlled settings
 
-Audits of response to "inquiries" by admissions officers (e.g., Hanson, 2017; Thornhill, forthcoming)
+Audits of response to "inquiries" by admissions officers (e.g., Thornhill, forthcoming)
 - Identifies biases of individual admissions officers
 
 <br>
@@ -177,37 +255,7 @@ Academic Capitalism (AC) (Slaughter and Rhoades, 2004)
 - AC suggests pursuit of revenue displaces public-good mission for market logic
 - *Recruiting by universities with similar external conditions can differ depending to what extent "market logic" ideology is adopted*
 
---- &twocol
-
-# Research methods
-## The broader off-campus recruiting research project
-
-*** =left
-
-**Data collection**
-
-* Method
-    - Web-scrape admissions websites
-    - Public records requests
-* Criteria to be included in data collection
-    1. Post visits on admissions websites
-    2. Organizational type
-* Data collection sample (larger project)
-    - 54 public research universities
-    - 49 private research universities
-    - 42 selective private liberal arts
-* Data collection period
-    - 1/1/2017 to 12/31/2017
-    - Ongoing data collection with larger sample
-    
-*** =right
-
-**Sample data**
-
-<img src="assets/img/southcarolina.png" style="width:65%;float:left;">
-
----
-
+--- 
 
 
 # Research methods
@@ -590,9 +638,8 @@ order by 2;
 </div>
 
 ---
-
-# Summary
-## Summary of results
+# Summary of results
+## ¿Suburbios o Barrios? Off-Campus Recruiting by Public Research Universities
 
 Out of State Recruiting
 - Majority of visits are out-of-state (exceptions: UC Irvine, UC Berkeley); in populous metros
@@ -600,41 +647,88 @@ Out of State Recruiting
 - Racial bias; less likely to visit schools with predominantly Black/Hispanic/Native students
 - Disproportionate number of visits to private high schools
 
+<br>
+
 In-State Recruiting
 - Variation in coverage of public high schools (e.g., Nebraska=88%; Alabama=33%)
-- Income bias (most cases, but less than out-of-state) even after controlling for "rational" reasons
+- Income bias (most cases, but less than out-of-state) even after controlling for other factors
 - Bias against schools with predominantly Black/Hispanic/Native in some cases (e.g., Alabama)
-- Rural bias; in some cases even after controlling for other factors (e.g. UC Irvine)
+- Rural bias; in some cases even after controlling for other factors (e.g., UC Irvine)
+
+<br> 
 
 Recruiting for Resources (RDT) or Recruiting Market Values (AC)
-- RDT: focus on out-of-state recruiting is linked to declines in state funding
-  - Universities with the worst state funding have the most out-of-state visits (Berkeley vs. Irvine)
-- AC: out-of-state recruiting focus and biases are only partly a function of unfavorable environment
-  - Cases with relatively more better environmental conditions do not have a lesser focus on out-of-state (e.g., UMass Amherst, Nebraska)
+- RDT: Universities with the worst state funding have the most out-of-state visits (Berkeley vs. Irvine)
+- AC: Cases with relatively more better environmental conditions do not have a lesser focus on out-of-state (e.g., UMass Amherst, Nebraska)
+  
+  
+
+<!-- --- -->
+
+<!-- # Discussion -->
+<!-- ## Implications, future research -->
+
+<!-- Implications -->
+<!-- - Results suggest dramatic income bias in enrollment priorities of public research universities -->
+<!--     - Evidence of racial bias (especially in out-of-state recruiting), but patterns more nuanced -->
+<!-- - Policy discourse should focus on enrollment priorities, rather than student, K-12 deficiencies -->
+<!--     - "Under-recruiting" as an alternative explanation for "under-matching" -->
+
+<!-- <br> -->
+<!-- Policy + Advocacy Reccomendations: how do we change university enrollment priorities? -->
+<!-- - Increasing state appropriations and state need-based grant aid -->
+<!-- - Nonresident enrollment caps -->
+<!-- - Empower local access advocates  -->
+
+<!-- <br> -->
+<!-- Future research -->
+<!-- - Manuscript that focuses on spatial discrimination of communities of color -->
+<!-- - Collect/analyze data on other means used to identify and target prospects -->
+<!--     - Characteristics universities prioritize when purchasing "prospect lists" from College Board/ACT? -->
+<!--     - Experimental audits of university responses to "inquiries" with different characteristics -->
 
 ---
+# Empirical Study #2
+## Sub-Metropolitan Spatial Redlining in Public University Recruitment
 
-# Discussion
-## Implications, future research
+Racial inequality is grounded in the governing of space and its impact on where People of Color live (Hardy, Logan, and Parman, 2018)
+  - Forced migration of indigenous people and seizure of their ancestral lands
+  - Plessy v. Ferguson 
+  - Policies and court decisions abetted "de facto" segregation after Brown v. Board of Education (Rothstein, 2018)
+  - Federal and state regulatory tolerance of "reverse redlining" (i.e., predatory lending) (Squires, 2004)
 
-Implications
-- Results suggest dramatic income bias in enrollment priorities of public research universities
-    - Evidence of racial bias (especially in out-of-state recruiting), but patterns more nuanced
-- Policy discourse should focus on enrollment priorities, rather than student, K-12 deficiencies
-    - "Under-recruiting" as an alternative explanation for "under-matching"
-    
+<br> 
+
+Geography of Opportunity (Galster and Killen, 1995)
+  - Communities of Color, particularly low-income communities, are likely to live in areas with limited access to critical resources needed for collective wealth and power (e.g., fair housing, jobs, health facilities)
+
+<br> 
+
+Geography of *College* Opportunity (Hillman, 2016)
+- *Geography* reinforces access inequality
+- Communities of Color have the fewest four-year colleges nearby; many options are for-profit colleges (Dache-Gerbino, Kiyama, and Sapp, 2018)
+
+---
+# Motivation
+## Enrollment management reinforces the geography of unequal college opportunity
+
+Racial inequality in access to higher education is grounded in the governing of (admissions) space(s)
+  - HBCUs
+  - Out-of-state tuition and non-resident enrollment caps to prevent the integration of Black graduate students (Southern Educational Foundation, 1974)
+  - Culturally and socioeconomically biased admissions metrics (e.g., SAT/ACT) (e.g., Freedle, 2003; Santelices, Wilson, 2010)
+
+<br>  
+
+Students' college opportunities are also shaped by the choices of universities (Rhoades, 2014)
+  - Universities are not immobile in their efforts to provide access 
+  - Schools with predominantly Students of Color are not randomly geographically scattered
+  - Individual vs. spatial discrimination
+
 <br>
-Policy + Advocacy Reccomendations: how do we change university enrollment priorities?
-- Increasing state appropriations and state need-based grant aid
-- Nonresident enrollment caps
-- Empower local access advocates 
 
-<br>
-Future research
-- Manuscript that focuses on spatial discrimination of communities of color
-- Collect/analyze data on other means used to identify and target prospects
-    - Characteristics universities prioritize when purchasing "prospect lists" from College Board/ACT?
-    - Experimental audits of university responses to "inquiries" with different characteristics
+RQ: Do recruiting efforts by public universites spatially discriminate against Communities of Color?
+  - Spatial distribution of recruiting visits within the Los Angeles and Dallas MSAs
+  - Spatial relationships between race, income, and academic achievement at lower levels of geography to disrupt inner city/suburbs dichotomy
 
 --- &vertical2
 
@@ -832,9 +926,7 @@ ISBN: 0691034486 (alk. paper).</cite></p>
 <p><a id='bib-RN4408'></a><a href="#cite-RN4408">[2]</a><cite>
 S. Dynarski, C. J. Libassi, K. Michelmore, et al.
 &ldquo;Closing the Gap: The Effect of a Targeted, Tuition-Free Promise on College Choices of High-Achieving, Low-Income Students&rdquo;.
-In: <em>National Bureau of Economic Research Working Paper Series</em> No. 25349 (2018).
-DOI: <a href="https://doi.org/10.3386/w25349">10.3386/w25349</a>.
-URL: <a href="http://www.nber.org/papers/w25349">http://www.nber.org/papers/w25349</a>.</cite></p>
+In: <em>National Bureau of Economic Research Working Paper Series</em> No. 25349 (2018).</cite></p>
 
 <p><a id='bib-RN4116'></a><a href="#cite-RN4116">[3]</a><cite>
 K. M. Eisenhardt.
@@ -842,30 +934,33 @@ K. M. Eisenhardt.
 In: <em>Academy of Management Review</em> 14.4 (1989), pp. 532-550.
 ISSN: 0363-7425.</cite></p>
 
-<p><a id='bib-RN6067'></a><a href="#cite-RN6067">[4]</a><cite>
+<p><a id='bib-RN6012'></a><a href="#cite-RN6012">[4]</a><cite>
+R. Freedle.
+&ldquo;Correcting the SAT's ethnic and social-class bias: A method for reestimating SAT scores&rdquo;.
+In: <em>Harvard Educational Review</em> 73.1 (2003), pp. 1&ndash;43.</cite></p>
+
+<p><a id='bib-RN6067'></a><a href="#cite-RN6067">[5]</a><cite>
 G. C. Galster and S. P. Killen.
 &ldquo;The geography of metropolitan opportunity: A reconnaissance and conceptual framework&rdquo;.
 In: <em>Housing Policy Debate Housing Policy Debate</em> 6.1 (1995), pp. 7&ndash;43.</cite></p>
 
-<p><a id='bib-RN4331'></a><a href="#cite-RN4331">[5]</a><cite>
-A. Hanson.
-&ldquo;Do college admissions counselors discriminate? Evidence from a correspondence-based field experiment&rdquo;.
-In: <em>Economics of Education Review</em> 60 (2017), pp. 86-96.
-ISSN: 0272-7757.
-DOI: <a href="https://doi.org/https://doi.org/10.1016/j.econedurev.2017.08.004">https://doi.org/10.1016/j.econedurev.2017.08.004</a>.
-URL: <a href="http://www.sciencedirect.com/science/article/pii/S0272775716304526">http://www.sciencedirect.com/science/article/pii/S0272775716304526</a>.</cite></p>
+<p><a id='bib-RN2038'></a><a href="#cite-RN2038">[6]</a><cite>
+B. L. Hardy, T. D. Logan and J. Parman.
+<em>The Historical Role of Race and Policy for Regional Inequality</em>.
+Tech. rep.
+The Hamilton Project, 2018.</cite></p>
 
-<p><a id='bib-RN6064'></a><a href="#cite-RN6064">[6]</a><cite>
+<p><a id='bib-RN6064'></a><a href="#cite-RN6064">[7]</a><cite>
 N. W. Hillman.
 &ldquo;Geography of College Opportunity: The Case of Education Deserts&rdquo;.
 In: <em>American Educational Research Journal</em> 53.4 (2016), pp. 987&ndash;1021.</cite></p>
 
-<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[7]</a><cite>
+<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[8]</a><cite>
 M. M. Holland.
-<em>Divergent pathways to college: Race, class, and inequality in high schools</em>.
+<em>Divergent paths to college: Race, class, and inequality in high schools</em>.
 New Brunswick, NJ: Rutgers University Press, 2019.</cite></p>
 
-<p><a id='bib-RN4545'></a><a href="#cite-RN4545">[8]</a><cite>
+<p><a id='bib-RN4545'></a><a href="#cite-RN4545">[9]</a><cite>
 H. Korzilius.
 &ldquo;Quantitative Analysis in Case Study&rdquo;.
 In: 
@@ -873,58 +968,81 @@ In:
 Ed. by A. J. Mills, G. Durepos and E. Wiebe.
 Thousand Oaks: SAGE Publications, Inc., 2010, pp. 760-764.</cite></p>
 
-<p><a id='bib-RN513'></a><a href="#cite-RN513">[9]</a><cite>
+<p><a id='bib-RN513'></a><a href="#cite-RN513">[10]</a><cite>
 J. W. Meyer and B. Rowan.
 &ldquo;Institutionalized organizations: formal structure as myth and ceremony&rdquo;.
 In: <em>The American Journal of Sociology</em> 83.2 (1977), pp. 340-363.</cite></p>
 
-<p><a id='bib-RN4402'></a><a href="#cite-RN4402">[10]</a><cite>
+<p><a id='bib-RN4402'></a><a href="#cite-RN4402">[11]</a><cite>
 R. Noel-Levitz.
 <em>2018 marketing and student recruitment report of effective practices</em>.
 Tech. rep.
 Ruffalo Noel-Levitz, 2018.
 URL: <a href="http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf">http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf</a>.</cite></p>
 
-<p><a id='bib-RN959'></a><a href="#cite-RN959">[11]</a><cite>
+<p><a id='bib-RN959'></a><a href="#cite-RN959">[12]</a><cite>
 J. Pfeffer and G. R. Salancik.
 <em>The external control of organizations: A resource dependence perspective</em>.
-New York: Harper and Row, 1978, p. xiii, 300 p.
-ISBN: 0060451939.</cite></p>
+New York: Harper &amp; Row, 1978.</cite></p>
 
-<p><a id='bib-RN4391'></a><a href="#cite-RN4391">[12]</a><cite>
+<p><a id='bib-RN4391'></a><a href="#cite-RN4391">[13]</a><cite>
 M. G. Pratt, K. W. Rockmann and J. B. Kaufmann.
 &ldquo;Constructing professional identity: The role of work and identity learning cycles in the customization of identity among medical residents&rdquo;.
 In: <em>Academy of Management Journal</em> 49.2 (2006), pp. 235-262.
-ISSN: 0001-4273.
-DOI: <a href="https://doi.org/10.5465/amj.2006.20786060">10.5465/amj.2006.20786060</a>.
-URL: <a href="%3CGo to ISI%3E://WOS:000237198600007">&lt;Go to ISI&gt;://WOS:000237198600007</a>.</cite></p>
+ISSN: 0001-4273.</cite></p>
 
-<p><a id='bib-RN6068'></a><a href="#cite-RN6068">[13]</a><cite>
+<p><a id='bib-RN6068'></a><a href="#cite-RN6068">[14]</a><cite>
 G. Rhoades.
 &ldquo;The Higher Education We Choose, Collectively: Reembodying and Repoliticizing Choice&rdquo;.
-In: <em>The Journal of Higher Education</em> 85.6 (2014), pp. 917&ndash;930.
-DOI: <a href="https://doi.org/10.1080/00221546.2014.11777353">10.1080/00221546.2014.11777353</a>.</cite></p>
+In: <em>The Journal of Higher Education</em> 85.6 (2014), pp. 917&ndash;930.</cite></p>
 
-<p><a id='bib-RN6061'></a><a href="#cite-RN6061">[14]</a><cite>
+<p><a id='bib-RN2547'></a><a href="#cite-RN2547">[15]</a><cite>
+R. Rothstein.
+<em>The color of law: a forgotten history of how our government segregated America</em>.
+New York, NY: Liveright Publishing Corporation, 2018.
+ISBN: 9781631494536 1631494538.</cite></p>
+
+<p><a id='bib-RN6011'></a><a href="#cite-RN6011">[16]</a><cite>
+M. V. Santelices and M. Wilson.
+&ldquo;Unfair Treatment? the case of freedle, the SAT, and the standardization approach to differential item functioning&rdquo;.
+In: <em>Harvard Educational Review</em> 80.1 (2010), pp. 106&ndash;133.</cite></p>
+
+<p><a id='bib-RN6061'></a><a href="#cite-RN6061">[17]</a><cite>
 S. Slaughter and G. Rhoades.
 <em>Academic capitalism and the new economy : markets, state, and higher education</em>.
 Baltimore: Johns Hopkins University Press, 2004.
 ISBN: 0801879493 9780801879494 0801892333 9780801892332.</cite></p>
 
-<p><a id='bib-RN3519'></a><a href="#cite-RN3519">[15]</a><cite>
+<p><a id='bib-RN6007'></a><a href="#cite-RN6007">[18]</a><cite>
+A. Southern Educational Foundation.
+<em>Ending discrimination in higher education : a report from ten States.</em>
+Atlanta, GA.: Southern Education Foundation, 1974.</cite></p>
+
+<p><a id='bib-RN5070'></a><a href="#cite-RN5070">[19]</a><cite>
+G. D. Squires.
+<em>Why the poor pay more: how to stop predatory lending</em>.
+Westport, CT: Praeger Publishers, 2004.
+ISBN: 027598186X 9780275981860.</cite></p>
+
+<p><a id='bib-RN3519'></a><a href="#cite-RN3519">[20]</a><cite>
 M. L. Stevens.
 <em>Creating a class: College admissions and the education of elites</em>.
-Cambridge, MA: Harvard University Press, 2007, p. 308 p.
+Cambridge, MA: Harvard University Press, 2007.
 ISBN: 9780674026735 (alk. paper) 067402673X (alk. paper).</cite></p>
 
-<p><a id='bib-RN531'></a><a href="#cite-RN531">[16]</a><cite>
+<p><a id='bib-RN531'></a><a href="#cite-RN531">[21]</a><cite>
 J. Thompson.
 <em>Organizations in action</em>.
 New York: McGraw Hill, 1967.</cite></p>
 
-<p><a id='bib-RN4360'></a><a href="#cite-RN4360">[17]</a><cite>
+<p><a id='bib-RN4361'></a><a href="#cite-RN4361">[22]</a><cite>
 T. Thornhill.
 &ldquo;We Want Black Students, Just Not You: How White Admissions Counselors Screen Black Prospective Students&rdquo;.
-In: <em>Sociology of Race and Ethnicity</em> 0.0 ().
+In: <em>Sociology of Race and Ethnicity</em> 0.0 (2019), p. 2332649218792579.</cite></p>
+
+<p><a id='bib-RN4361a'></a><a href="#cite-RN4361a">[23]</a><cite>
+T. Thornhill.
+&ldquo;We Want Black Students, Just Not You: How White Admissions Counselors Screen Black Prospective Students&rdquo;.
+In: <em>Sociology of Race and Ethnicity</em> 0.0 (), p. 2332649218792579.
 DOI: <a href="https://doi.org/10.1177/2332649218792579">10.1177/2332649218792579</a>.
 URL: <a href="https://journals.sagepub.com/doi/abs/10.1177/2332649218792579">https://journals.sagepub.com/doi/abs/10.1177/2332649218792579</a>.</cite></p>
