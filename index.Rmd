@@ -48,8 +48,8 @@ cite <- function(b, eg = TRUE) {
   paste0(c, ')')
 }
 
-verticalSlide <- 13
-verticalSlide2 <- 29
+verticalSlide <- 14
+verticalSlide2 <- 30
 ```
 
 # The Wealth and Color of Off-Campus Recruiting by Public Research Universities 
@@ -86,7 +86,12 @@ Department of Educational Policy Studies and Practice <br> College of Education
 <!-- - Implications for policy and practice -->
 
 
+---
 
+# Recruiting Visits to Tucson
+## Map
+
+<iframe src="assets/maps/tucson.html" width=100% height=100% allowtransparency="true"></iframe>
 
 ---
 # Motivation

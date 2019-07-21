@@ -11,7 +11,7 @@ $(function() {
 
   }
 
-  var verticalSlide = 13;
+  var verticalSlide = 14;
   var compareSlide = verticalSlide + 1;
   
   var univSelected = false;
