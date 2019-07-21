@@ -48,8 +48,8 @@ cite <- function(b, eg = TRUE) {
   paste0(c, ')')
 }
 
-verticalSlide <- 12
-verticalSlide2 <- 23
+verticalSlide <- 13
+verticalSlide2 <- 29
 ```
 
 # The Wealth and Color of Off-Campus Recruiting by Public Research Universities 
@@ -281,7 +281,7 @@ Theoretical motivation for studying recruiting
 
 Resource dependence theory (RDT) `r citep(bib['RN959'])`
 - Sensitive to demands from providers of important resources that cannot be obtained elsewhere
-- Org strategies when a resouce becomes uncertain/declines or demands become onerous
+- Org strategies when a resource becomes uncertain/declines or demands become onerous
     - e.g., compliance, avoidance, cooptation, **resource diversification**
 - *Universities with weak state funding*
     - More visits to affluent out-of-state, affluent in-state
@@ -758,19 +758,20 @@ Recruiting for Resources (RDT) or Recruiting Market Values (AC)
 <!--     - Experimental audits of university responses to "inquiries" with different characteristics -->
 
 ---
-# Empirical Study #2
+# Empirical study #2
 ## Sub-Metropolitan Spatial Redlining in Public University Recruitment
 
-Racial inequality is grounded in the governing of space and its impact on where People of Color live `r citep(bib[c('RN2038')])`
+Racial inequality is grounded in the governing of space and its impact on where People of Color live `r citep(bib[c('RN2038', 'RN2547', 'RN5070' )])`
   - Forced migration of indigenous people and seizure of their ancestral lands
   - Plessy v. Ferguson 
-  - Policies and court decisions abetted "de facto" segregation after Brown v. Board of Education `r citep(bib[c('RN2547')])`
-  - Federal and state regulatory tolerance of "reverse redlining" (i.e., predatory lending) `r citep(bib[c('RN5070')])`
+  - Policies and court decisions abetted "de facto" segregation after Brown v. Board of Education 
+  - Federal and state regulatory tolerance of "reverse redlining" (i.e., predatory lending) 
 
 <br> 
 
 Geography of Opportunity `r citep(bib[c('RN6067')])`
-  - Communities of Color, particularly low-income communities, are likely to live in areas with limited access to critical resources needed for collective wealth and power (e.g., fair housing, jobs, health facilities)
+  - Communities of Color, particularly low-income communities, are likely to live in areas with limited access to critical resources needed for collective wealth and power 
+    - e.g., fair housing, jobs, health facilities
 
 <br> 
 
@@ -780,25 +781,115 @@ Geography of *College* Opportunity `r citep(bib[c('RN6064')])`
 
 ---
 # Motivation
-## Enrollment management reinforces the geography of unequal college opportunity
+## Do recruiting visits reinforce the geography of unequal college opportunity?
+But how does the *behavior* of universities *reinforce* the geography of *unequal* college opportunity?
+  - Racial access inequality is grounded in the governing of (admissions) space(s) 
+    - e.g, HBCUs, out-of-state tuition and non-resident enrollment caps, SAT/ACT `r cite(bib[c('RN6012', 'RN6011')])`
 
-Racial inequality in access to higher education is grounded in the governing of (admissions) space(s)
-  - HBCUs
-  - Out-of-state tuition and non-resident enrollment caps to prevent the integration of Black graduate students `r citep(bib[c('RN6007')])`
-  - Culturally and socioeconomically biased admissions metrics (e.g., SAT/ACT) `r cite(bib[c('RN6012', 'RN6011')])`
 
 <br>  
 
-Students' college opportunities are also shaped by the choices of universities `r citep(bib[c('RN6068')])`
+Students' college opportunities are also shaped by the (enrollment management) choices of universities `r citep(bib[c('RN6068')])`
   - Universities are not immobile in their efforts to provide access 
-  - Schools with predominantly Students of Color are not randomly geographically scattered
-  - Individual vs. spatial discrimination
+  - Chapter 3 finds schools with greater proportions of Students of Color are less likely to get a visit
+    - Schools are not randomly geographically scattered; clustered within segregated Communities of Color
+  - Spatial discrimination linked to perpetual racial disparities in the geography of opportunity
 
 <br>
 
-RQ: Do recruiting efforts by public universites spatially discriminate against Communities of Color?
+RQ: Do recruiting efforts by public universities spatially discriminate against Communities of Color?
   - Spatial distribution of recruiting visits within the Los Angeles and Dallas MSAs
-  - Spatial relationships between race, income, and academic achievement at lower levels of geography to disrupt inner city/suburbs dichotomy
+  - Spatial relationships between race, income, and academic achievement
+
+
+---
+# Literature review
+## Geography of College Opportunity
+
+Number of nearby colleges and universities impacts college-going behavior `r citep(bib[c('RN6065')])`
+  - Each additional college in proximity to home increases odds of applying to (any) college
+  - But proximity to local colleges varied widely
+
+<br>
+"College Deserts" and "College Oases" `r citep(bib[c('RN5095')])`
+  - Communities of color and communities with low educational attainment 
+    - More likely to live in areas with fewer 4-year colleges `r citep(bib[c('RN6064')])`
+    - More likely to live in urban areas with more 2-year public and for-profit colleges `r citep(bib[c('RN4446')])`
+  - White communities and communities with higher educational attainment
+    - More likely to live in suburban areas with more 4-year colleges `r citep(bib[c('RN5095')])`
+
+<br>
+Recruiting can circumvent the geography of *unequal* college opportunity; but all literature focuses on analyzing location
+  - Universities are not passive actors fixed to their physical campuses
+  - Considerable resources are spent on identifying and recruiting prospective students
+  - Do recruiting practices circumvent or reinforce the geography of *unequal* college opportunity?
+
+---
+
+# Enrollment Management
+## Neutralized and deracialized practices 
+Iron triangle of EM
+- EM as neutral, rational, and efficiency maximizing 
+
+<br>
+
+Academic Capitalism
+- Universities are not neutral in targeting students for the extraction of revenue
+- Race effects within EM practices are due to differential distribution of wealth among racial groups
+
+<br>
+
+Universities and EM practices are not race-neutral `r citep(bib[c('RN2525')])`
+- Schemas: unconscious, cognitive assumptions as templates for organizational practices
+  - e.g., gender inequality is reproduced via gendered schemas of the "ideal worker" `r citep(bib[c('RN2539')])`
+- Racial access inequality is reproduced via racialized schemas of the "ideal college student" 
+  - e.g., high SAT/ACT scores, no need for financial aid, enrolls full-time, few obligations besides college classes, lives on campus, ready to begin college-level courses `r citep(bib[c('RN5089')])` 
+  
+
+---
+# Conceptual Framework
+## Place-based whiteness as property
+
+Space vs. Place `r citep(bib[c('RN5073')])` 
+- Space is a physical location where things "just happen" (e.g., a school, a home, a neighborhood)
+- Place is the geographical context for the mediation of social and political phenomenon
+
+<br>
+
+Whiteness as property `r citep(bib[c('RN2526')])`
+- Law grants holders of whiteness the same privileges granted to holders of other types of property
+- Reputation and Status property: legal doctrine that to call someone Black is to defame them
+
+<br>
+
+Place-based whiteness as property
+- Racial inequality and white privilege are not simply reflected in space
+- Racialized and discriminatory practices are enacted through the use of place
+
+<br>
+
+Recruiting as a raced practice enacted via place
+- Lack of status and reputation of "urban schools" in comparison to "suburban schools"
+- Are Communities of Color equally as likely to receive a recruiting visit as white communities with comparable income and achievement characteristics? 
+
+---
+
+# Methods
+## Data analyss and case selection
+
+Data analysis
+- Sub-metropolitan created from pooled census tracts with similar racial and income characteristics
+  - (1) High, (2) Middle, (3) Low income POC and (4)High (5) Middle (6) Low income white sub-metropolitan areas
+- Descriptive statistics and geospatial visualizations 
+
+<br>
+
+Metropolitan Statistical Area (MSA) and university case selection based on purposeful sampling
+- Los Angeles MSA
+  - University of Colorado Boulder (CU Boulder) and University of Massachusetts Amherst (UMass Amherst)
+- Dallas MSA
+  - University of Kansas (KU) and University of Georgia (UGA)
+  
 
 --- &vertical2
 
@@ -983,17 +1074,42 @@ cat(paste0(readLines("assets/tables/dallas_uga_desc.html"),collapse=" "))
 <iframe src="assets/maps/dallas_uga.html" width=100% height=100% allowtransparency="true"></iframe>
 
 --- 
+# Summary of findings
+## Sub-Metropolitan Spatial Redlining in Public University Recruitment
 
-# Acknowledgments
+Schools within white communities are more likely to receive a recruiting visit than schools within Communities of Color
+- Across high, mid, low income levels 
+- Exception: mid income communities in LA (although not proportional)
 
 <br>
-This research was made possible by funding from the following sources:
+
+Racial biases intensify with multiple visits
+- Schools within white communities are more likely to receive multiple visits and visits from multiple universities
 
 <br>
-- __National Academy of Education/Spencer Foundation__ (Postdoctoral Fellowship)
-- __American Educational Research Association__ (Dissertation Grant)
-- __UCLA Office of Equity, Diversity, and Inclusion__ (Faculty Career Development Award)
-- __Joyce Foundation__ (Research Grant)
+
+Recruiting reinforces the geography of *unequal* college opportunity
+- Visits are clustered in predominantly high and mid income White suburbs (i.e., "College Oaeses")
+- Spatial redlining of Latinx and Black communities within MSA centers across income levels (i.e., "College Deserts")
+
+
+
+---
+# Implications
+## Policy and practice
+
+Greater consideration of "supply side" scholarship in policy discourse
+- Scholarship aimed at changing the behavior of students has dominated policy discourse
+- Example: information assymetries
+  - Scaled "under-matching" study found null effects
+  - Study on financial aid "shopping sheets" found null effects
+
+<br>
+
+Recruiting practices can circumvent geography of unequal college opportunity but...
+- Current efforts are based on college going porcess of highly affluent white students 
+  - e.g., large college fairs, blocked-out visits, evening events, "coffee chats"
+- Administrators and practitoners need to enact practices that are created to mitigate barriers to reaching and connecting with low-income students and Students of Color
 
 --- #references
 
