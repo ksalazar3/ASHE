@@ -66,16 +66,13 @@ The problem: access to public research universities
 - Historical mission of social mobility for state residents
 - Concern about growing socioeconomic and racial inequality in access
 
-<br>
-Mainstream policy discourse about access inequality 
-- Supply side: "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
-- Demand side: Universities pledge commitment to access via policies and statements (e.g., no-loan financial aid policies)
-- Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders (e.g., Davis, 2005)
 
 <br>
-Geography of College Opportunity 
-- Number of local colleges and universities spatially varies along the racial and socioeconomic characteristics of neighborhoods (Hillman, 2016)
-- Shifts onus away from students and K-12 schools; but students' college choices are also shaped by choices of colleges and universities (Rhoades, 2014)
+Mainstream policy discourse about access inequality 
+- "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
+- Universities pledge commitment to access via policies and statements (e.g., no-loan financial aid policies)
+- Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders (e.g., Davis, 2005)
+
 
 
 ---
@@ -1000,26 +997,18 @@ J. Acker.
 &ldquo;Hierarchies, Jobs, Bodies: A Theory of Gendered Organizations&rdquo;.
 In: <em>Gender &amp; Society</em> 4.2 (1990), pp. 139&ndash;158.</cite></p>
 
-<p><a id='bib-RN5073'></a><a href="#cite-RN5073">[2]</a><cite>
-J. A. Agnew.
-&ldquo;Space and Place&rdquo;.
-In: 
-<em>The SAGE Handbook of Geographical Knowledge</em>.
-Ed. by J. A. Agnew and D. N. Livingstone.
-Thousand Oaks, CA.: SAGE, 2011. Chap. Space and Place, pp. 316-330.</cite></p>
-
-<p><a id='bib-RN5095'></a><a href="#cite-RN5095">[3]</a><cite>
+<p><a id='bib-RN5095'></a><a href="#cite-RN5095">[2]</a><cite>
 Dache-Gerbino.
 &ldquo;College Desert and Oasis: A Critical Geographic Analysis of Local College Access&rdquo;.
 In: <em>Journal of Diversity in Higher Education</em> 11.2 (2018), pp. 97&ndash;116.</cite></p>
 
-<p><a id='bib-RN4446'></a><a href="#cite-RN4446">[4]</a><cite>
+<p><a id='bib-RN4446'></a><a href="#cite-RN4446">[3]</a><cite>
 Dache-Gerbino, J. M. Kiyama and V. T. Sapp.
 &ldquo;The Dangling Carrot: Proprietary institutions and the mirage of college choice for Latina students&rdquo;.
 In: <em>Review of Higher Education</em> 42.1 (2018), pp. 29-60.
 ISSN: 0162-5748.</cite></p>
 
-<p><a id='bib-RN2436'></a><a href="#cite-RN2436">[5]</a><cite>
+<p><a id='bib-RN2436'></a><a href="#cite-RN2436">[4]</a><cite>
 G. F. Davis.
 &ldquo;Firms and environments&rdquo;.
 In: 
@@ -1028,7 +1017,7 @@ Ed. by N. J. Smelser and R. Swedberg.
 New York: Russell Sage Foundation, 2005, pp. 478-502.
 ISBN: 0691034486 (alk. paper).</cite></p>
 
-<p><a id='bib-RN5089'></a><a href="#cite-RN5089">[6]</a><cite>
+<p><a id='bib-RN5089'></a><a href="#cite-RN5089">[5]</a><cite>
 R. Deil-Amen.
 &ldquo;The &quot;Traditional&quot; College Student: A Smaller and Smaller Minority and Its Implications for Diversity and Access Institutions&rdquo;.
 In: 
@@ -1037,44 +1026,44 @@ Ed. by M. W. Kirst and M. L. Stevens.
 Stanford University Press, 2015. Chap. The &lsquo;Traditional&rsquo; College Student: A Smaller and Smaller Minority and Its Implications for Diversity and Access Institutions.
 ISBN: 9780804791670 0804791678 9780804793292 0804793298.</cite></p>
 
-<p><a id='bib-RN4116'></a><a href="#cite-RN4116">[7]</a><cite>
+<p><a id='bib-RN4116'></a><a href="#cite-RN4116">[6]</a><cite>
 K. M. Eisenhardt.
 &ldquo;Building theories from case study research&rdquo;.
 In: <em>Academy of Management Review</em> 14.4 (1989), pp. 532-550.
 ISSN: 0363-7425.</cite></p>
 
-<p><a id='bib-RN6012'></a><a href="#cite-RN6012">[8]</a><cite>
+<p><a id='bib-RN6012'></a><a href="#cite-RN6012">[7]</a><cite>
 R. Freedle.
 &ldquo;Correcting the SAT's ethnic and social-class bias: A method for reestimating SAT scores&rdquo;.
 In: <em>Harvard Educational Review</em> 73.1 (2003), pp. 1&ndash;43.</cite></p>
 
-<p><a id='bib-RN6067'></a><a href="#cite-RN6067">[9]</a><cite>
+<p><a id='bib-RN6067'></a><a href="#cite-RN6067">[8]</a><cite>
 G. C. Galster and S. P. Killen.
 &ldquo;The geography of metropolitan opportunity: A reconnaissance and conceptual framework&rdquo;.
 In: <em>Housing Policy Debate Housing Policy Debate</em> 6.1 (1995), pp. 7&ndash;43.</cite></p>
 
-<p><a id='bib-RN2038'></a><a href="#cite-RN2038">[10]</a><cite>
+<p><a id='bib-RN2038'></a><a href="#cite-RN2038">[9]</a><cite>
 B. L. Hardy, T. D. Logan and J. Parman.
 <em>The Historical Role of Race and Policy for Regional Inequality</em>.
 Tech. rep.
 The Hamilton Project, 2018.</cite></p>
 
-<p><a id='bib-RN2526'></a><a href="#cite-RN2526">[11]</a><cite>
+<p><a id='bib-RN2526'></a><a href="#cite-RN2526">[10]</a><cite>
 C. I. Harris.
 &ldquo;Whiteness as Property&rdquo;.
 In: <em>Harvard Law Review</em> 106.8 (1993), pp. 1707&ndash;1791.</cite></p>
 
-<p><a id='bib-RN6064'></a><a href="#cite-RN6064">[12]</a><cite>
+<p><a id='bib-RN6064'></a><a href="#cite-RN6064">[11]</a><cite>
 N. W. Hillman.
 &ldquo;Geography of College Opportunity: The Case of Education Deserts&rdquo;.
 In: <em>American Educational Research Journal</em> 53.4 (2016), pp. 987&ndash;1021.</cite></p>
 
-<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[13]</a><cite>
+<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[12]</a><cite>
 M. M. Holland.
 <em>Divergent paths to college: Race, class, and inequality in high schools</em>.
 New Brunswick, NJ: Rutgers University Press, 2019.</cite></p>
 
-<p><a id='bib-RN4545'></a><a href="#cite-RN4545">[14]</a><cite>
+<p><a id='bib-RN4545'></a><a href="#cite-RN4545">[13]</a><cite>
 H. Korzilius.
 &ldquo;Quantitative Analysis in Case Study&rdquo;.
 In: 
@@ -1082,75 +1071,75 @@ In:
 Ed. by A. J. Mills, G. Durepos and E. Wiebe.
 Thousand Oaks: SAGE Publications, Inc., 2010, pp. 760-764.</cite></p>
 
-<p><a id='bib-RN6065'></a><a href="#cite-RN6065">[15]</a><cite>
+<p><a id='bib-RN6065'></a><a href="#cite-RN6065">[14]</a><cite>
 R. N. López Turley.
 &ldquo;College Proximity: Mapping Access to Opportunity&rdquo;.
 In: <em>Sociology of Education</em> 82.2 (2009), pp. 126&ndash;146.</cite></p>
 
-<p><a id='bib-RN513'></a><a href="#cite-RN513">[16]</a><cite>
+<p><a id='bib-RN513'></a><a href="#cite-RN513">[15]</a><cite>
 J. W. Meyer and B. Rowan.
 &ldquo;Institutionalized organizations: formal structure as myth and ceremony&rdquo;.
 In: <em>The American Journal of Sociology</em> 83.2 (1977), pp. 340-363.</cite></p>
 
-<p><a id='bib-RN4402'></a><a href="#cite-RN4402">[17]</a><cite>
+<p><a id='bib-RN4402'></a><a href="#cite-RN4402">[16]</a><cite>
 R. Noel-Levitz.
 <em>2018 marketing and student recruitment report of effective practices</em>.
 Tech. rep.
 Ruffalo Noel-Levitz, 2018.
 URL: <a href="http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf">http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf</a>.</cite></p>
 
-<p><a id='bib-RN959'></a><a href="#cite-RN959">[18]</a><cite>
+<p><a id='bib-RN959'></a><a href="#cite-RN959">[17]</a><cite>
 J. Pfeffer and G. R. Salancik.
 <em>The external control of organizations: A resource dependence perspective</em>.
 New York: Harper &amp; Row, 1978.</cite></p>
 
-<p><a id='bib-RN4391'></a><a href="#cite-RN4391">[19]</a><cite>
+<p><a id='bib-RN4391'></a><a href="#cite-RN4391">[18]</a><cite>
 M. G. Pratt, K. W. Rockmann and J. B. Kaufmann.
 &ldquo;Constructing professional identity: The role of work and identity learning cycles in the customization of identity among medical residents&rdquo;.
 In: <em>Academy of Management Journal</em> 49.2 (2006), pp. 235-262.
 ISSN: 0001-4273.</cite></p>
 
-<p><a id='bib-RN2525'></a><a href="#cite-RN2525">[20]</a><cite>
+<p><a id='bib-RN2525'></a><a href="#cite-RN2525">[19]</a><cite>
 V. Ray.
 &ldquo;A Theory of Racialized Organizations&rdquo;.
 In: <em>American Sociological Review</em> 84.1 (2019), pp. 26&ndash;53.
 DOI: <a href="https://doi.org/10.1177/">10.1177/</a>.</cite></p>
 
-<p><a id='bib-RN6068'></a><a href="#cite-RN6068">[21]</a><cite>
+<p><a id='bib-RN6068'></a><a href="#cite-RN6068">[20]</a><cite>
 G. Rhoades.
 &ldquo;The Higher Education We Choose, Collectively: Reembodying and Repoliticizing Choice&rdquo;.
 In: <em>The Journal of Higher Education</em> 85.6 (2014), pp. 917&ndash;930.</cite></p>
 
-<p><a id='bib-RN2547'></a><a href="#cite-RN2547">[22]</a><cite>
+<p><a id='bib-RN2547'></a><a href="#cite-RN2547">[21]</a><cite>
 R. Rothstein.
 <em>The color of law: a forgotten history of how our government segregated America</em>.
 New York, NY: Liveright Publishing Corporation, 2018.
 ISBN: 9781631494536 1631494538.</cite></p>
 
-<p><a id='bib-RN6011'></a><a href="#cite-RN6011">[23]</a><cite>
+<p><a id='bib-RN6011'></a><a href="#cite-RN6011">[22]</a><cite>
 M. V. Santelices and M. Wilson.
 &ldquo;Unfair Treatment? the case of freedle, the SAT, and the standardization approach to differential item functioning&rdquo;.
 In: <em>Harvard Educational Review</em> 80.1 (2010), pp. 106&ndash;133.</cite></p>
 
-<p><a id='bib-RN6061'></a><a href="#cite-RN6061">[24]</a><cite>
+<p><a id='bib-RN6061'></a><a href="#cite-RN6061">[23]</a><cite>
 S. Slaughter and G. Rhoades.
 <em>Academic capitalism and the new economy : markets, state, and higher education</em>.
 Baltimore: Johns Hopkins University Press, 2004.
 ISBN: 0801879493 9780801879494 0801892333 9780801892332.</cite></p>
 
-<p><a id='bib-RN5070'></a><a href="#cite-RN5070">[25]</a><cite>
+<p><a id='bib-RN5070'></a><a href="#cite-RN5070">[24]</a><cite>
 G. D. Squires.
 <em>Why the poor pay more: how to stop predatory lending</em>.
 Westport, CT: Praeger Publishers, 2004.
 ISBN: 027598186X 9780275981860.</cite></p>
 
-<p><a id='bib-RN3519'></a><a href="#cite-RN3519">[26]</a><cite>
+<p><a id='bib-RN3519'></a><a href="#cite-RN3519">[25]</a><cite>
 M. L. Stevens.
 <em>Creating a class: College admissions and the education of elites</em>.
 Cambridge, MA: Harvard University Press, 2007.
 ISBN: 9780674026735 (alk. paper) 067402673X (alk. paper).</cite></p>
 
-<p><a id='bib-RN531'></a><a href="#cite-RN531">[27]</a><cite>
+<p><a id='bib-RN531'></a><a href="#cite-RN531">[26]</a><cite>
 J. Thompson.
 <em>Organizations in action</em>.
 New York: McGraw Hill, 1967.</cite></p>

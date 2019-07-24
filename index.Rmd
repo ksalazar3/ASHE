@@ -101,16 +101,13 @@ The problem: access to public research universities
 - Historical mission of social mobility for state residents
 - Concern about growing socioeconomic and racial inequality in access
 
-<br>
-Mainstream policy discourse about access inequality 
-- Supply side: "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
-- Demand side: Universities pledge commitment to access via policies and statements (e.g., no-loan financial aid policies)
-- Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders `r cite(bib['RN2436'])`
 
 <br>
-Geography of College Opportunity 
-- Number of local colleges and universities spatially varies along the racial and socioeconomic characteristics of neighborhoods `r citep(bib['RN6064'])`
-- Shifts onus away from students and K-12 schools; but students' college choices are also shaped by choices of colleges and universities `r citep(bib['RN6068'])`
+Mainstream policy discourse about access inequality 
+- "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
+- Universities pledge commitment to access via policies and statements (e.g., no-loan financial aid policies)
+- Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders `r cite(bib['RN2436'])`
+
 
 
 ---
