@@ -959,7 +959,7 @@ Racial biases intensify with multiple visits
 <br>
 
 Recruiting reinforces the geography of *unequal* college opportunity
-- Visits are clustered in predominantly high and mid income White suburbs (i.e., "College Oaeses")
+- Visits are clustered in predominantly high and mid income White suburbs (i.e., "College Oases")
 - Spatial redlining of Latinx and Black communities within MSA centers across income levels (i.e., "College Deserts")
 
 
@@ -970,7 +970,7 @@ Recruiting reinforces the geography of *unequal* college opportunity
 
 Policy: Greater consideration of (critical) "supply side" scholarship in policy discourse
 - Scholarship aimed at changing the behavior of students has dominated policy discourse
-- Example: information assymetries
+- Example: information asymmetries
   - Scaled "under-matching" study found null effects
   - Study on financial aid "shopping sheets" found null effects
 
@@ -978,9 +978,9 @@ Policy: Greater consideration of (critical) "supply side" scholarship in policy 
 <br>
 
 Practice: recruiting can circumvent geography of unequal college opportunity but...
-- Current efforts are based on college going porcess of highly affluent white students 
+- Current efforts are based on college going process of highly affluent white students 
   - e.g., large college fairs, blocked-out visits, evening events, "coffee chats"
-- Administrators and practitoners need to enact practices that are created to mitigate barriers to reaching and connecting with low-income students and Students of Color
+- Administrators and practitioners need to enact practices that are created to mitigate barriers to reaching and connecting with low-income students and Students of Color
 
 <br>
 
