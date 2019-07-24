@@ -688,7 +688,7 @@ Students' college opportunities are also shaped by the (enrollment management) c
 <br>
 
 RQ: Do recruiting efforts by public universities spatially discriminate against Communities of Color?
-  - Spatial distribution of recruiting visits within the Los Angeles and Dallas MSAs
+  - Spatial distribution of out-of-state recruiting visits within the Los Angeles and Dallas MSAs
   - Spatial relationships between race, income, and academic achievement
 
 
