@@ -48,13 +48,13 @@ cite <- function(b, eg = TRUE) {
   paste0(c, ')')
 }
 
-verticalSlide <- 14
-verticalSlide2 <- 30
+verticalSlide <- 10
+verticalSlide2 <- 24
 ```
 
 # The Wealth and Color of Off-Campus Recruiting by Public Research Universities 
 <br>
-## Karina G. Salazar
+## Karina Gracia Salazar
 
 
 Doctoral Candidate <br> Center for the Study of Higher Education 
@@ -89,7 +89,7 @@ Department of Educational Policy Studies and Practice <br> College of Education
 ---
 
 # Recruiting Visits to Tucson
-## Map
+## University of Alabama, University of Colorado Boulder, University of Georgia
 
 <iframe src="assets/maps/tucson.html" width=100% height=100% allowtransparency="true"></iframe>
 
@@ -108,7 +108,7 @@ Mainstream policy discourse about access inequality
 - Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders `r cite(bib['RN2436'])`
 
 <br>
-Geography of Opportunity `r citep(bib['RN6067'])`
+Geography of College Opportunity 
 - Number of local colleges and universities spatially varies along the racial and socioeconomic characteristics of neighborhoods `r citep(bib['RN6064'])`
 - Shifts onus away from students and K-12 schools; but students' college choices are also shaped by choices of colleges and universities `r citep(bib['RN6068'])`
 
@@ -169,7 +169,7 @@ Analyze off-campus recruiting visits (e.g., visit to a high school) as a means o
     
 *** =right
 
-**Sample data**
+**Sample webpage with travel schedule**
 
 <img src="assets/img/southcarolina.png" style="width:65%;float:left;">
 
@@ -198,84 +198,45 @@ Analytic focus
 - Income, race; academic achievement; in-state vs. out-of-state
 
 
-
-
-
-
-
-
---- &twocol
-
-#  Background
-## The enrollment management industry       
-
-*** =left
-
-**The enrollment funnel**
-
-<img src="assets/img/New-Admissions-Funnel.png" alt="Enrollment Funnel" style="width:80%;float:left;">
-
-*** =right
-
-**Interventions along the funnel**
-* Identify prospects
-    - Buy "student lists" from College Board/ACT
-* Recruit prospects remotely
-    * Email, mail, text, etc.
-* Recruit prospects in-person
-    * **Off-campus recruiting visits** (e.g., high
-school visits, college fairs)
-    * Campus visits
-    * Other "outreach"
-* Solicit inquiries, stealth applicants
-    * Social media, advertising
-* Convert admits to enrollees
-    * Financial aid leveraging
-
-
 ---
 
-# Empirical Study #1: Literature review
+# Literature review
 ## Scholarship on recruiting
 
-Evaluations of recruiting/outreach interventions `r cite(bib[c('RN4408')])`
-- But unclear whether universities substantively adopt "best practices" in less controlled settings
-
-Audits of response to "inquiries" by admissions officers `r cite(bib['RN4361'])`
-- Identifies biases of individual admissions officers
-
+Scholarship analyzing college perspective `r citep(bib['RN3519'])`
+  - Important for relationships with prospects, counselors at "feeder" schools
+  - Focus on visiting affluent schools and private schools
+    
 <br>
-Off-campus recruiting visits
-- Scholarship analyzing college perspective `r citep(bib['RN3519'])`
-    - Important for relationships with prospects, counselors at "feeder" schools
-- Market research `r citep(bib['RN4402'])`
-    - Second highest source of "inquiries"; third highest source of enrollees 
-- Scholarship analyzing perspective of high school students `r citep(bib['RN4324'])`
-    - Which universities visit affects student decisions; especially first-gen, students of color
+  
+Scholarship analyzing perspective of high school students `r citep(bib['RN4324'])`
+  - Which universities visit affects student decisions
+  - First-gen, students of color swayed to apply and enroll to colleges that make them feel wanted
+  - High income students concerned with prestige
 
 <br>
 Research gap: we don't know which universities visit which schools, communities
-- If schools in low-income communities or communities of color are not receiving visits, "under-matching" may be due to under-recruiting rather than lack of guidance
 
----
 
-# Theoretical framework
-## Enrollment priorities and recruiting behavior
+<!-- --- -->
 
-Theoretical motivation for studying recruiting
-<br>
-- "New" institutional theory `r citep(bib['RN513'])`
-    - Organizations have finite resources and cannot pursue multiple goals `r citep(bib['RN531'])`
-    -When facing pressure to pursue many goals, organizations: 
-      - Substantively adopt some goals (directing resources)
-      - Symbolically adopt others (policies, rhetoric)
+<!-- # Theoretical framework -->
+<!-- ## Enrollment priorities and recruiting behavior -->
 
-<br>
-- "Iron triangle" of enrollment management (EM)
-  - Three broad enrollment goals: **access, academic profile, revenue**
-  - Scarce resources; depending on priorities, some goals receive more resources than others
-  - Off-campus recruiting is allocation of resources
-  - Knowing which populations targeted by recruiting interventions indicate enrollment priorities
+<!-- Theoretical motivation for studying recruiting -->
+<!-- <br> -->
+<!-- - "New" institutional theory `r citep(bib['RN513'])` -->
+<!--     - Organizations have finite resources and cannot pursue multiple goals `r citep(bib['RN531'])` -->
+<!--     -When facing pressure to pursue many goals, organizations:  -->
+<!--       - Substantively adopt some goals (directing resources) -->
+<!--       - Symbolically adopt others (policies, rhetoric) -->
+
+<!-- <br> -->
+<!-- - "Iron triangle" of enrollment management (EM) -->
+<!--   - Three broad enrollment goals: **access, academic profile, revenue** -->
+<!--   - Scarce resources; depending on priorities, some goals receive more resources than others -->
+<!--   - Off-campus recruiting is allocation of resources -->
+<!--   - Knowing which populations targeted by recruiting interventions indicate enrollment priorities -->
 
 
 
@@ -285,9 +246,7 @@ Theoretical motivation for studying recruiting
 ## Expectations about similarities and differences in recruiting behavior
 
 Resource dependence theory (RDT) `r citep(bib['RN959'])`
-- Sensitive to demands from providers of important resources that cannot be obtained elsewhere
-- Org strategies when a resource becomes uncertain/declines or demands become onerous
-    - e.g., compliance, avoidance, cooptation, **resource diversification**
+- Organizations are sensitive to demands from providers of critical resources
 - *Universities with weak state funding*
     - More visits to affluent out-of-state, affluent in-state
 - *Universities with small/declining "college age" population*
@@ -299,37 +258,37 @@ Academic Capitalism (AC) `r citep(bib['RN6061'])`
 - AC suggests pursuit of revenue displaces public-good mission for market logic
 - *Recruiting by universities with similar external conditions can differ depending to what extent "market logic" ideology is adopted*
 
---- 
+<!-- ---  -->
 
 
-# Research methods
-## Defining events
+<!-- # Research methods -->
+<!-- ## Defining events -->
 
-**"Off-campus recruiting events" defined as off-campus events hosted by paid staff/consultants focused on soliciting applications**
+<!-- **"Off-campus recruiting events" defined as off-campus events hosted by paid staff/consultants focused on soliciting applications** -->
 
-<br>
-- Event type
-    - Include: college fairs, high school visits, community college visits,
-counselor events
-    - Exclude: admitted or committed student events, interviews
-- Event host
-    - Include: paid admissions staff or consultants (e.g. regional recruiters)
-    - Exclude: alumni, student volunteers
-- Event location
-    - Any off-campus location
-    - e.g., high school, community college, hotel, convention center, cafe, etc.
+<!-- <br> -->
+<!-- - Event type -->
+<!--     - Include: college fairs, high school visits, community college visits, -->
+<!-- counselor events -->
+<!--     - Exclude: admitted or committed student events, interviews -->
+<!-- - Event host -->
+<!--     - Include: paid admissions staff or consultants (e.g. regional recruiters) -->
+<!--     - Exclude: alumni, student volunteers -->
+<!-- - Event location -->
+<!--     - Any off-campus location -->
+<!--     - e.g., high school, community college, hotel, convention center, cafe, etc. -->
 
----
+<!-- --- -->
 
-# Data and Methods
-## Summary of Data Collection Sources and Quality Checks Performed
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-x">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/data_appendix.html"),collapse=" "))
-```
-  </div>
-</div>
+<!-- # Data and Methods -->
+<!-- ## Summary of Data Collection Sources and Quality Checks Performed -->
+<!-- <div class="table-wrapper"> -->
+<!--   <div class="scroll-wrapper scroll-wrapper-x"> -->
+<!-- ```{r, echo=FALSE, results='asis', warning=FALSE} -->
+<!-- cat(paste0(readLines("assets/tables/data_appendix.html"),collapse=" ")) -->
+<!-- ``` -->
+<!--   </div> -->
+<!-- </div> -->
 
 --- 
 
@@ -343,13 +302,10 @@ Quantitative multiple case study research design `r citep(bib['RN4545'])`
 <br>
 Data analysis `r citep(bib[c('RN4116','RN4391')])`
 - "Within-case" analyses of recruiting patterns
-    - Broad focus on income, race, achievement (main independent variables of interest)
-    - Situate within local context; "deep dive" of in-state, out-of-state, and overall patterns
-        - Simple descriptive statistics (e.g., counts), static visualizations, interactive maps
-        - Linear probability models controlling for "rational" reasons for visit (e.g., enrollment size, achievement, distance)
-    - Identify first-order empirical themes
+    - Simple descriptive statistics (e.g., counts), static visualizations, interactive maps
+    - Linear probability models controlling for other factors impacting probability of receiving visit 
 - "Cross-case" analyses
-    - Consolidate first-order findings into broader empirical themes
+    - Consolidate first-order findings from "within-case" into broader empirical themes
 
 
 ---
@@ -807,59 +763,53 @@ RQ: Do recruiting efforts by public universities spatially discriminate against 
   - Spatial relationships between race, income, and academic achievement
 
 
----
-# Literature review
-## Geography of College Opportunity
+<!-- --- -->
+<!-- # Literature review -->
+<!-- ## Geography of College Opportunity -->
 
-Number of nearby colleges and universities impacts college-going behavior `r citep(bib[c('RN6065')])`
-  - Each additional college in proximity to home increases odds of applying to (any) college
-  - But proximity to local colleges varied widely
+<!-- Number of nearby colleges and universities impacts college-going behavior `r citep(bib[c('RN6065')])` -->
+<!--   - Each additional college in proximity to home increases odds of applying to (any) college -->
+<!--   - But proximity to local colleges varied widely -->
 
-<br>
-"College Deserts" and "College Oases" `r citep(bib[c('RN5095')])`
-  - Communities of color and communities with low educational attainment 
-    - More likely to live in areas with fewer 4-year colleges `r citep(bib[c('RN6064')])`
-    - More likely to live in urban areas with more 2-year public and for-profit colleges `r citep(bib[c('RN4446')])`
-  - White communities and communities with higher educational attainment
-    - More likely to live in suburban areas with more 4-year colleges `r citep(bib[c('RN5095')])`
+<!-- <br> -->
+<!-- "College Deserts" and "College Oases" `r citep(bib[c('RN5095')])` -->
+<!--   - Communities of color and communities with low educational attainment  -->
+<!--     - More likely to live in areas with fewer 4-year colleges `r citep(bib[c('RN6064')])` -->
+<!--     - More likely to live in urban areas with more 2-year public and for-profit colleges `r citep(bib[c('RN4446')])` -->
+<!--   - White communities and communities with higher educational attainment -->
+<!--     - More likely to live in suburban areas with more 4-year colleges `r citep(bib[c('RN5095')])` -->
 
-<br>
-Recruiting can circumvent the geography of *unequal* college opportunity; but all literature focuses on analyzing location
-  - Universities are not passive actors fixed to their physical campuses
-  - Considerable resources are spent on identifying and recruiting prospective students
-  - Do recruiting practices circumvent or reinforce the geography of *unequal* college opportunity?
+<!-- <br> -->
+<!-- Recruiting can circumvent the geography of *unequal* college opportunity; but all literature focuses on analyzing location -->
+<!--   - Universities are not passive actors fixed to their physical campuses -->
+<!--   - Considerable resources are spent on identifying and recruiting prospective students -->
+<!--   - Do recruiting practices circumvent or reinforce the geography of *unequal* college opportunity? -->
 
----
+<!-- --- -->
 
-# Enrollment Management
-## Neutralized and deracialized practices 
-Iron triangle of EM
-- EM as neutral, rational, and efficiency maximizing 
+<!-- # Enrollment Management -->
+<!-- ## Neutralized and deracialized practices  -->
+<!-- Iron triangle of EM -->
+<!-- - EM as neutral, rational, and efficiency maximizing  -->
 
-<br>
+<!-- <br> -->
 
-Academic Capitalism
-- Universities are not neutral in targeting students for the extraction of revenue
-- Race effects within EM practices are due to differential distribution of wealth among racial groups
+<!-- Academic Capitalism -->
+<!-- - Universities are not neutral in targeting students for the extraction of revenue -->
+<!-- - Race effects within EM practices are due to differential distribution of wealth among racial groups -->
 
-<br>
+<!-- <br> -->
 
-Universities and EM practices are not race-neutral `r citep(bib[c('RN2525')])`
-- Schemas: unconscious, cognitive assumptions as templates for organizational practices
-  - e.g., gender inequality is reproduced via gendered schemas of the "ideal worker" `r citep(bib[c('RN2539')])`
-- Racial access inequality is reproduced via racialized schemas of the "ideal college student" 
-  - e.g., high SAT/ACT scores, no need for financial aid, enrolls full-time, few obligations besides college classes, lives on campus, ready to begin college-level courses `r citep(bib[c('RN5089')])` 
-  
+<!-- Universities and EM practices are not race-neutral `r citep(bib[c('RN2525')])` -->
+<!-- - Schemas: unconscious, cognitive assumptions as templates for organizational practices -->
+<!--   - e.g., gender inequality is reproduced via gendered schemas of the "ideal worker" `r citep(bib[c('RN2539')])` -->
+<!-- - Racial access inequality is reproduced via racialized schemas of the "ideal college student"  -->
+<!--   - e.g., high SAT/ACT scores, no need for financial aid, enrolls full-time, few obligations besides college classes, lives on campus, ready to begin college-level courses `r citep(bib[c('RN5089')])`  -->
+
 
 ---
 # Conceptual Framework
 ## Place-based whiteness as property
-
-Space vs. Place `r citep(bib[c('RN5073')])` 
-- Space is a physical location where things "just happen" (e.g., a school, a home, a neighborhood)
-- Place is the geographical context for the mediation of social and political phenomenon
-
-<br>
 
 Whiteness as property `r citep(bib[c('RN2526')])`
 - Law grants holders of whiteness the same privileges granted to holders of other types of property
@@ -874,7 +824,6 @@ Place-based whiteness as property
 <br>
 
 Recruiting as a raced practice enacted via place
-- Lack of status and reputation of "urban schools" in comparison to "suburban schools"
 - Are Communities of Color equally as likely to receive a recruiting visit as white communities with comparable income and achievement characteristics? 
 
 ---
@@ -1101,20 +1050,29 @@ Recruiting reinforces the geography of *unequal* college opportunity
 
 ---
 # Implications
-## Policy and practice
+## Policy, practice, and advocacy
 
-Greater consideration of "supply side" scholarship in policy discourse
+Policy: Greater consideration of (critical) "supply side" scholarship in policy discourse
 - Scholarship aimed at changing the behavior of students has dominated policy discourse
 - Example: information assymetries
   - Scaled "under-matching" study found null effects
   - Study on financial aid "shopping sheets" found null effects
 
+
 <br>
 
-Recruiting practices can circumvent geography of unequal college opportunity but...
+Practice: recruiting can circumvent geography of unequal college opportunity but...
 - Current efforts are based on college going porcess of highly affluent white students 
   - e.g., large college fairs, blocked-out visits, evening events, "coffee chats"
 - Administrators and practitoners need to enact practices that are created to mitigate barriers to reaching and connecting with low-income students and Students of Color
+
+<br>
+
+Advocacy
+- Under-visited high schools can reshape and demand new recruiting practices by universities
+  - Leverage the strengths of communities (talent, funds of knowledge, culture, family, local, loyalty, service)
+- University professionals and faculty can hold universities accountable 
+
 
 --- #references
 
