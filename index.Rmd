@@ -810,11 +810,13 @@ RQ: Do recruiting efforts by public universities spatially discriminate against 
 
 Whiteness as property `r citep(bib[c('RN2526')])`
 - Law grants holders of whiteness the same privileges granted to holders of other types of property
-- Reputation and Status property: legal doctrine that to call someone Black is to defame them
+- Reputation and Status property: 
 
 <br>
 
 Place-based whiteness as property
+- Connections between race and place
+  - "The inner city" vs "suburbs" or "urban schools" vs "suburban schools"
 - Racial inequality and white privilege are not simply reflected in space
 - Racialized and discriminatory practices are enacted through the use of place
 
