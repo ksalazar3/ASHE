@@ -1,5 +1,5 @@
 ---
-title: "The Wealth and Color of Off-Campus Recruiting by Public Research Universities"
+title: "Sub-Metropolitan Spatial Redlining in Public University Recruitment"
 subtitle: ""
 author: Karina Salazar
 # lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
@@ -48,20 +48,19 @@ cite <- function(b, eg = TRUE) {
   paste0(c, ')')
 }
 
-verticalSlide <- 10
-verticalSlide2 <- 24
+verticalSlide2 <- 7
 ```
 
-# The Wealth and Color of Off-Campus Recruiting by Public Research Universities 
+# Sub-Metropolitan Spatial Redlining in Public University Recruitment 
 <br>
 ## Karina Gracia Salazar
 
 
-Doctoral Candidate <br> Center for the Study of Higher Education 
+<br> Center for the Study of Higher Education 
 <br>
 Department of Educational Policy Studies and Practice <br> College of Education
 
-<a id='link_presentation' href='https://ksalazar3.github.io/defense/' target='_blank'>ksalazar3.github.io/defense</a>
+<a id='link_presentation' href='https://ksalazar3.github.io/SEA/' target='_blank'>ksalazar3.github.io/SEA</a>
 <br>
 
 <img id='logo_ua' src='assets/img/ua.png' alt='University of Arizona' class='center'/>
@@ -88,59 +87,80 @@ Department of Educational Policy Studies and Practice <br> College of Education
 
 ---
 
-# Recruiting Visits to Tucson
-## University of Alabama, University of Colorado Boulder, University of Georgia
+# Motivation 
+## Contemporary racial inequality & governing of space
 
-<iframe src="assets/maps/tucson.html" width=100% height=100% allowtransparency="true"></iframe>
+Racial inequality is grounded in the governing of space and its impact on where People of Color live `r citep(bib[c('RN2038', 'RN2547', 'RN5070' )])`
+  - Forced migration of indigenous people and seizure of their ancestral lands
+  - Plessy v. Ferguson 
+  - Policies and court decisions abetted "de facto" segregation after Brown v. Board of Education 
+  - Federal and state regulatory tolerance of "reverse redlining" (i.e., predatory lending) 
+
+<br> 
+
+Geography of Opportunity `r citep(bib[c('RN6067')])`
+  - Communities of Color, particularly low-income communities, are likely to live in areas with limited access to critical resources needed for collective wealth and power 
+    - e.g., fair housing, jobs, health facilities
+
+<br> 
+
+Geography of *College* Opportunity `r citep(bib[c('RN6064')])`
+- *Geography* reinforces access inequality
+- Communities of Color have the fewest four-year colleges nearby; many options are for-profit colleges `r citep(bib[c('RN4446')])`
 
 ---
+
 # Motivation
-## Policy discourse about access to public research universities
+## Do recruiting visits reinforce the geography of unequal college opportunity?
+But how does the *behavior* of universities *reinforce* the geography of *unequal* college opportunity?
+  - Racial access inequality is grounded in the governing of (admissions) space(s) 
+    - e.g, HBCUs, out-of-state tuition and non-resident enrollment caps, SAT/ACT `r cite(bib[c('RN6012', 'RN6011', 'RN3544')])`
 
-The problem: access to public research universities
-- Historical mission of social mobility for state residents
-- Concern about growing socioeconomic and racial inequality in access
 
+<br>  
+
+Students' college opportunities are also shaped by the (enrollment management) choices of universities `r citep(bib[c('RN6068')])`
+  - Universities are not immobile in their efforts to provide access 
+  - Chapter 3 finds schools with greater proportions of Students of Color are less likely to get a visit
+    - Schools are not randomly geographically scattered; clustered within segregated Communities of Color
+  - Spatial discrimination linked to perpetual racial disparities in the geography of opportunity
 
 <br>
-Mainstream policy discourse about access inequality 
-- "Achievement gap", "under-matching"; place responsibility on students, K-12 schools
-- Universities pledge commitment to access via policies and statements (e.g., no-loan financial aid policies)
-- Problem with policy discourse: decades of research finds policy adoption a symbolic effort to appease stakeholders `r cite(bib['RN2436'])`
+
+RQ: Do recruiting efforts by public universities spatially discriminate against Communities of Color?
+  - Spatial distribution of out-of-state recruiting visits within the Los Angeles and Dallas MSAs
+  - Spatial relationships between race, income, and academic achievement
 
 
 
 ---
 
-# Motivation
-## Analyze recruiting to understand university enrollment priorities
+# Conceptual Framework
+## Place-based whiteness as property
 
-Alternative explanation for access inequality
-- University enrollment priorities biased against poor students and/or Communities of Color
-
-<br>
-Why study university recruiting behavior
-- Universities spend substantial resources identifying and recruiting prospects `r citep(bib['RN4402'])`
-- Internal resource allocation better indicator of organizational priorities than rhetoric, policies
-- Knowing which student populations targeted by recruiting efforts indicates enrollment priorities
-
+Whiteness as property `r citep(bib[c('RN2526')])`
+- Law grants holders of whiteness the same privileges granted to holders of other types of property
+- Reputation and Status property: 
 
 <br>
-Analyze off-campus recruiting visits (e.g., visit to a high school) as a means of gaining insight about university enrollment priorities
-- Two empirical studies:
-    - **(1) ¿Suburbios o Barrios? Off-Campus Recruiting by Public Research Universities**
-        - Similarities and differences in off-campus recruiting patterns across universities
-    - **(2) Sub-Metropolitan Spatial Redlining in Public University Recruitment**
-       -  Spatial, in-depth exploration of racial bias in out-of-state recruiting visits
 
+Place-based whiteness as property
+- Connections between race and place
+  - "The inner city" vs "suburbs" or "urban schools" vs "suburban schools"
+- Racial inequality and white privilege are not simply reflected in space
+- Racialized and discriminatory practices are enacted through the use of place
 
-```{r, include=FALSE, eval=FALSE}
-- *Commitments to Action on College Opportunity*  `r citep(bib['RN4017'])`
-    - Universities pledge "action plans" (e.g., holistic admission, need-based aid, "outreach")
-- Applauds public universities for adopting progressive policies to increase access despite the “deficiencies” of student and K-12 schools and despite declines in state funding. 
-```
+<br>
 
---- &twocol
+Recruiting as a raced practice enacted via place
+- Are Communities of Color equally as likely to receive a recruiting visit as white communities with comparable income and achievement characteristics? 
+
+---
+
+# Conceptual Framework
+## Space-Based Enrollment Management
+
+---
 
 # Data Collection
 ## The broader off-campus recruiting research project
@@ -171,664 +191,9 @@ Analyze off-campus recruiting visits (e.g., visit to a high school) as a means o
 <img src="assets/img/southcarolina.png" style="width:65%;float:left;">
 
 ---
-# Empirical study #1 
-## ¿Suburbios o Barrios? Off-Campus Recruiting by Public Research Universities
-
-Research problem
-- Research on recruiting practices can transform access inequality policy discourse
-- But few empirical studies analyze recruiting behavior
-
-<br>
-
-Research aim
-- Systematically analyze off-campus recruiting visits by public research universities
-
-<br>
-
-Research question
-- What are the similarities and differences in off-campus recruiting patterns across universities?
-
-<br>
-
-
-Analytic focus
-- Income, race; academic achievement; in-state vs. out-of-state
-
-
----
-
-# Literature review
-## Scholarship on recruiting
-
-Scholarship analyzing college perspective `r citep(bib['RN3519'])`
-  - Important for relationships with prospects, counselors at "feeder" schools
-  - Focus on visiting affluent schools and private schools
-    
-<br>
-  
-Scholarship analyzing perspective of high school students `r citep(bib['RN4324'])`
-  - Which universities visit affects student decisions
-  - First-gen, students of color swayed to apply and enroll to colleges that make them feel wanted
-  - High income students concerned with prestige
-
-<br>
-Research gap: we don't know which universities visit which schools, communities
-
-
-<!-- --- -->
-
-<!-- # Theoretical framework -->
-<!-- ## Enrollment priorities and recruiting behavior -->
-
-<!-- Theoretical motivation for studying recruiting -->
-<!-- <br> -->
-<!-- - "New" institutional theory `r citep(bib['RN513'])` -->
-<!--     - Organizations have finite resources and cannot pursue multiple goals `r citep(bib['RN531'])` -->
-<!--     -When facing pressure to pursue many goals, organizations:  -->
-<!--       - Substantively adopt some goals (directing resources) -->
-<!--       - Symbolically adopt others (policies, rhetoric) -->
-
-<!-- <br> -->
-<!-- - "Iron triangle" of enrollment management (EM) -->
-<!--   - Three broad enrollment goals: **access, academic profile, revenue** -->
-<!--   - Scarce resources; depending on priorities, some goals receive more resources than others -->
-<!--   - Off-campus recruiting is allocation of resources -->
-<!--   - Knowing which populations targeted by recruiting interventions indicate enrollment priorities -->
-
-
-
----
-
-# Theoretical framework
-## Expectations about similarities and differences in recruiting behavior
-
-Resource dependence theory (RDT) `r citep(bib['RN959'])`
-- Organizations are sensitive to demands from providers of critical resources
-- *Universities with weak state funding*
-    - More visits to affluent out-of-state, affluent in-state
-- *Universities with small/declining "college age" population*
-    - More out-of-state visits
-
-<br>
-Academic Capitalism (AC) `r citep(bib['RN6061'])` 
-- RDT assumes restoring state funding would compel universities to de-emphasize nonresident enrollment/recruiting
-- AC suggests pursuit of revenue displaces public-good mission for market logic
-- *Recruiting by universities with similar external conditions can differ depending to what extent "market logic" ideology is adopted*
-
-<!-- ---  -->
-
-
-<!-- # Research methods -->
-<!-- ## Defining events -->
-
-<!-- **"Off-campus recruiting events" defined as off-campus events hosted by paid staff/consultants focused on soliciting applications** -->
-
-<!-- <br> -->
-<!-- - Event type -->
-<!--     - Include: college fairs, high school visits, community college visits, -->
-<!-- counselor events -->
-<!--     - Exclude: admitted or committed student events, interviews -->
-<!-- - Event host -->
-<!--     - Include: paid admissions staff or consultants (e.g. regional recruiters) -->
-<!--     - Exclude: alumni, student volunteers -->
-<!-- - Event location -->
-<!--     - Any off-campus location -->
-<!--     - e.g., high school, community college, hotel, convention center, cafe, etc. -->
-
-<!-- --- -->
-
-<!-- # Data and Methods -->
-<!-- ## Summary of Data Collection Sources and Quality Checks Performed -->
-<!-- <div class="table-wrapper"> -->
-<!--   <div class="scroll-wrapper scroll-wrapper-x"> -->
-<!-- ```{r, echo=FALSE, results='asis', warning=FALSE} -->
-<!-- cat(paste0(readLines("assets/tables/data_appendix.html"),collapse=" ")) -->
-<!-- ``` -->
-<!--   </div> -->
-<!-- </div> -->
-
---- 
-
-# Research methods
-## Research design and analyses
-
-Quantitative multiple case study research design `r citep(bib['RN4545'])`
-- Quantitative data collection and quantitative analyses
-- Analyze each case separately, rather than pooling across cases as in large-N, random sample design
-
-<br>
-Data analysis `r citep(bib[c('RN4116','RN4391')])`
-- "Within-case" analyses of recruiting patterns
-    - Simple descriptive statistics (e.g., counts), static visualizations, interactive maps
-    - Linear probability models controlling for other factors impacting probability of receiving visit 
-- "Cross-case" analyses
-    - Consolidate first-order findings from "within-case" into broader empirical themes
-
-
----
-
-# Research methods
-## Analysis sample
-
-<div id="univ-characteristics" class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-y">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/univ_characteristics_aera.html"),collapse=" "))
-```
-  </div>
-  <p class="footnote" style="width:1000px;"><strong>Note</strong>: Author calculations based on 2016-2017 IPEDS. Population of universities includes universities categorized as Highest Research Activity by 2015 Carnegie Classification. The University of Alabama is the only institution in the study sample that is not classified as Highest Research Activity.</p>
-</div>
-
-    
-
---- &vertical
-
-# Within-case results
-## Click on a university to see within-case results
-
-<br>
-__N__ refers to total number of off-campus recruiting visits
-
-<!--
-select mu.univ_id, muc.univ_name, muc.univ_abbrev, mu.state_code, sd.state_name, muc.metro1, msa1.cbsa_title as metro1_name, muc.metro2, msa2.cbsa_title as metro2_name, muc.metro3, msa3.cbsa_title as metro3_name, (
-  select count(*)
-  from parsing p
-  left join parsing_visiting_univs pvu on pvu.pid = p.pid
-  left join univ_canon uc on uc.univ_id = pvu.univ_id and uc.pid = pvu.pid
-  left join location_matches lm on lm.pid = p.pid and lm.id_type = 'ncessch'
-  left join location_matches lm2 on lm2.pid = p.pid and lm2.id_type = 'ipeds'
-  left join meta_high_school_public mpub on mpub.ncessch = lm.location_id
-  left join meta_high_school_private mpri on mpri.ncessch = lm.location_id
-  left join meta_university imu on imu.univ_id = lm2.location_id
-  where pvu.univ_id = if(mu.univ_id not in ('196097', '186380', '201885', '139959', '110653', '166629', '126614', '155317'), mu.univ_id, concat(mu.univ_id, '_req'))
-  and event_country = 'US'
-  and event_date between '2017-01-01' and '2017-12-31'
-  and uc.univ_canonical_pid is null
-  and p.include = 1
-  and (mpub.ncessch is null or mpub.include_school = 1)
-  and (mpri.ncessch is null or mpri.include_school = 1)
-  and (lm.location_id is null or lm.location_id != 'indy')
-  and (imu.univ_id is null or imu.univ_id != mu.univ_id)
-  and coalesce(p.`event_state`, mpub.`state_code`, mpri.`state_code`, imu.`state_code`) is not null
-) as count
-from meta_university mu
-left join state_data sd on sd.state_code = mu.state_code
-left join meta_univ_classification muc on muc.univ_id = mu.univ_id
-left join msa_metadata msa1 on msa1.cbsa_code = muc.metro1
-left join msa_metadata msa2 on msa2.cbsa_code = muc.metro2
-left join msa_metadata msa3 on msa3.cbsa_code = muc.metro3
-where mu.univ_id in ('100751', '106397', '110635', '110653', '126614', '139959', '155317', '166629', '181464', '186380', '196097', '199193', '201885', '215293', '218663')
-order by 2;
--->
-
-<ul id="univ_options">
-```{r, echo=FALSE, results='asis'}
-univs <- read.csv('./assets/tables/univ_sample.csv', na.strings=c('','NA'))
-for (i in 1:nrow(univs)) {
-  cat(paste0('<li><a data-univ-id="', univs[i, 'univ_id'], '" data-univ-name="', univs[i, 'univ_name'], '" data-state-name="', univs[i, 'state_name'], '" data-metro1-name="', univs[i, 'metro1_name'], '" data-metro2-name="', univs[i, 'metro2_name'], '" data-metro3-name="', univs[i, 'metro3_name'], '">', univs[i, 'univ_name'], '</a> (N=', format(univs[i, 'count'], big.mark=','), ')</li>'))
-}
-```
-</ul>
-
-*** #toc
-
-# Table of Contents
-## &nbsp;
-
-<div class="graphs-set">
-  <ul>
-    <li><a href="#/`r verticalSlide`/2">National Overview</a></li>
-    <li>In-State Results
-      <ul>
-        <li><a href="#/`r verticalSlide`/3">State (Map)</a></li>
-        <li><a href="#/`r verticalSlide`/4">State (Figures)</a></li>
-        <li><a href="#/`r verticalSlide`/5">Metro (Map)</a></li>
-        <li><a href="#/`r verticalSlide`/6">Metro (Figures)</a></li>
-      </ul>
-    </li>
-    <li>Out-of-State Results
-      <ul>
-        <li><a href="#/`r verticalSlide`/7">Top Visited Metro Areas</a></li>
-        <li><a href="#/`r verticalSlide`/8">Out-of-State (Figures)</a></li>
-        <li><a href="#/`r verticalSlide`/9">Metro 1 (Map)</a></li>
-        <li><a href="#/`r verticalSlide`/10">Metro 1 (Figures)</a></li>
-        <li><a href="#/`r verticalSlide`/11">Metro 2 (Map)</a></li>
-        <li><a href="#/`r verticalSlide`/12">Metro 2 (Figures)</a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
-***
-
-# National Overview
-## &nbsp;
-
-<div class="graphs-set">
-  <div class="graphs-row">
-    <img id="graph-overview-1" data-title="Map of visits" />
-    <img id="graph-overview-2" data-title="Number of events by event type" />
-  </div>
-  <div class="graphs-row">
-    <img id="graph-overview-3" data-title="Timeline of visits" />
-    <img id="graph-overview-4" data-title="Number of events by urban or rural area" />
-  </div>
-</div>
-
-***
-
-# In-State Results
-## State Map
-
-<iframe id="map-state-in" width=100% height=100% allowtransparency="true"></iframe>
-
-***
-
-# In-State Results
-## State Figures
-
-<div id="graph-instate" class="graphs-set graphs-set-wide">
-  <div class="graphs-row">
-    <img id="graph-instate-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-    <img id="graph-instate-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
-    <img id="graph-instate-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-  </div>
-  <div class="graphs-row">
-    <img id="graph-instate-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-    <img id="graph-instate-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
-    <img id="graph-instate-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-  </div>
-</div>
-
-***
-
-# In-State Results
-## Metro Area Map
-
-<iframe id="map-metro-in" width=100% height=100% allowtransparency="true"></iframe>
-
-***
-
-# In-State Results
-## Metro Area Figures
-
-<div id="graph-metro1" class="graphs-set graphs-set-wide">
-  <div class="graphs-row">
-    <img id="graph-metro1-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-    <img id="graph-metro1-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
-    <img id="graph-metro1-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-  </div>
-  <div class="graphs-row">
-    <img id="graph-metro1-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-    <img id="graph-metro1-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
-    <img id="graph-metro1-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-  </div>
-</div>
-
-***
-
-# Out-of-State Results
-## Top Visited Metro Areas
-
-<div class="table-wrapper">
-  <table id="table-metro-count"></table>
-</div>
-
-***
-
-# Out-of-State Results
-## &nbsp;
-
-<div class="graphs-set">
-  <div class="graphs-row">
-    <img id="graph-outofstate-1" data-title="Average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used; Out-of-state only includes states where the university visited at least one high school" />
-    <img id="graph-outofstate-2" data-title="Average racial composition of university vs state vs visited public HS's vs non-visited public HS's" data-caption="Out-of-state only includes states where the university visited at least one high school" />
-  </div>
-  <div class="graphs-row">
-    <img id="graph-outofstate-3" data-title="Distribution of 12th grade enrollment size in visited public HS's vs visited private HS's" data-caption="Out-of-state only includes states where the university visited at least one high school" />
-    <img id="graph-outofstate-4" data-title="Average racial composition of university vs state vs visited private HS's vs non-visited private HS's" data-caption="Out-of-state only includes states where the university visited at least one high school" />
-  </div>
-</div>
-
-***
-
-# Out-of-State Results
-## Metro Area Map
-
-<iframe id="map-metro-out-1" width=100% height=100% allowtransparency="true"></iframe>
-
-***
-
-# Out-of-State Results
-## Metro Area Figures
-
-<div id="graph-metro2" class="graphs-set graphs-set-wide">
-  <div class="graphs-row">
-    <img id="graph-metro2-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-    <img id="graph-metro2-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
-    <img id="graph-metro2-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-  </div>
-  <div class="graphs-row">
-    <img id="graph-metro2-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-    <img id="graph-metro2-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
-    <img id="graph-metro2-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-  </div>
-</div>
-
-***
-
-# Out-of-State Results
-## Metro Area Map
-
-<iframe id="map-metro-out-2" width=100% height=100% allowtransparency="true"></iframe>
-
-***
-
-# Out-of-State Results
-## Metro Area Figures
-
-<div id="graph-metro3" class="graphs-set graphs-set-wide">
-  <div class="graphs-row">
-    <img id="graph-metro3-1" data-title="Distribution of average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-    <img id="graph-metro3-2" data-title="Distribution of 12th grade enrollment size of visited public HS's vs non-visited public HS's" />
-    <img id="graph-metro3-3" data-title="Math score proficiency by average median household income in zip codes of visited public HS's vs non-visited public HS's" data-caption="Average median household income of age group 25-64 years olds were used" />
-  </div>
-  <div class="graphs-row">
-    <img id="graph-metro3-4" data-title="Distribution of percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-    <img id="graph-metro3-5" data-title="Distribution of number of students scoring proficient in Math in visited public HS's vs non-visited public HS's" />
-    <img id="graph-metro3-6" data-title="Math score proficiency by percent non-white students enrolled in visited public HS's vs non-visited public HS's" data-caption="Non-white is defined as students identifying as Black, Latinx, or Native" />
-  </div>
-</div>
-
----
-
-# Cross-university results
-## Number of events by type and in-state, out-of-state
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-x scroll-wrapper-y">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/event_count.html"),collapse=" "))
-```
-  <p class="footnote"><strong>Note</strong>: Totals for schools include multiple visits to unique schools.</p>
-  </div>
-</div>
-<a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-
----
-
-# Cross-university results, out-of-state visits
-## Small multiple map of recruiting visits
-
-<div class="graphs-set graphs-set-all">
-  <div class="graphs-row">
-```{r, echo=FALSE, results='asis'}
-aera_univs <- c(100751, 110635, 110653, 139959, 166629, 181464)
-for (i in aera_univs) {
-  cat(paste0('<img src="assets/data/', i, '/titled_map.png" />'))
-  if (i == 110653) {
-    cat('</div><div class="graphs-row">')
-  }
-}
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-</div>
-
----
-
-# Cross-university results, out-of-state visits
-## Descriptive statistics for public high school visits
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/desc_out_pub.html"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote"><strong>Note</strong>: Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not a special education school, alternative school, virtual school, or independent school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
-</div>
-
----
-
-# Cross-university results, out-of-state visits
-## Probability of out-of-state public high school receiving a visit
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/regression_out.html"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote"><strong>Note</strong>: &ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not a special education school, alternative school, virtual school, or independent school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
-</div>
-
----
-
-# Cross-university results, out-of-state visits
-## Actual versus Proportional Visits to Out-of-State High Schools
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-x scroll-wrapper-y">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/visit_proportion_aera.html"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote"><strong>Note</strong>: Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
-</div>
-
----
-
-# Cross-university results, out-of-state visits
-## Descriptive statistics for private high school visits
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-x">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/desc_out_priv.html"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote"><strong>Note</strong>: Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
-</div>
-
----
-
-# Cross-university results, in-state visits
-## Descriptive statistics for public high school visits
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/desc_in_pub.html"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote"><strong>Note</strong>: Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not a special education school, alternative school, virtual school, or independent school.</p>
-</div>
-
----
-
-# Cross-university results, in-state visits
-## Regression: probability of in-state public high school receiving a visit
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/regression_in.html"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote"><strong>Note</strong>: &ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not a special education school, alternative school, virtual school, or independent school.</p>
-</div>
-
----
-# Summary of results
-## ¿Suburbios o Barrios? Off-Campus Recruiting by Public Research Universities
-
-Out of State Recruiting
-- Majority of visits are out-of-state (exceptions: UC Irvine, UC Berkeley); in populous metros
-- Income bias; visits concentrated in highly affluent communities, in metropolitan areas
-- Racial bias; less likely to visit schools with predominantly Black/Hispanic/Native students
-- Disproportionate number of visits to private high schools
-
-<br>
-
-In-State Recruiting
-- Variation in coverage of public high schools (e.g., Nebraska=88%; Alabama=33%)
-- Income bias (most cases, but less than out-of-state) even after controlling for other factors
-- Bias against schools with predominantly Black/Hispanic/Native in some cases (e.g., Alabama)
-- Rural bias; in some cases even after controlling for other factors (e.g., UC Irvine)
-
-<br> 
-
-Recruiting for Resources (RDT) or Recruiting Market Values (AC)
-- RDT: Universities with the worst state funding have the most out-of-state visits (Berkeley vs. Irvine)
-- AC: Cases with relatively more better environmental conditions do not have a lesser focus on out-of-state (e.g., UMass Amherst, Nebraska)
-  
-  
-
-<!-- --- -->
-
-<!-- # Discussion -->
-<!-- ## Implications, future research -->
-
-<!-- Implications -->
-<!-- - Results suggest dramatic income bias in enrollment priorities of public research universities -->
-<!--     - Evidence of racial bias (especially in out-of-state recruiting), but patterns more nuanced -->
-<!-- - Policy discourse should focus on enrollment priorities, rather than student, K-12 deficiencies -->
-<!--     - "Under-recruiting" as an alternative explanation for "under-matching" -->
-
-<!-- <br> -->
-<!-- Policy + Advocacy Reccomendations: how do we change university enrollment priorities? -->
-<!-- - Increasing state appropriations and state need-based grant aid -->
-<!-- - Nonresident enrollment caps -->
-<!-- - Empower local access advocates  -->
-
-<!-- <br> -->
-<!-- Future research -->
-<!-- - Manuscript that focuses on spatial discrimination of communities of color -->
-<!-- - Collect/analyze data on other means used to identify and target prospects -->
-<!--     - Characteristics universities prioritize when purchasing "prospect lists" from College Board/ACT? -->
-<!--     - Experimental audits of university responses to "inquiries" with different characteristics -->
-
----
-# Empirical study #2
-## Sub-Metropolitan Spatial Redlining in Public University Recruitment
-
-Racial inequality is grounded in the governing of space and its impact on where People of Color live `r citep(bib[c('RN2038', 'RN2547', 'RN5070' )])`
-  - Forced migration of indigenous people and seizure of their ancestral lands
-  - Plessy v. Ferguson 
-  - Policies and court decisions abetted "de facto" segregation after Brown v. Board of Education 
-  - Federal and state regulatory tolerance of "reverse redlining" (i.e., predatory lending) 
-
-<br> 
-
-Geography of Opportunity `r citep(bib[c('RN6067')])`
-  - Communities of Color, particularly low-income communities, are likely to live in areas with limited access to critical resources needed for collective wealth and power 
-    - e.g., fair housing, jobs, health facilities
-
-<br> 
-
-Geography of *College* Opportunity `r citep(bib[c('RN6064')])`
-- *Geography* reinforces access inequality
-- Communities of Color have the fewest four-year colleges nearby; many options are for-profit colleges `r citep(bib[c('RN4446')])`
-
----
-# Motivation
-## Do recruiting visits reinforce the geography of unequal college opportunity?
-But how does the *behavior* of universities *reinforce* the geography of *unequal* college opportunity?
-  - Racial access inequality is grounded in the governing of (admissions) space(s) 
-    - e.g, HBCUs, out-of-state tuition and non-resident enrollment caps, SAT/ACT `r cite(bib[c('RN6012', 'RN6011')])`
-
-
-<br>  
-
-Students' college opportunities are also shaped by the (enrollment management) choices of universities `r citep(bib[c('RN6068')])`
-  - Universities are not immobile in their efforts to provide access 
-  - Chapter 3 finds schools with greater proportions of Students of Color are less likely to get a visit
-    - Schools are not randomly geographically scattered; clustered within segregated Communities of Color
-  - Spatial discrimination linked to perpetual racial disparities in the geography of opportunity
-
-<br>
-
-RQ: Do recruiting efforts by public universities spatially discriminate against Communities of Color?
-  - Spatial distribution of out-of-state recruiting visits within the Los Angeles and Dallas MSAs
-  - Spatial relationships between race, income, and academic achievement
-
-
-<!-- --- -->
-<!-- # Literature review -->
-<!-- ## Geography of College Opportunity -->
-
-<!-- Number of nearby colleges and universities impacts college-going behavior `r citep(bib[c('RN6065')])` -->
-<!--   - Each additional college in proximity to home increases odds of applying to (any) college -->
-<!--   - But proximity to local colleges varied widely -->
-
-<!-- <br> -->
-<!-- "College Deserts" and "College Oases" `r citep(bib[c('RN5095')])` -->
-<!--   - Communities of color and communities with low educational attainment  -->
-<!--     - More likely to live in areas with fewer 4-year colleges `r citep(bib[c('RN6064')])` -->
-<!--     - More likely to live in urban areas with more 2-year public and for-profit colleges `r citep(bib[c('RN4446')])` -->
-<!--   - White communities and communities with higher educational attainment -->
-<!--     - More likely to live in suburban areas with more 4-year colleges `r citep(bib[c('RN5095')])` -->
-
-<!-- <br> -->
-<!-- Recruiting can circumvent the geography of *unequal* college opportunity; but all literature focuses on analyzing location -->
-<!--   - Universities are not passive actors fixed to their physical campuses -->
-<!--   - Considerable resources are spent on identifying and recruiting prospective students -->
-<!--   - Do recruiting practices circumvent or reinforce the geography of *unequal* college opportunity? -->
-
-<!-- --- -->
-
-<!-- # Enrollment Management -->
-<!-- ## Neutralized and deracialized practices  -->
-<!-- Iron triangle of EM -->
-<!-- - EM as neutral, rational, and efficiency maximizing  -->
-
-<!-- <br> -->
-
-<!-- Academic Capitalism -->
-<!-- - Universities are not neutral in targeting students for the extraction of revenue -->
-<!-- - Race effects within EM practices are due to differential distribution of wealth among racial groups -->
-
-<!-- <br> -->
-
-<!-- Universities and EM practices are not race-neutral `r citep(bib[c('RN2525')])` -->
-<!-- - Schemas: unconscious, cognitive assumptions as templates for organizational practices -->
-<!--   - e.g., gender inequality is reproduced via gendered schemas of the "ideal worker" `r citep(bib[c('RN2539')])` -->
-<!-- - Racial access inequality is reproduced via racialized schemas of the "ideal college student"  -->
-<!--   - e.g., high SAT/ACT scores, no need for financial aid, enrolls full-time, few obligations besides college classes, lives on campus, ready to begin college-level courses `r citep(bib[c('RN5089')])`  -->
-
-
----
-# Conceptual Framework
-## Place-based whiteness as property
-
-Whiteness as property `r citep(bib[c('RN2526')])`
-- Law grants holders of whiteness the same privileges granted to holders of other types of property
-- Reputation and Status property: 
-
-<br>
-
-Place-based whiteness as property
-- Connections between race and place
-  - "The inner city" vs "suburbs" or "urban schools" vs "suburban schools"
-- Racial inequality and white privilege are not simply reflected in space
-- Racialized and discriminatory practices are enacted through the use of place
-
-<br>
-
-Recruiting as a raced practice enacted via place
-- Are Communities of Color equally as likely to receive a recruiting visit as white communities with comparable income and achievement characteristics? 
-
----
 
 # Methods
-## Data analyss and case selection
+## Data analysis and case selection
 
 Data analysis
 - Sub-metropolitan created from pooled census tracts with similar racial and income characteristics
