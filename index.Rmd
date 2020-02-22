@@ -53,7 +53,7 @@ verticalSlide2 <- 7
 
 # Sub-Metropolitan Spatial Redlining in Public University Recruitment 
 <br>
-## Karina Gracia Salazar
+## Karina Salazar
 
 
 <br> Center for the Study of Higher Education 
@@ -88,7 +88,7 @@ Department of Educational Policy Studies and Practice <br> College of Education
 ---
 
 # Motivation 
-## Contemporary racial inequality & governing of space
+## Contemporary racial inequality & the governing of space
 
 Racial inequality is grounded in the governing of space and its impact on where People of Color live `r citep(bib[c('RN2038', 'RN2547', 'RN5070' )])`
   - Forced migration of indigenous people and seizure of their ancestral lands
@@ -112,18 +112,19 @@ Geography of *College* Opportunity `r citep(bib[c('RN6064')])`
 
 # Motivation
 ## Do recruiting visits reinforce the geography of unequal college opportunity?
-But how does the *behavior* of universities *reinforce* the geography of *unequal* college opportunity?
+
+Students' college opportunities are also shaped by the (enrollment management) choices of universities `r citep(bib[c('RN6068')])`
   - Racial access inequality is grounded in the governing of (admissions) space(s) 
-    - e.g, HBCUs, out-of-state tuition and non-resident enrollment caps, SAT/ACT `r cite(bib[c('RN6012', 'RN6011', 'RN3544')])`
+    - e.g., HBCUs, out-of-state tuition and non-resident enrollment caps, SAT/ACT `r cite(bib[c('RN6012', 'RN6011', 'RN3544')])`
 
 
 <br>  
 
-Students' college opportunities are also shaped by the (enrollment management) choices of universities `r citep(bib[c('RN6068')])`
+How does the *behavior* of universities *reinforce* the geography of *unequal* college opportunity?
   - Universities are not immobile in their efforts to provide access 
-  - Chapter 3 finds schools with greater proportions of Students of Color are less likely to get a visit
-    - Schools are not randomly geographically scattered; clustered within segregated Communities of Color
-  - Spatial discrimination linked to perpetual racial disparities in the geography of opportunity
+  - Salazar, Jaquette, and Han (under review) find that schools with greater proportions of Students of Color are less likely to get a visit
+    - Schools are not randomly geographically scattered; within segregated Communities of Color
+  - Spatial discrimination linked to perpetual racial disparities
 
 <br>
 
@@ -132,56 +133,72 @@ RQ: Do recruiting efforts by public universities spatially discriminate against 
   - Spatial relationships between race, income, and academic achievement
 
 
-
 ---
 
 # Conceptual Framework
 ## Place-based whiteness as property
 
-Whiteness as property `r citep(bib[c('RN2526')])`
-- Law grants holders of whiteness the same privileges granted to holders of other types of property
-- Reputation and Status property: 
 
-<br>
-
-Place-based whiteness as property
-- Connections between race and place
+Whiteness as property (Harris, 1993)
+- Whiteness as a form of property that the law ascribes privileges and protections to
+- Whiteness (and non-whiteness) is also central in the racialized meanings that are ascribed to spaces
   - "The inner city" vs "suburbs" or "urban schools" vs "suburban schools"
-- Racial inequality and white privilege are not simply reflected in space
-- Racialized and discriminatory practices are enacted through the use of place
 
 <br>
 
-Recruiting as a raced practice enacted via place
-- Are Communities of Color equally as likely to receive a recruiting visit as white communities with comparable income and achievement characteristics? 
+Space vs. Place `r citep(bib[c('RN5073')])`
+- Racial inequality is not simply reflected in "space"
+  - Space as a location where things "just happen" 
+- Rather, racialized and discriminatory practices are enacted through the use of place
+  - Place as the geographical context for the "mediation" of social, racial, and economic processes 
+
+<br>
+
+Example: residential segregation
+- Space: arbitrary, racially homogeneous communities with spatial distance between them
+- Place: racially homogeneous communities as the result of systematic governing and strategic political boundaries
 
 ---
 
 # Conceptual Framework
-## Space-Based Enrollment Management
+## Enrollment Management & Recruiting
 
----
+Enrollment Management ideologies of space as "geodemographic markets" (College Board)
+- Geomarkets: "people with similar cultural backgrounds, means, and perspectives naturally gravitate toward one another or form relatively homogeneous communities" 
+  - "Educational neighborhoods" mapped by combining geodemographic and proprietary data
+  - Represent profiles of students with "similar educational, demographic, and socioeconomic attributes"
+- Iron Triangle of Enrollment Management
+  - Enrollment goals: revenue, academic profile, access
+  - Recruiting within some "geodemographic markets" versus not others due primarily due to the differential distribution of wealth and achievement among racial groups
 
-# Data Collection
-## The broader off-campus recruiting research project
+<br>
+
+Recruiting as a raced practice enacted via place
+- Even if communities "reflect" similar revenue and academic profile enrollment goals:
+  - White communities are more likely to receive recruiting visits because they are ascribed the privileges and economic benefits of whiteness as property
+
+
+---&twocol
+
+# Methods
+## Data Collection
 
 *** =left
 
 **Data collection**
 
 * Method
+    - Case study
+* Data Collection
     - Web-scrape admissions websites
-    - Public records requests
-* Criteria to be included in data collection
-    1. Post visits on admissions websites
-    2. Organizational type
-* Data collection sample (larger project)
-    - 54 public research; 49 private; 42 liberal arts
 * Data collection period
     - 1/1/2017 to 12/31/2017
-    - Ongoing data collection with larger sample
+* Data Triangulation
+    - public records requests
 * Secondary Data
-    - ACS; NCES; EdFacts; State DOE
+    - ACS; NCES; EdFacts;
+    - California Department of Education
+    - Texas Education Agency
 
     
 *** =right
@@ -193,20 +210,28 @@ Recruiting as a raced practice enacted via place
 ---
 
 # Methods
-## Data analysis and case selection
+## Case selection and data analysis
 
-Data analysis
-- Sub-metropolitan created from pooled census tracts with similar racial and income characteristics
-  - (1) High, (2) Middle, (3) Low income POC and (4)High (5) Middle (6) Low income white sub-metropolitan areas
-- Descriptive statistics and geospatial visualizations 
+Case selection based on purposeful sampling to identify "information rich" cases `r citep(bib[c('RN4549')])`
+- Metro areas with sufficient racial and socioeconomic diversity
+- Avoid major "school choice" cities (e.g., Denver, New Orleans, New York City)
+- Universities with greatest number of recruiting visits to metros selected
 
 <br>
 
-Metropolitan Statistical Area (MSA) and university case selection based on purposeful sampling
+Cases
 - Los Angeles MSA
-  - University of Colorado Boulder (CU Boulder) and University of Massachusetts Amherst (UMass Amherst)
+  - University of Colorado Boulder (CU Boulder) and University of Massachusetts Amherst (UMass)
 - Dallas MSA
   - University of Kansas (KU) and University of Georgia (UGA)
+
+<br>
+
+Data analysis
+- Examine spatial distributions of recruiting visits across "sub-metropolitan" areas (Stoll & Ihlanfeldt, 2000)
+  - Created from pooled census tracts with similar racial and income characteristics
+- Descriptive statistics and geospatial visualizations 
+
   
 
 --- &vertical2
@@ -418,17 +443,14 @@ Recruiting reinforces the geography of *unequal* college opportunity
 
 Policy: Greater consideration of (critical) "supply side" scholarship in policy discourse
 - Scholarship aimed at changing the behavior of students has dominated policy discourse
-- Example: information asymmetries
-  - Scaled "under-matching" study found null effects
-  - Study on financial aid "shopping sheets" found null effects
+- Largely ignores the enrollment management behavior of universities
 
 
 <br>
 
 Practice: recruiting can circumvent geography of unequal college opportunity but...
-- Current efforts are based on college going process of highly affluent white students 
-  - e.g., large college fairs, blocked-out visits, evening events, "coffee chats"
-- Administrators and practitioners need to enact practices that are created to mitigate barriers to reaching and connecting with low-income students and Students of Color
+- "Going where we have always gone" is continuing a historical legacy of racism in the governing of admissions spaces
+- Administrators and practitioners need to enact anti-racist practices that are created to mitigate barriers to reaching and connecting with low-income students and Students of Color
 
 <br>
 
@@ -448,11 +470,6 @@ EMRA Research Team: Crystal Han, Sean Beaton, Patricia Martin
 <br>
 
 American Educational Research Association (dissertation grant)
-
-<br>
-Sunnyside High School Administration Team
-  - Superintendent Steve Holmes
-  - Principal Ricky Torres
 
 
 
