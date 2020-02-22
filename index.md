@@ -113,8 +113,8 @@ Whiteness as property (Harris, 1993)
 <br>
 
 Space vs. Place (Agnew, 2010)
-- Racial inequality and white privilege are not simply reflected in "space"
-  - Space as a location on a surface where things "just happen" 
+- Racial inequality is not simply reflected in "space"
+  - Space as a location where things "just happen" 
 - Rather, racialized and discriminatory practices are enacted through the use of place
   - Place as the geographical context for the "mediation" of social, racial, and economic processes 
 
@@ -194,8 +194,7 @@ Cases
 <br>
 
 Data analysis
-- Examine spatial distributions of recruiting visits across "sub-metropolitan" areas (Stoll
-Michael A.  and Ihlanfeldt., 1999)
+- Examine spatial distributions of recruiting visits across "sub-metropolitan" areas (Stoll & Ihlanfeldt, 2000)
   - Created from pooled census tracts with similar racial and income characteristics
 - Descriptive statistics and geospatial visualizations 
 
