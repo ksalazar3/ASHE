@@ -70,9 +70,9 @@ Organizational and legal scholarship suggests discrimination also occurs intra-r
 <br>  
 
 Intra-racial screening practices within admissions practices [ethnographies]
-  - Black students with high racial salience less likely to receive responses from admissions counselors than those with low racial salience  
-  - Elite colleges "hedge their bets" in meeting diversity goals by recruiting SOC from elite private schools 
-  - To increase diversity of applicant pools, recruiters visit "special" public high schools with really "interesting" students 
+  - Black students with high racial salience less likely to receive responses from admissions counselors than those with low racial salience  (Thornhill, 2018)
+  - Elite colleges "hedge their bets" in meeting diversity goals by recruiting SOC from elite private schools (RuÃ­z, 2008)
+  - To increase diversity of applicant pools, recruiters visit "special" public high schools with really "interesting" students (Stevens, 2007)
   
 
 <br>
@@ -90,7 +90,7 @@ Do recruiting visits intra-racially screen SOC based on schools targeted? [syste
 Racial Capitalism  
 - Systems of Racism and Capitalism explain the process by which predominantly White organizations derive social value from non-White identities
 - Use of race is longstanding characteristic of systemic racism
-  - White/Whiteness= tangible and economic benefits at accrue to those that possess it 
+  - White/Whiteness= tangible and economic benefits at accrue to those that possess it (Harris, 1993)
   - Non-White/non-Whiteness= historically used for withholding value
   - Ex: Higher Ed grounded in history of denying access based on non-Whiteness (e.g., HBCUs, non-resident enrollment/tuition policies, holistic admissions)
 
@@ -124,8 +124,8 @@ Marxian analysis: Not all commodities are have equal exchange value
 
 Recruiting "proximity to whiteness" 
 - Literature suggests private colleges want SOC that are already socialized to Whitness via which high schools they attend
-  - Private schools > public high schools 
-  - Public high schools with predominantly White students > Public high schools with predominantly SOC 
+  - Private schools > public high schools (RuÃ­z, 2008)
+  - Public high schools with predominantly White students > Public high schools with predominantly SOC (Stevens, 2007)
 - Do these patterns apply to recruiting by a public research university?
 
 
@@ -163,7 +163,7 @@ Recruiting "proximity to whiteness"
 # Methods
 ## Case selection and data analysis
 
-Case selection based on purposeful sampling to identify "information rich" cases 
+Case selection based on purposeful sampling to identify "information rich" cases (Patton, 2002)
 - Metro areas with sufficient racial and socioeconomic diversity
 - Avoid major "school choice" cities (e.g., Denver, New Orleans, New York City)
 - Universities with greatest number of recruiting visits to metros selected
@@ -234,7 +234,7 @@ Los Angeles MSA
 
 <div class="table-wrapper">
   <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
-ÿþ<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+<table>     <thead>         <tr>             <th class="blank" style="width:20%"></th>             <th class="bold blank" style="width:30%">All</th>             <th colspan="2" class="bold blank" style="width:50%">CU Boulder</th>         </tr>         <tr>             <th class="blank"></th>             <th></th>             <th style="width:25%">Visit</th>             <th style="width:25%">Nonvisit</th>         </tr>     </thead>     <tbody>         <tr><td>Total High Schools</td><td>150</td><td>31</td><td>129</td></tr>         <tr><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td class="blank" style="font-style:italic;">School Racial Characteristics</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td class="indent">N Asian</td><td>9,425</td><td>3,010</td><td>6,415</td></tr>         <tr><td class="indent">N Black</td><td>2,844</td><td>820</td><td>2,024</td></tr>         <tr><td class="indent">N Latinx</td><td>10,636</td><td>2,478</td><td>8,158</td></tr>         <tr><td class="indent">N Native American</td><td>1,753</td><td>563</td><td>1,190</td></tr>         <tr><td class="indent">N Multiracial</td><td>5,467</td><td>1,990</td><td>3,477</td></tr>         <tr><td class="indent">N White</td><td>31,545</td><td>12,930</td><td>18,615</td></tr>         <tr><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td class="indent">% Asian *</td><td>17.7</td><td>10.6</td><td>19.6</td></tr>         <tr><td class="indent">% Black *</td><td>6.8</td><td>4.0</td><td>7.5</td></tr>         <tr><td class="indent">% Latinx *</td><td>20.1</td><td>12.7</td><td>22.0</td></tr>         <tr><td class="indent">% Native American *</td><td>0.3</td><td>0.5</td><td>0.3</td></tr>         <tr><td class="indent">% Multiracial *</td><td>8.9</td><td>10.2</td><td>8.5</td></tr>         <tr><td class="indent">% White *</td><td>46.2</td><td>61.9</td><td>42.1</td></tr>         <tr><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td>Annual Tuition and Fees *</td><td>$20,867</td><td>$30,005</td><td>$18,986</td></tr>     </tbody> </table>
   </div>
   <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
 </div>
@@ -248,7 +248,7 @@ Los Angeles MSA
 
 <div class="table-wrapper">
   <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
-ÿþ<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+<table>     <thead>         <tr>             <th class="blank" style="width:20%"></th>             <th class="bold blank" style="width:30%">All</th>             <th colspan="2" class="bold blank" style="width:50%">CU Boulder</th>         </tr>         <tr>             <th class="blank"></th>             <th></th>             <th style="width:25%">Visit</th>             <th style="width:25%">Nonvisit</th>         </tr>     </thead>     <tbody>         <tr><td>Total High Schools</td><td>407</td><td>56</td><td>351</td></tr>         <tr><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td class="blank" style="font-style:italic;">School Racial Characteristics</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td class="indent">N Asian</td><td>236,151</td><td>15,868</td><td>220,283</td></tr>         <tr><td class="indent">N Black</td><td>110,916</td><td>3,020</td><td>107,896</td></tr>         <tr><td class="indent">N Latinx</td><td>1,032,474</td><td>32,895</td><td>999,579</td></tr>         <tr><td class="indent">N Native American</td><td>20,585</td><td>494</td><td>20,091</td></tr>         <tr><td class="indent">N Multiracial</td><td>72,610</td><td>4,378</td><td>68,232</td></tr>         <tr><td class="indent">N White</td><td>461,679</td><td>10,199</td><td>471,878</td></tr>         <tr><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td class="indent">% Asian *</td><td>9.9</td><td>15.9</td><td>9.2</td></tr>         <tr><td class="indent">% Black *</td><td>7.6</td><td>3.31</td><td>8.1</td></tr>         <tr><td class="indent">% Latinx *</td><td>65.2</td><td>32.3</td><td>69.1</td></tr>         <tr><td class="indent">% Native American *</td><td>0.3</td><td>0.4</td><td>0.4</td></tr>         <tr><td class="indent">% Multiracial *</td><td>2.4</td><td>3.66</td><td>2.3</td></tr>         <tr><td class="indent">% White *</td><td>14.55</td><td>44.5</td><td>11</td></tr>         <tr><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>         <tr><td>Median Household Income *</td><td>$67,473</td><td>$105,495</td><td>$62,970</td></tr>     </tbody> </table>
   </div>
   <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
 </div>
@@ -260,7 +260,6 @@ Los Angeles MSA
 
 <iframe src="assets/maps/la_cuboulder.html" width=100% height=100% allowtransparency="true"></iframe>
 
-*** .la-metro
 
 --- 
 # Summary of findings
@@ -324,4 +323,29 @@ American Educational Research Association (dissertation grant)
 # References
 ## &nbsp;
 
+<p><a id='bib-RN2526'></a><a href="#cite-RN2526">[1]</a><cite>
+C. I. Harris.
+&ldquo;Whiteness as Property&rdquo;.
+In: <em>Harvard Law Review</em> 106.8 (1993), pp. 1707&ndash;1791.</cite></p>
 
+<p><a id='bib-RN4549'></a><a href="#cite-RN4549">[2]</a><cite>
+M. Q. Patton.
+<em>Qualitative research and evaluation methods</em>.
+Thousand Oaks, CA.: SAGE Publications, Inc., 2002.</cite></p>
+
+<p><a id='bib-RN5058'></a><a href="#cite-RN5058">[3]</a><cite>
+V. RuÃ­z.
+<em>From out of the shadows Mexican women in twentieth-century America</em>.
+2008.
+URL: <a href="http://hdl.handle.net/2027/heb.01892">http://hdl.handle.net/2027/heb.01892</a>.</cite></p>
+
+<p><a id='bib-RN3519'></a><a href="#cite-RN3519">[4]</a><cite>
+M. L. Stevens.
+<em>Creating a class: College admissions and the education of elites</em>.
+Cambridge, MA: Harvard University Press, 2007.
+ISBN: 9780674026735 (alk. paper) 067402673X (alk. paper).</cite></p>
+
+<p><a id='bib-RN4360'></a><a href="#cite-RN4360">[5]</a><cite>
+T. Thornhill.
+&ldquo;We Want Black Students, Just Not You: How White Admissions Counselors Screen Black Prospective Students&rdquo;.
+In: <em>Sociology of Race and Ethnicity Sociology of Race and Ethnicity</em> (2018), pp. 1-15.</cite></p>
