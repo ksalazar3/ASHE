@@ -1,5 +1,5 @@
 ---
-title: "Sub-Metropolitan Spatial Redlining in Public University Recruitment"
+title: "Recruiting Proximity to Whiteness in the Los Angeles MSA by Public Research Universities"
 subtitle: ""
 author: Karina Salazar
 # lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
@@ -10,7 +10,7 @@ revealjs:
   theme: custom
   transition: slide
   center: 'false'
-bibliography: ./assets/other/m1-bib.bib
+bibliography: ./assets/other/spencer_2021.bib
 csl: ./assets/other/apa.csl
 
 --- #title
@@ -19,7 +19,7 @@ csl: ./assets/other/apa.csl
 library(slidify)
 library(slidifyLibraries)
 # slidify('index.Rmd')
-# https://ksalazar3.github.io/defense/
+# https://ksalazar3.github.io/ASHE/
 
 library(servr)
 # Start server: servr::httd()
@@ -51,131 +51,116 @@ cite <- function(b, eg = TRUE) {
 verticalSlide2 <- 7
 ```
 
-# Sub-Metropolitan Spatial Redlining in Public University Recruitment 
+# Recruiting Proximity to Whiteness <br> in the Los Angeles MSA <br> 
 <br>
-## Karina Salazar
+## Karina Salazar 
 
 
 <br> Center for the Study of Higher Education 
 <br>
 Department of Educational Policy Studies and Practice <br> College of Education
 
-<a id='link_presentation' href='https://ksalazar3.github.io/SEA/' target='_blank'>ksalazar3.github.io/SEA</a>
+<a id='link_presentation' href='https://ksalazar3.github.io/ASHE/' target='_blank'>ksalazar3.github.io/ASHE</a>
 <br>
 
 <img id='logo_ua' src='assets/img/ua.png' alt='University of Arizona' class='center'/>
 
 
-<!-- ---  -->
-<!-- # Presentation outline -->
-<!-- ##  -->
-<!-- <br> <br> -->
-<!-- - Motivation for dissertation -->
-<!-- - Data Ccollection -->
-<!-- - Empirical study #1 -->
-<!--   - Research question -->
-<!--   - Literature review -->
-<!--   - Theoretical framework -->
-<!--   - Findings -->
-<!-- - Empirical study #2 -->
-<!--   - Research question -->
-<!--   - Literature review -->
-<!--   - Theoretical framework -->
-<!--   - Findings -->
-<!-- - Implications for policy and practice -->
-
 
 ---
 
 # Motivation 
-## Contemporary racial inequality & the governing of space
+## Recruiting Students of Color
 
-Racial inequality is grounded in the governing of space and its impact on where People of Color live `r citep(bib[c('RN2038', 'RN2547', 'RN5070' )])`
-  - Forced migration of indigenous people and seizure of their ancestral lands
-  - Plessy v. Ferguson 
-  - Policies and court decisions abetted "de facto" segregation after Brown v. Board of Education 
-  - Federal and state regulatory tolerance of "reverse redlining" (i.e., predatory lending) 
+Recruiting by colleges and universities affect access for Students of Color (SOC)
+  - Off-campus recruiting visits influence where SOC apply and enroll
+  - Especially first-generation and low-income students
 
-<br> 
-
-Geography of Opportunity `r citep(bib[c('RN6067')])`
-  - Communities of Color, particularly low-income communities, are likely to live in areas with limited access to critical resources needed for collective wealth and power 
-    - e.g., fair housing, jobs, health facilities
 
 <br> 
 
-Geography of *College* Opportunity `r citep(bib[c('RN6064')])`
-- *Geography* reinforces access inequality
-- Communities of Color have the fewest four-year colleges nearby; many options are for-profit colleges `r citep(bib[c('RN4446')])`
+Recent research on recruiting visits highlights
+  - Public research universities focus their recruiting visits in out-of-state, affluent, predominantly White public high schools (Salazar, Jaquette, & Han, Online First)
+  - Public research universities engage in "recruitment redlining" -- circuitous avoidance of public high schools in predominantly Black and Latinx communities along visit paths (Salazar, forthcoming)
+
+<br> 
+
+Where does racial diversity of prospective student pool come from?
+  - Private colleges disproportionately enroll Students of Color from elite private schools
+  - Do recruiting patterns by public research universities show similar patterns of preferences for prospective Students of Color?
+    - Quantitative case-study of recruiting across public and private high schools; by one public research university; within one metropolitan area
+
+
 
 ---
 
-# Motivation
-## Do recruiting visits reinforce the geography of unequal college opportunity?
+# Literature Review
+## Intra-Racial Screening Practices 
 
-Students' college opportunities are also shaped by the (enrollment management) choices of universities `r citep(bib[c('RN6068')])`
-  - Racial access inequality is grounded in the governing of (admissions) space(s) 
-    - e.g., HBCUs, out-of-state tuition and non-resident enrollment caps, SAT/ACT `r cite(bib[c('RN6012', 'RN6011', 'RN3544')])`
+Organizational and legal scholarship suggests discrimination also occurs intra-racially
+  - Colorism; racial palatability
 
 
 <br>  
 
-How does the *behavior* of universities *reinforce* the geography of *unequal* college opportunity?
-  - Universities are not immobile in their efforts to provide access 
-  - Salazar, Jaquette, and Han (under review) find that schools with greater proportions of Students of Color are less likely to get a visit
-    - Schools are not randomly geographically scattered; within segregated Communities of Color
-  - Spatial discrimination linked to perpetual racial disparities
+Intra-racial screening practices within admissions practices [ethnographies]
+  - Black students with high racial salience less likely to receive responses from admissions counselors than those with low racial salience  `r citep(bib[c('RN4360')])`
+  - Elite colleges "hedge their bets" in meeting diversity goals by recruiting SOC from elite private schools `r citep(bib[c('RN5058')])`
+  - To increase diversity of applicant pools, recruiters visit "special" public high schools with really "interesting" students `r citep(bib[c('RN3519')])`
+  
 
 <br>
 
-RQ: Do recruiting efforts by public universities spatially discriminate against Communities of Color?
-  - Spatial distribution of out-of-state recruiting visits within the Los Angeles and Dallas MSAs
-  - Spatial relationships between race, income, and academic achievement
-
+Do recruiting visits intra-racially screen SOC based on schools targeted? [systematic analyses]
+  - Focus on out-of-state, affluent, predominantly White public high schools (Salazar, Jaquette, & Han, Online First) & "redline" public public high schools in predominantly Black and Latinx communities (Salazar, forthcoming)
+  - Gap: probability of receiving a visit across public and private schools through the lens of recruiting SOC
 
 ---
 
 # Conceptual Framework
-## Place-based whiteness as property
+## Racial Capitalism 
 
 
-Whiteness as property (Harris, 1993)
-- Whiteness as a form of property that the law ascribes privileges and protections to
-- Whiteness (and non-whiteness) is also central in the racialized meanings that are ascribed to spaces
-  - "The inner city" vs "suburbs" or "urban schools" vs "suburban schools"
-
-<br>
-
-Space vs. Place `r citep(bib[c('RN5073')])`
-- Racial inequality is not simply reflected in "space"
-  - Space as a location where things "just happen" 
-- Rather, racialized and discriminatory practices are enacted through the use of place
-  - Place as the geographical context for the "mediation" of social, racial, and economic processes 
+Racial Capitalism  `r citep(bib[c('RN5055')])`
+- Systems of Racism and Capitalism explain the process by which predominantly White organizations derive social value from non-White identities
+- Use of race is longstanding characteristic of systemic racism
+  - White/Whiteness= tangible and economic benefits at accrue to those that possess it `r citep(bib[c('RN2526')])`
+  - Non-White/non-Whiteness= historically used for withholding value
+  - Ex: Higher Ed grounded in history of denying access based on non-Whiteness (e.g., HBCUs, non-resident enrollment/tuition policies, holistic admissions)
 
 <br>
 
-Example: residential segregation
-- Space: arbitrary, racially homogeneous communities with spatial distance between them
-- Place: racially homogeneous communities as the result of systematic governing and strategic political boundaries
+Non-Whiteness has recently been conferred value based on preoccupation with diversity
+  - Affirmative Action legislation
+    - Orignally proposed as a form of reparations 
+    - Now only justifies increase in diversity efforts because it is a "benefit for all"
+
+<br>
+
+Commodification of non-White identities 
+  - Diversity as a social good exploits People of Color to capitalize on their representational diversity
+  - Exemplified in growing pressure for colleges to market/recruit/enroll SOC
+  - EX: Crafting admissions materials that portray greater diversity than student body or even photoshop SOC into photos 
 
 ---
 
 # Conceptual Framework
-## Enrollment Management & Recruiting
+## Racial Capitalism & Recruiting
 
-Enrollment Management ideologies of space as "geodemographic markets" (College Board)
-- Geomarkets: "people with similar cultural backgrounds, means, and perspectives naturally gravitate toward one another or form relatively homogeneous communities" 
-  - "Educational neighborhoods" mapped by combining geodemographic and proprietary data
-  - Represent profiles of students with "similar educational, demographic, and socioeconomic attributes"
-- Iron Triangle of Enrollment Management
-  - Enrollment goals: revenue, academic profile, access
-  - Recruiting within some "geodemographic markets" versus not others due primarily due to the differential distribution of wealth and achievement among racial groups
+Marxian analysis: Not all commodities are have equal exchange value `r citep(bib[c('RN5055')])`
+- Racial diversity has acquired some value, but limited to "narrow set of scripts" approved by White norms
+- Organizations extract the most value from non-White identities that can:
+  - Increase representational diversity for the organization
+  - Minimize the organizations' need to manage racial salience
+  - Easily assimilate into colorblind, predominantly White cultures
 
 <br>
 
-Recruiting as a raced practice enacted via place
-- Even if communities "reflect" similar revenue and academic profile enrollment goals:
-  - White communities are more likely to receive recruiting visits because they are ascribed the privileges and economic benefits of whiteness as property
+Recruiting "proximity to whiteness" 
+- Literature suggests private colleges want SOC that are already socialized to Whitness via which high schools they attend
+  - Private schools > public high schools `r citep(bib[c('RN5058')])`
+  - Public high schools with predominantly White students > Public high schools with predominantly SOC `r citep(bib[c('RN3519')])`
+- Do these patterns apply to recruiting by a public research university?
 
 
 ---&twocol
@@ -221,15 +206,11 @@ Case selection based on purposeful sampling to identify "information rich" cases
 
 Cases
 - Los Angeles MSA
-  - University of Colorado Boulder (CU Boulder) and University of Massachusetts Amherst (UMass)
-- Dallas MSA
-  - University of Kansas (KU) and University of Georgia (UGA)
+  - University of Colorado Boulder (CU Boulder) 
 
 <br>
 
 Data analysis
-- Examine spatial distributions of recruiting visits across "sub-metropolitan" areas (Stoll & Ihlanfeldt, 2000)
-  - Created from pooled census tracts with similar racial and income characteristics
 - Descriptive statistics and geospatial visualizations 
 
   
@@ -246,35 +227,15 @@ Los Angeles MSA
   <li><a href="#/`r verticalSlide2`/1">MSA Overview</a></li>
   <li>University of Colorado-Boulder
     <ul>
-      <li><a href="#/`r verticalSlide2`/3">Figures</a></li>
-      <li><a href="#/`r verticalSlide2`/4">Map</a></li>
+      <li><a href="#/`r verticalSlide2`/3">Private High Schools</a></li>
+      <li><a href="#/`r verticalSlide2`/4">Public High Schools</a></li>
+      <li><a href="#/`r verticalSlide2`/5">Map</a></li>
     </ul>
   </li>
-  <li>University of Massachusetts-Amherst
-    <ul>
-      <li><a href="#/`r verticalSlide2`/5">Figures</a></li>
-      <li><a href="#/`r verticalSlide2`/6">Map</a></li>
-    </ul>
-  </li>
+
 </ul>
 
-Dallas MSA
 
-<ul>
-  <li><a href="#/`r verticalSlide2`/7">MSA Overview</a></li>
-  <li>University of Kansas
-    <ul>
-      <li><a href="#/`r verticalSlide2`/9">Figures</a></li>
-      <li><a href="#/`r verticalSlide2`/10">Map</a></li>
-    </ul>
-  </li>
-  <li>University of Georgia
-    <ul>
-      <li><a href="#/`r verticalSlide2`/11">Figures</a></li>
-      <li><a href="#/`r verticalSlide2`/12">Map</a></li>
-    </ul>
-  </li>
-</ul>
 
 *** .la-metro
 
@@ -307,12 +268,28 @@ cat(paste0(readLines("assets/tables/la_msa_univ_overview.html"),collapse=" "))
 *** .la-metro
 
 # University of Colorado-Boulder
+## Descriptive Statistics for Private Schools Visited and Not Visited
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/Table2.html"),collapse=" "))
+```
+  </div>
+  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
+</div>
+
+*** .la-metro
+
+
+
+# University of Colorado-Boulder
 ## Descriptive Statistics for Public High Schools Visited and Not Visited
 
 <div class="table-wrapper">
   <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
 ```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/la_cuboulder_desc.html"),collapse=" "))
+cat(paste0(readLines("assets/tables/Table1.html"),collapse=" "))
 ```
   </div>
   <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
@@ -326,95 +303,6 @@ cat(paste0(readLines("assets/tables/la_cuboulder_desc.html"),collapse=" "))
 <iframe src="assets/maps/la_cuboulder.html" width=100% height=100% allowtransparency="true"></iframe>
 
 *** .la-metro
-
-# University of Massachusetts-Amherst
-## Descriptive Statistics for Public High Schools Visited and Not Visited
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/la_umassamherst_desc.html"),collapse=" "))
-```
-  </div>
-  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
-</div>
-
-*** .la-metro
-
-# University of Massachusetts-Amherst
-## Map
-
-<iframe src="assets/maps/la_umassamherst.html" width=100% height=100% allowtransparency="true"></iframe>
-
-*** .dallas-metro
-
-# MSA Overview
-## Distribution of People and Public High Schools by Sub-Metropolitan Areas
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-y">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/dallas_msa_overview.html"),collapse=" "))
-```
-  </div>
-  <p class="footnote footnote-alt"><strong>Note</strong>: * indicated means across people or schools within each sub-metropolitan area. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education. Non-visited schools include only out-of-state schools in states that received at least one high school visit.</p>
-</div>
-
-*** .dallas-metro
-
-# MSA Overview
-## Public High School Recruiting Visits by Sub-Metropolitan Areas
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-x scroll-wrapper-y">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/dallas_msa_univ_overview.html"),collapse=" "))
-```
-  </div>
-  <p class="footnote"><strong>Note</strong>: * includes multiple visits to unique schools</p>
-</div>
-
-*** .dallas-metro
-
-# University of Kansas
-## Descriptive Statistics for Public High Schools Visited and Not Visited
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/dallas_kansas_desc.html"),collapse=" "))
-```
-  </div>
-  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
-</div>
-
-*** .dallas-metro
-
-# University of Kansas
-## Map
-
-<iframe src="assets/maps/dallas_kansas.html" width=100% height=100% allowtransparency="true"></iframe>
-
-*** .dallas-metro
-
-# University of Georgia
-## Descriptive Statistics for Public High Schools Visited and Not Visited
-
-<div class="table-wrapper">
-  <div class="scroll-wrapper scroll-wrapper-y scroll-wrapper-x">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/dallas_uga_desc.html"),collapse=" "))
-```
-  </div>
-  <p class="footnote footnote-alt" style="margin-top: 10px;"><strong>Note</strong>: Totals are for unique school visits and will not match multiple visit totals in metro overview. Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten students in each grade; is not a special education school, alternative school, virtual school, or independent school; is an open status school and reports enrollment to the Federal Department of Education.</p>
-</div>
-
-*** .dallas-metro
-
-# University of Georgia
-## Map
-
-<iframe src="assets/maps/dallas_uga.html" width=100% height=100% allowtransparency="true"></iframe>
 
 --- 
 # Summary of findings
