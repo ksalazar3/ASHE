@@ -28,7 +28,7 @@ library(servr)
 
 library(knitcitations)
 cleanbib()
-bib <- knitcitations::read.bibtex('./assets/other/m1-bib.bib')
+bib <- knitcitations::read.bibtex('./assets/other/spencer_2021.bib')
 
 # Function for parenthetical citation needing `e.g.,` or have no year (ie. forthcoming)
 # b: citation(s)
@@ -98,21 +98,22 @@ Where does racial diversity of prospective student pool come from?
 ## Intra-Racial Screening Practices 
 
 Organizational and legal scholarship suggests discrimination also occurs intra-racially
-  - Colorism; racial palatability
+  - Colorism; racial palatability (Carbado & Gulati, 2013)
 
 
 <br>  
 
 Intra-racial screening practices within admissions practices [ethnographies]
-  - Black students with high racial salience less likely to receive responses from admissions counselors than those with low racial salience  `r citep(bib[c('RN4360')])`
-  - Elite colleges "hedge their bets" in meeting diversity goals by recruiting SOC from elite private schools `r citep(bib[c('RN5058')])`
-  - To increase diversity of applicant pools, recruiters visit "special" public high schools with really "interesting" students `r citep(bib[c('RN3519')])`
+  - Black students with high racial salience less likely to receive responses from admissions counselors than those with low racial salience  (Thornhill, 2019)
+  - Elite colleges "hedge their bets" in meeting diversity goals by recruiting SOC from elite private schools (Jack, 2019)
+  - To increase diversity of applicant pools, recruiters visit "special" public high schools with really "interesting" students (Stevens, 2007)
   
 
 <br>
 
 Do recruiting visits intra-racially screen SOC based on schools targeted? [systematic analyses]
-  - Focus on out-of-state, affluent, predominantly White public high schools (Salazar, Jaquette, & Han, Online First) & "redline" public public high schools in predominantly Black and Latinx communities (Salazar, forthcoming)
+  - Focus on out-of-state, affluent, predominantly White public high schools (Salazar, Jaquette, & Han, Online First) 
+  - "Redline" public public high schools in predominantly Black and Latinx communities (Salazar, forthcoming)
   - Gap: probability of receiving a visit across public and private schools through the lens of recruiting SOC
 
 ---
@@ -121,43 +122,43 @@ Do recruiting visits intra-racially screen SOC based on schools targeted? [syste
 ## Racial Capitalism 
 
 
-Racial Capitalism  `r citep(bib[c('RN5055')])`
+Racial Capitalism 
 - Systems of Racism and Capitalism explain the process by which predominantly White organizations derive social value from non-White identities
-- Use of race is longstanding characteristic of systemic racism
-  - White/Whiteness= tangible and economic benefits at accrue to those that possess it `r citep(bib[c('RN2526')])`
-  - Non-White/non-Whiteness= historically used for withholding value
-  - Ex: Higher Ed grounded in history of denying access based on non-Whiteness (e.g., HBCUs, non-resident enrollment/tuition policies, holistic admissions)
+- Use of race for determining value is longstanding characteristic of systemic racism (Harris, 1993)
+  - White/Whiteness = social and economic value accrue to those that possess it 
+  - Non-White/non-Whiteness = historically used for withholding value
+- Ex: Higher Ed grounded in history of denying access based on non-Whiteness (e.g., HBCUs, non-resident enrollment/tuition policies, holistic admissions)
 
 <br>
 
 Non-Whiteness has recently been conferred value based on preoccupation with diversity
-  - Affirmative Action legislation
-    - Orignally proposed as a form of reparations 
-    - Now only justifies increase in diversity efforts because it is a "benefit for all"
+  - Ex: Affirmative Action legislation
+    - Originally proposed as a form of reparations 
+    - Now only justifies increase in diversity efforts because of it's "benefit for all"
 
 <br>
 
 Commodification of non-White identities 
   - Diversity as a social good exploits People of Color to capitalize on their representational diversity
-  - Exemplified in growing pressure for colleges to market/recruit/enroll SOC
-  - EX: Crafting admissions materials that portray greater diversity than student body or even photoshop SOC into photos 
+  - Exemplified in growing pressure for colleges to market/recruit/enroll diverse classes
+  - EX: Crafting admissions materials that portray greater diversity than student body (e.g., photoshopping SOC into photos) 
 
 ---
 
 # Conceptual Framework
-## Racial Capitalism & Recruiting
+## Recruiting "Proximity to Whiteness"
 
-Marxian analysis: Not all commodities are have equal exchange value `r citep(bib[c('RN5055')])`
+Not all commodities have equal exchange value `r citep(bib[c('RN5055')])`
 - Racial diversity has acquired some value, but limited to "narrow set of scripts" approved by White norms
-- Organizations extract the most value from non-White identities that can:
+- Organizations extract the most value from non-White identities that can: `r citep(bib[c('RN0003')])`
   - Increase representational diversity for the organization
   - Minimize the organizations' need to manage racial salience
-  - Easily assimilate into colorblind, predominantly White cultures
+  - Easily assimilate into colorblind, predominantly White cultures 
 
 <br>
 
-Recruiting "proximity to whiteness" 
-- Literature suggests private colleges want SOC that are already socialized to Whitness via which high schools they attend
+Recruiting "proximity to whiteness"  via which schools SOC attend
+- Literature suggests private colleges want SOC that are already socialized to Whiteness vis-a-vis their high schools
   - Private schools > public high schools `r citep(bib[c('RN5058')])`
   - Public high schools with predominantly White students > Public high schools with predominantly SOC `r citep(bib[c('RN3519')])`
 - Do these patterns apply to recruiting by a public research university?
