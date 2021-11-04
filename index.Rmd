@@ -72,7 +72,7 @@ Department of Educational Policy Studies and Practice <br> College of Education
 # Motivation 
 ## Recruiting Students of Color
 
-Recruiting by colleges and universities affect access for Students of Color (SOC)
+Recruiting by colleges and universities affect access for Students of Color (SOC) (Holland, 2019)
   - Off-campus recruiting visits influence where SOC apply and enroll
   - Especially first-generation and low-income students
 
@@ -81,7 +81,7 @@ Recruiting by colleges and universities affect access for Students of Color (SOC
 
 Recent research on recruiting visits highlights
   - Public research universities focus their recruiting visits in out-of-state, affluent, predominantly White public high schools (Salazar, Jaquette, & Han, Online First)
-  - Public research universities engage in "recruitment redlining" -- circuitous avoidance of public high schools in predominantly Black and Latinx communities along visit paths (Salazar, forthcoming)
+  - Public research universities engage in "recruitment redlining" -- circuitous avoidance of public high schools in predominantly Black and Latinx communities along visit paths (Salazar, under review)
 
 <br> 
 
@@ -112,8 +112,8 @@ Intra-racial screening practices within admissions practices [ethnographies]
 <br>
 
 Do recruiting visits intra-racially screen SOC based on schools targeted? [systematic analyses]
-  - Focus on out-of-state, affluent, predominantly White public high schools (Salazar, Jaquette, & Han, Online First) 
-  - "Redline" public public high schools in predominantly Black and Latinx communities (Salazar, forthcoming)
+  - Focus on out-of-state, affluent, predominantly White public high schools 
+  - "Redline" public high schools in predominantly Black and Latinx communities
   - Gap: probability of receiving a visit across public and private schools through the lens of recruiting SOC
 
 ---
@@ -122,12 +122,12 @@ Do recruiting visits intra-racially screen SOC based on schools targeted? [syste
 ## Racial Capitalism 
 
 
-Racial Capitalism 
-- Systems of Racism and Capitalism explain the process by which predominantly White organizations derive social value from non-White identities
-- Use of race for determining value is longstanding characteristic of systemic racism (Harris, 1993)
-  - White/Whiteness = social and economic value accrue to those that possess it 
+Racial Capitalism (Leong, 2013)
+- Racism and Capitalism explain how organizations derive social value from non-White identities
+- Use of race for determining value longstanding characteristic of systemic racism 
+  - White/Whiteness = social and economic value accrue to those that possess it (Harris, 1993)
   - Non-White/non-Whiteness = historically used for withholding value
-- Ex: Higher Ed grounded in history of denying access based on non-Whiteness (e.g., HBCUs, non-resident enrollment/tuition policies, holistic admissions)
+- Ex: Higher Ed access based on non-Whiteness: HBCUs, non-res policies, holistic admissions
 
 <br>
 
@@ -141,16 +141,16 @@ Non-Whiteness has recently been conferred value based on preoccupation with dive
 Commodification of non-White identities 
   - Diversity as a social good exploits People of Color to capitalize on their representational diversity
   - Exemplified in growing pressure for colleges to market/recruit/enroll diverse classes
-  - EX: Crafting admissions materials that portray greater diversity than student body (e.g., photoshopping SOC into photos) 
+  - EX: Admissions materials that portray greater diversity than student body (Pippert et al., 2013)
 
 ---
 
 # Conceptual Framework
 ## Recruiting "Proximity to Whiteness"
 
-Not all commodities have equal exchange value `r citep(bib[c('RN5055')])`
+Not all commodities have equal exchange value (Leong, 2013)
 - Racial diversity has acquired some value, but limited to "narrow set of scripts" approved by White norms
-- Organizations extract the most value from non-White identities that can: `r citep(bib[c('RN0003')])`
+- Organizations extract the most value from non-White identities that can: (Carbado & Gulati, 2013)
   - Increase representational diversity for the organization
   - Minimize the organizations' need to manage racial salience
   - Easily assimilate into colorblind, predominantly White cultures 
@@ -159,8 +159,8 @@ Not all commodities have equal exchange value `r citep(bib[c('RN5055')])`
 
 Recruiting "proximity to whiteness"  via which schools SOC attend
 - Literature suggests private colleges want SOC that are already socialized to Whiteness vis-a-vis their high schools
-  - Private schools > public high schools `r citep(bib[c('RN5058')])`
-  - Public high schools with predominantly White students > Public high schools with predominantly SOC `r citep(bib[c('RN3519')])`
+  - Private schools > public high schools (Jack, 2019)
+  - Public high schools with predominantly White students > Public high schools with predominantly SOC (Stevens, 2007)
 - Do these patterns apply to recruiting by a public research university?
 
 
@@ -180,11 +180,10 @@ Recruiting "proximity to whiteness"  via which schools SOC attend
 * Data collection period
     - 1/1/2017 to 12/31/2017
 * Data Triangulation
-    - public records requests
+    - Public records requests
 * Secondary Data
     - ACS; NCES; EdFacts;
     - California Department of Education
-    - Texas Education Agency
 
     
 *** =right
@@ -198,7 +197,7 @@ Recruiting "proximity to whiteness"  via which schools SOC attend
 # Methods
 ## Case selection and data analysis
 
-Case selection based on purposeful sampling to identify "information rich" cases `r citep(bib[c('RN4549')])`
+Case selection based on purposeful sampling to identify "information rich" cases (Patton, 2002)
 - Metro areas with sufficient racial and socioeconomic diversity
 - Avoid major "school choice" cities (e.g., Denver, New Orleans, New York City)
 - Universities with greatest number of recruiting visits to metros selected
@@ -306,66 +305,61 @@ cat(paste0(readLines("assets/tables/Table1_v2.html"),collapse=" "))
 
 --- 
 # Summary of findings
-## Sub-Metropolitan Spatial Redlining in Public University Recruitment
+## Recruiting Proximity to Whiteness
 
-Schools within white communities are more likely to receive a recruiting visit than schools within Communities of Color
-- Across high, mid, low income levels 
-- Exception: mid income communities in LA (although not proportional)
-
-<br>
-
-Racial biases intensify with multiple visits
-- Schools within white communities are more likely to receive multiple visits and visits from multiple universities
+SOC at private schools more likely to receive a visit than SOC at public high schools
+- SOC at visited private schools more likely to attend school with predominantly White peers (relative to private schools that did not receive a visit)
+  - vice versa more likely to be one of fewer Black, Latinx, Native American, Asian, and/or Multiracial students at visited private schools
+- SOC at visited schools are also more likely to have tuition rates nearly $10,000 more than the average private school
 
 <br>
 
-Recruiting reinforces the geography of *unequal* college opportunity
-- Visits are clustered in predominantly high and mid income White suburbs (i.e., "College Oases")
-- Spatial redlining of Latinx and Black communities within MSA centers across income levels (i.e., "College Deserts")
+SOC at public high schools 
+- SOC at visited public high schools likely to attend school with predominantly White peers (relative to average public high schools or those that did not receive a visit)
+
+<br>
+
+Suggests that recruiting across public and private high schools in the Los Angeles Metropolitan mimic recruiting by private elite colleges and universities:
+- Target SOC from the "same old sources" 
+- Reflect intra-racial screening via which high schools SOC attend 
+
 
 
 
 ---
 # Implications
-## Policy, practice, and advocacy
+## Practice and Future Research
 
-Policy: Greater consideration of (critical) "supply side" scholarship in policy discourse
-- Scholarship aimed at changing the behavior of students has dominated policy discourse
-- Largely ignores the enrollment management behavior of universities
-
-
-<br>
-
-Practice: recruiting can circumvent geography of unequal college opportunity but...
-- "Going where we have always gone" is continuing a historical legacy of racism in the governing of admissions spaces
-- Administrators and practitioners need to enact anti-racist practices that are created to mitigate barriers to reaching and connecting with low-income students and Students of Color
+Practice: recruiting can circumvent historical college access inequality for Students of Color but...
+- "Going where we have always gone" (i.e., predominantly White public and private high schools) intra-racially discriminates against SOC that attend public high schools that enroll predominantly Students of Color 
+- Administrators and practitioners need to enact anti-racist practices that are created to mitigate barriers to reaching and connecting with Students of Color from underecruited high schools
 
 <br>
 
-Advocacy
-- Under-visited high schools can reshape and demand new recruiting practices by universities
-  - Leverage the strengths of communities (talent, funds of knowledge, culture, family, local, loyalty, service)
-- University professionals and faculty can hold universities accountable 
+Future Research
+- Incorporate comparison of recruiting for one private university
+- Expand to other metropolitan areas
 
 ---
+# References 
 
-# Acknowledgements 
+- Carbado, D. W., & Gulati, M. (2013). _Acting white?: Rethinking race in post-racial America_. Oxford University Press.
+- Harris, C. I. (1993). Whiteness as property. _Harvard Law Review_, 106(8), 1707–1791.
+- Holland, M. M. (2019). _Divergent paths to college: Race, class, and inequality in high schools_. Rutgers University Press. 
+- Jack, A. A. (2019). _The privileged poor: How elite colleges are failing disadvantaged students_. Harvard University Press.
+- Leong, N. (2013). Racial capitalism. _Harvard Law Review_, 126(8), 2151–2226. 
+- Patton, M. Q. (2002). Qualitative research and evaluation methods. _Sage Publishers_.
+- Pippert, T. D., Essenburg, L. J., & Matchett, E. J. (2013). We’ve got minorities, yes we do: Visual representations of racial and ethnic diversity in college recruitment materials. _Journal of Marketing for Higher Education_, 23(2), 258–282. 
+- Salazar, K. (under review). Spatial redlining in university off-campus recruiting visits.
+- Salazar, K., Jaquette, O., & Han, C. (Online First). Coming soon to a neighborhood near you? Off-campus recruiting by public research universities. _American Educational Research Journal_.
 
-<br>
-
-EMRA Research Team: Crystal Han, Sean Beaton, Patricia Martin
-
-<br>
-
-American Educational Research Association (dissertation grant)
 
 
-
---- #references
-
+---
 # References
-## &nbsp;
 
-```{r results='asis', echo=FALSE}
-knitcitations::bibliography('html')
-````
+- Stevens, M. L. (2007). Creating a class: College admissions and the education of elites. _Harvard University Press._
+- Thornhill, T. (2018). We want black students, just not you: How white admissions counselors screen black prospective students. _Sociology of Race and Ethnicity_, 5(4), 456–470. 
+
+
+
